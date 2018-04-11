@@ -1,0 +1,72 @@
+/*navbar responsive*/
+/*navbar responsive*/
+
+@media screen and (max-width: 767px) {
+    .navbar .nav-collapse {
+        margin: 7.5px auto;
+        padding: 0;
+    }
+    .navbar .nav-collapse .navbar-form {
+        margin: 0;
+    }
+    .nav-collapse>li {
+        float: none;
+    }
+}
+
+@media all and (max-width:1190px) {
+    .navbar-default .navbar-nav> li> a {
+        color: #fff;
+        font-size: 12px;
+    }
+    header .right-side ul li a.search {
+        padding-left: 20px !important;
+    }
+}
+
+@media all and (max-width:1040px) {
+    .container-fluid {
+        padding: 0px 30px;
+    }
+}
+
+@media all and (max-width:940px) {
+    .navbar-collapse.collapse {
+        float: none;
+    }
+    header .right-side {
+        margin-right: 30px;
+        display: block;
+        float: right;
+    }
+}
+
+@media all and (max-width:830px) {
+    .navbar-default .navbar-nav> li> a {
+        color: #fff;
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+}
+
+@media all and (max-width:768px) {
+    .navbar-collapse.collapse {
+        float: left;
+    }
+    .side-bar-4 {
+        margin-bottom: 50px;
+    }
+    .gear-review h3 {
+        display: none;
+    }
+    
+    .wp-review .rightside .head{
+        display:table;
+    }
+}
+
+@media all and (max-width:) {}
+
+@media all and (max-width:) {}
+
+@media all and (max-width:) {}

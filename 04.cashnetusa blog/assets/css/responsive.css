@@ -1,0 +1,45 @@
+@media all and (max-width: 768px) {
+    .active {
+        display: block;
+    }
+    .nav> li {
+        float: none;
+    }
+    .nav> li> .parent {
+        background-position: 95% 50%;
+    }
+    .nav li li .parent {
+        background-image: url("../img/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 90% 50%;
+    }
+    .nav li li li {
+        margin-left: 10px;
+    }
+    .nav> li> .parent {
+        background-image: url("../img/downArrow.png");
+        background-repeat: no-repeat;
+        background-position: 95% 50%;
+    }
+    .nav ul {
+        display: block;
+        width: 100%;
+    }
+    .nav> li.hover> ul,
+    .nav li li.hover ul {
+        position: static;
+    }
+
+}
+
+
+@media all and (max-width: 995px) {
+    nav {
+        float: right;
+        margin: 0px 15%;
+    }
+    .logo {
+        width: 50%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,48 @@
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {
+   nav ul {
+      display: none;
+      margin-top: 30px;
+      text-align: left;
+   }
+   nav ul li {
+      display: block;
+      padding: 5px;
+   }
+   nav {
+      text-align: right !important;
+      margin-top: -70px;
+   }
+
+   nav .responsive-menu {
+      display: inline-block;
+      font-size: 28px;
+   }
+   nav ul li a {
+      padding: 5px 20px;
+      display: block;
+      position: static;
+   }
+   header h1 img {
+      height: 80px;
+   }
+   header {
+      padding: 0;
+   }
+   header h1 img {
+      height: 100px;
+   }
+   header li a:after {
+      display: none;
+   }
+
+}
+
+@media (max-width: 767px) {
+   .hero-area h1 {
+      font-size: 32px;
+   }
+}
+
+@media (max-width: 575px) {}

@@ -1,0 +1,292 @@
+/* Common Styles
+================*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:300,400,600,700,800,900|Roboto:300,400,500,700,900');
+
+@font-face {
+   font-family: marzo;
+   src: url(../fonts/marzo.woff);
+}
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0 0 15px;
+   font-weight: 700;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+
+
+input:focus,
+textarea:focus,
+button:focus {
+   outline: 0 solid;
+}
+
+p {
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.4em;
+   color: #4a4a4a;
+}
+
+.container {
+   max-width: 980px;
+}
+
+
+
+/* Header
+=========*/
+
+header {
+   margin-top: 26px;
+}
+
+.logo {}
+
+.logo h1,
+.logo h2 {
+   color: #717070;
+   margin: 0;
+}
+
+.logo h1 {
+   font-family: marzo;
+   font-weight: 700;
+   font-size: 32px;
+}
+
+.logo h2 {
+   font-family: Helvetica;
+   font-weight: 400;
+   font-size: 26px;
+}
+
+
+.contact-link {
+   text-align: right;
+   position: relative;
+}
+
+.contact-link a {
+   display: inline-block;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 18px;
+   color: #717070;
+   text-transform: uppercase;
+   padding: 5px 20px;
+   position: absolute;
+   top: 50px;
+   right: 0;
+}
+
+.contact-link a:hover {
+   background-color: #F2F2F7;
+}
+
+.menu {
+   margin: 30px auto 0;
+}
+
+.menu ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.menu ul li {
+   display: inline-block;
+}
+
+.menu ul li a {
+   display: block;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 18px;
+   color: #717070;
+   text-transform: uppercase;
+   padding: 5px 30px;
+}
+
+.menu ul li a:hover {
+   background-color: #F2F2F7;
+}
+
+.hero-area img {
+   max-height: 430px;
+   margin: 30px auto;
+}
+
+.content-area h2 {
+   font-family: marzo;
+   font-weight: 700;
+   font-size: 20px;
+   color: #4a4a4a;
+   text-decoration: underline;
+}
+
+.inner-image img {
+   max-height: 168px;
+   min-width: 244px;
+   margin-bottom: 15px;
+}
+
+.inner-txt {
+   padding-left: 30px;
+}
+
+.inner-txt h3 {
+   font-family: marzo;
+   font-weight: 700;
+   font-size: 20px;
+   color: #717070;
+   margin: 0;
+}
+
+.inner-txt h2 {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   font-size: 20px;
+   color: #717070;
+   text-decoration: none;
+   margin: 0;
+
+}
+
+.inner-txt h4 {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   color: #717070;
+   margin: 0;
+}
+
+.inner-image .col-lg-9 {
+   display: table;
+   height: 168px;
+}
+
+.inner-image .col-lg-9 .inner-txt {
+   display: table-cell;
+   vertical-align: middle;
+}
+
+.footer-top img {
+   max-width: 60%;
+   text-align: right;
+   margin-left: 40%;
+}
+
+.footer-bottom {
+   background-color: rgba(170, 168, 168, 1);
+   border-top: 4px solid rgba(214, 214, 214, 1);
+}
+
+.footer-bottom p {
+   margin: 0;
+   padding: 10px 0;
+   font-size: 12px;
+   line-height: 1.4em;
+}
+
+img.process {
+   max-width: 600px;
+   max-height: 850p;
+   margin: auto;
+}
+
+.content-area h5 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   color: #717070;
+   margin: 0;
+}
+
+.content-area ul li {
+   font-weight: 400;
+   font-size: 14px;
+   color: #000;
+}
+
+
+.country-office-address h5 {
+   color: #0099FF;
+   font-weight: 500;
+   margin-bottom: 0;
+}
+
+.country-office-address {
+   padding-left: 90px;
+   position: relative;
+   margin-bottom: 50px;
+}
+
+.country-office-address img {
+   position: absolute;
+   left: 0;
+   top: 20px;
+}
+.contact-content{
+   margin-bottom: 200px;padding-top: 50px;
+}
+.contact-content h2 {
+   font-family: marzo;
+   font-size: 19px;
+}
+
+.contact-content h3 {
+   font-family: marzo;
+   font-size: 28px;
+   font-weight: 300;
+}
+
+.contact-content input,
+.contact-content textarea {
+   width: 100%;
+   border: 1px solid #ccc;
+   border-radius: 2px;
+   padding: 3px;
+   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);margin-bottom: 10px;
+}
+
+.contact-content textarea {
+   height: 130px;
+}
+
+.contact-content button {
+   background: #717070;
+   color: #fff;
+   border: 0;
+   padding: 5px;
+   float: right;border-radius: 3px;box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+.contact-content form p{margin-bottom: 5px;}

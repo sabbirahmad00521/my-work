@@ -1,0 +1,64 @@
+body {
+    color: rgb(255, 255, 255);
+    background: url("../img/bg.jpg") repeat scroll center/cover;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    overflow-y:hidden; /*jano scrool bar na ase tay ei system*/
+    overflow-x:hidden;/*jano scrool bar na ase tay ei system*/
+}
+
+.col-md-6 {/*width e default 15 px padding passilo,tay seta off koresi*/
+    padding: 0px;
+}
+
+h4 {/* height er padding off korar jonno*/
+    padding: 0px;
+    margin: 0px;
+}
+
+header {}
+
+header h1 {
+    font-size: 72px;
+    line-height: 86px;
+    margin-top: 60px;
+    font-weight: 700;
+}
+
+header h3 {
+    font-size: 20px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    border-bottom: 6px solid #fff;/* 5silo ,match koranor jonno 6 dese*/
+    margin: 0 -15px;
+    padding-bottom: 50px;
+}
+
+
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-size: 50px;/* 40 silo*/
+    letter-spacing: 4px;
+    padding: 25% 0;
+    -webkit-transition: .2s;
+    transition: .2s/*new add*/
+}
+footer a:hover{/*new add*/
+    text-decoration: none;
+    color:#9E9E9E ;
+}
+
+footer .col-md-6{/* new add,jano all device e side margin full dekhay,tay*/
+    height: 1000px;
+}
+footer .col-md-6:first-child {/*5 silo,3 korci*/
+    border-right: 3px solid #fff;
+}
+
+footer .col-md-6:nth-child(2) {/*ektay 5 dele r ektay na dele pixel e ektu kom beshi hoy tay 2 ta kore same same dese*/
+    border-left: 3px solid #fff;
+}

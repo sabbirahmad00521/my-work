@@ -1,0 +1,93 @@
+      @media all and (max-width:1300px) {
+      .slider .single-res-item {}
+      @media all and (max-width: 1200px) {
+         nav.bottom.navbar.navbar-default .navbar-nav>li>a {
+            font-size: 15px;
+            padding: 10px;
+         }
+         .our-mission a.button{margin-bottom: 30px;}.our-mission h4 {margin-top: 20px;} 
+}
+
+      }
+      @media all and (max-width:1100px) {
+         .slider .owl-nav div {
+            left: 20px;
+         }
+         .slider .owl-nav div.owl-next {
+            left: auto;
+            right: 20px;
+         }
+      }
+      @media all and (max-width:992px) {
+         nav.bottom.navbar.navbar-default .navbar-nav>li>a {
+            font-size: 13px;
+            padding: 6px;
+         }
+         .slider .single-res-item {
+            width: 100%;
+            float: none;
+            height: 100%;
+         }
+         .slider .slide-content h2 {
+            margin-top: 50px;
+         }
+         .slider .slide-content input {
+            margin-bottom: 80px;
+         }
+         .slider img {
+            height: 500px;
+            width: 100%;
+         }
+      }
+      @media all and (max-width:768px) {
+         
+         .slider img {
+            height: 400px;
+            width: 100%;
+         }
+         }
+      @media all and (max-width:630px) {
+         .header-top .col-xs-2 {
+            width: 100%;
+         }
+         .header-top .col-xs-10 {
+            width: 100%;
+         }
+         .top-menu {
+            margin: auto;
+            text-align: center;
+         }
+         .header-top .col-xs-2 .logo img {
+            display: block;
+            margin: auto;
+            text-align: center;
+            margin-bottom: 0;
+         }
+         .top-top-menu a {
+            display: block;
+            border-right: 0px solid #e3e3e3;
+         }
+         .top-bottom-menu .number {
+            display: block;
+            border-right: 0;
+            border-bottom: 1px solid #e3e3e3;
+            margin-bottom: 10px;
+         }
+      }
+@media all and (max-width:470px){
+   .col-xs-3,.col-xs-6{width: 100%;}footer h6{border-bottom: 0;margin-top: 30px;margin-bottom: 10px;padding-bottom: 0;}footer a.button{width: 90%;}footer input{width: 100%;}
+   .slider .owl-nav div {
+   height: 30px;
+   width: 25px;
+   position: absolute;
+   background-color: #056839;
+   line-height: 30px;
+   font-size: 24px;
+   color: #fff;
+   text-align: center;
+   top: 50%;
+   margin-top: -25px;
+   left: 50px;
+   border-radius: 10px;
+}
+}

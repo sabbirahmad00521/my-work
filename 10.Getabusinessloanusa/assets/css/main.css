@@ -1,0 +1,244 @@
+body,h1,h2,h3,h4,h5,h6,ul,li,a{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(../img/mainBg.jpg);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container{
+    width: 980px;
+    background-color: #fff;
+}
+
+/*header area*/
+
+
+header{
+    padding: 10px 0px;
+    border-top: 5px solid #FF6D00;
+}
+
+header .call{
+    margin-top: 15px;
+    background:-webkit-linear-gradient(#FE0000,#C00D0D);
+    background:linear-gradient(#FE0000,#C00D0D);
+    padding: 10px;
+    width: 250px;
+    height: 65px;
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.gcn img{
+    margin-left: 35px;
+}
+.call:hover{
+        background:-webkit-linear-gradient(#C00D0D,#FE0000);
+        background:linear-gradient(#C00D0D,#FE0000);
+}
+
+.call h4{
+    font-size:22px;
+    font-weight: 700;
+}
+.call p{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*slide*/
+.slide{}
+.slide img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+/*offer area*/
+.offer{
+    padding: 25px 0px 15px;
+}
+.offer h4{
+    font-size: 28px;
+    color: #06436F;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.offer img{
+    margin: auto;
+}
+
+/*body section*/
+
+/*content left*/
+
+.content{
+    padding: 5px;
+}
+.content h4{
+    font-size: 28px;
+    padding: 12px;
+    background-color: #06436F;
+    color: #fff;
+    text-align: center;
+}
+.content h5{
+    font-size: 24px;
+    text-decoration: underline;
+    text-align: center;
+    padding: 20px;
+}
+.content h6{
+    font-style: italic;
+    font-size: 17px;
+    text-align: center;
+    color: red;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.content p{
+    font-size: 16px;
+}
+.content p b{}
+.content a{}
+.content a img{
+    float: left;
+    margin-right: 25px;
+}
+.content h3{
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 2px dashed #FF6F00;
+    margin-bottom: 10px;
+}
+
+.content .benefits{
+    margin: auto;
+    width: 468px;
+}
+
+.content .benefits h2{
+    font-size: 20px;
+    padding: 8px;
+    background-color: #FF6F00;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.content h1{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.content p i{}
+
+/*content right {form} */
+
+
+.form{}
+.form img{
+    margin: auto;
+}
+.form form{
+    text-align: center;
+    background-color: #D9D9D9;
+    width: 282px;
+    margin: auto;
+    padding: 5px;
+}
+.form form input{
+    margin: 5px auto;
+    width: 100%;
+    padding: 6px;
+    border: 1px solid black;
+    
+}
+.form form select{
+    margin: 5px auto;
+    width: 100%;
+    padding: 6px;
+    border: 1px solid black;
+}
+.form form textarea{
+    margin: 5px auto;
+    width: 100%;
+    padding: 6px;
+    border: 1px solid black;
+    height: 100px;
+}
+.form form img{
+    text-align: center;
+    margin: auto;
+}
+
+
+.form a#pp{
+    background-color: #D9D9D9;
+    display: block;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.form a#rl{
+    border: 2px solid #03467A;
+    padding: 15px;
+    background-color: #D9D9D9;
+    display: block;
+    width: 70%;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px auto 45px;
+}
+
+.contact{}
+.contact h5{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 35px;
+}
+.contact p{}
+.contact p a{}
+
+
+/*footer style start from here*/
+
+
+footer{
+    background: url(../img/texture.png) #4D4B4D;
+    color: #fff;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+}
+footer h4{
+    font-size: 24px;
+    font-weight: 700;
+
+}
+footer h5{
+    font-size: 28px;
+    font-weight: 700;
+    color: red;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+}
+footer a{}

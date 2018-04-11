@@ -1,0 +1,396 @@
+/* Common Styles
+================*/
+
+@font-face {
+    font-family: 'GreycliffCF';
+    src: url('../fonts/GreycliffCF-Bold.woff2') format('woff2'),
+    url('../fonts/GreycliffCF-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GreycliffCF';
+    src: url('../fonts/GreycliffCF-Regular.woff2') format('woff2'),
+    url('../fonts/GreycliffCF-Regular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*GreycliffCF-Regular
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+    font-family: 'GreycliffCF';
+    font-size: 16px background-color: #fff;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #84BD00;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+
+
+header {
+    margin: 20px 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    font-size: 11px;
+    color: #AEAEAE !important;
+    text-transform: uppercase;
+    transition: .4s
+}
+
+nav ul li a:hover,
+nav ul li.active a {
+    color: #81BC00 !important;
+}
+
+nav ul li a i {
+    display: block;
+    width: 100%;
+    font-size: 30px !important;
+}
+
+/* Owl Carowsel
+===============*/
+
+.slider {
+    margin-bottom: 40px;
+}
+
+.slider img {
+    height: 460px;
+    width: 100%;
+}
+
+.slider .owl-nav div {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: #000;
+    margin-top: -20px;
+    font-size: 40px;
+    left: 3%;
+    font-weight: 700;
+}
+
+.slider .owl-nav .owl-next {
+    left: auto;
+    right: 3%;
+}
+
+.about {
+    margin-bottom: 40px;
+}
+
+.about h2 {
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.about p b {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.about img,
+.about a {
+    display: inline-block;
+}
+
+.about img {
+    margin: 0 10px;
+}
+
+.about a {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about a:hover {
+    border-bottom: 3px solid #ccc;
+}
+
+.service {
+    background-color: #666666;
+    color: #eee;
+    padding: 40px 0;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.service h2 {
+    color: #fff;
+}
+
+.service h6 {
+    color: #211F20;
+    text-transform: uppercase;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.service p {
+    padding: 0 15px;
+    text-align: justify
+}
+
+.service ul {
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.service p.green {
+    color: #84BD00;
+    padding: 0 15px;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.service .col-lg-2 .contents {
+    border-right: 1px solid #949494;
+    height: 90%;
+    margin-top: 30px;
+}
+
+.service .col-lg-2:nth-child(5) .contents {
+    border-right: none
+}
+
+.service .col-lg-2:nth-child(1) h6 {
+    background-color: #84BC01;
+    border-radius: 40px 0 0 40px;
+}
+
+.service .col-lg-2:nth-child(2) h6 {
+    background-color: #A3CC40;
+}
+
+.service .col-lg-2:nth-child(3) h6 {
+    background-color: #C3DE81;
+}
+
+.service .col-lg-2:nth-child(4) h6 {
+    background-color: #E1EEC0;
+}
+
+.service .col-lg-2:nth-child(5) h6 {
+    background-color: #F9FCF3;
+    border-radius: 0 40px 40px 0 !important;
+}
+
+.feature {
+    padding-bottom: 40px;
+}
+
+.feature img {
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.feature h6 {
+    color: #3B455E;
+    border-bottom: 1px solid #333;
+    padding-bottom: 15px;
+}
+
+.feature b {
+    color: #84BD00;
+}
+
+.feature p {
+    width: 70%;
+    margin: auto
+}
+
+.contact {
+    background-color: #84BD00;
+    color: #fff;
+    padding: 50px;
+}
+
+.contact h2 {
+    color: #fff;
+}
+
+.contact p {
+    padding: 15px 0;
+}
+
+.contact .social-icon a {
+    display: inline-block;
+    font-size: 50px;
+    color: #fff;
+    padding-right: 50px;
+}
+
+
+.about-us {
+    margin-top: 80px;
+}
+
+.about-us .single-member-item {
+    margin-bottom: 100px;
+}
+
+.about-us .content:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.about-us .single-member-item h4 {
+    font-size: 28px;
+}
+
+.about-us .single-member-item p {
+    font-size: 17px
+}
+
+.about-us .col-lg-10 {
+    padding-left: 50px;
+}
+
+.about-us .content {
+    border-bottom: 2px solid #84BD00;
+    padding-bottom: 12px;
+}
+
+.about-us .single-member-item a {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -1px;
+    text-decoration: underline;
+    float: right;
+    transition: .5s;
+    margin-top: 10px;
+    cursor: pointer
+}
+
+.about-us .single-member-item a:hover {
+    text-decoration: underline;
+    color: #84BD00;
+}
+
+.contact-page .social-icon a {
+    display: inline-block;
+    font-size: 50px;
+    color: #fff;
+    padding-right: 50px;
+    color: #84BD00;
+}
+
+.contact-page {
+    margin: 30px 0;
+}
+
+.contact-page p {
+    font-size: 22px;
+    line-height: 1.2;
+    padding: 30px 0;
+}
+
+form input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #B2B2B2;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+form input::placeholder {
+    color: #000;
+}
+
+form button {
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+    background: #7BB000;
+    padding: 15px 100px;
+    float: right;
+    margin-top: 20px;
+    cursor: pointer
+}
+
+
+.modal-body {
+    padding: 30px;
+}
+
+.modal-dialog {
+    width: 70%;
+}
+
+.modal-body img {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.modal-header button {
+    cursor: pointer
+}

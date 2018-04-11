@@ -1,0 +1,119 @@
+@media all and (max-width: 1200px) {
+    .header-area {
+        margin: 30px;
+    }
+    .header-area .logo img {
+        width: 70%;
+        text-align: center;
+    }
+    
+    .contact-form input{
+        width: 100%;
+        margin: auto;
+    }
+    .contact-form option{
+        padding: 4.2px 100%;
+        margin: auto;
+    }
+    .contact-form a {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 995px) {
+    .menu-contact {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .menubar .menu {
+        margin-left: 70px;
+    }
+    .menubar .menu ul li {
+        border-bottom: 1px solid #1E5799;
+    }
+    .feedback-box p {
+        font-size: 14px;
+    }
+    .service-eligibility .front-pic img {
+        display: none;
+    }
+    .feedback .front-bg {
+        background-image: url();
+    }
+}
+
+@media all and (max-width: 770px) {
+    .navbar-header {
+        width: 0%;
+    }
+    .how-box {
+        padding: 20px 150px;
+        border-bottom: 1px solid gray;
+    }
+    .feedback-box p {
+        font-size: 12px;
+    }
+    .feedback {
+        background-image: url(../img/feedback-bg-blur.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    .feedback-box {
+        background-color: rgba(255, 255, 255, .8);
+        padding: 10px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+    
+    .why-left{
+        float: none;
+        margin: auto;
+    }
+    .why-right{
+        float: none;
+        margin: auto;
+    }
+    .why-small-box-2{
+        margin-top: 40px;
+    }
+    
+    .row1{
+        display: block;
+    }
+    .row1 .logo img{
+        margin: auto;
+    }
+  
+    .anti-virus ul li {
+        margin-left: 3px;
+        width: 120px;
+        height: 50px;
+        padding: 4px;
+    }
+
+    .anti-virus ul li:nth-child(2) {
+        width: 120px;
+    }
+    
+    .row2,.row3,.row4 {
+        padding: 5px 25px;
+	
+}
+}
+
+@media all and (max-width: 570px) {
+    .how-box {
+        padding: 20px 80px;
+        border-bottom: 1px solid gray;
+    }
+    .feedback {
+        background-image: url();
+    }
+    .feedback-box {
+        background-color: rgba(0,0,0, .1);
+        padding: 10px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}

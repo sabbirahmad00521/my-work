@@ -1,0 +1,174 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 380px) {
+
+   .home-content .col-6,
+   .about-content .col-10 {
+      min-width: 100% !important;
+   }
+   .about-content .content-bottom img {
+      position: absolute;
+      top: -46px;
+      left: -44px;
+      z-index: 1;
+      height: 50px;
+   }
+   .bogo-content .section-title h1 {
+      width: 100% !important;
+   }
+   .contact .section-title img {
+      display: none !important;
+   }
+}
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575px) {
+   .home-contact {
+      min-width: 100%;
+   }
+   .home-contact h1,
+   .home-contact p {
+      font-size: 16px;
+   }
+   .about-content .section-content {
+      padding: 30px 15px;
+   }
+   .section-title img {
+      display: none;
+   }
+   .bogo-content .section-content h3 {
+      width: 100%;
+   }
+   .bogo-content .section-footer img {
+      position: static;
+      display: block;
+      margin: auto;
+   }
+   .contact .section-title {
+      max-width: 100%;
+   }
+   .contact .content p {
+      font-size: 14px;
+      margin-left: 0px;
+   }
+   .contact .content .social-icon {
+      margin-left: 0px;
+      margin-bottom: 20px;
+   }
+   form {
+      margin-left: 0%;
+   }
+   input[type="text"],
+   input[type="email"],
+   textarea {
+      width: 100%;
+   }
+   .contact .container {
+      padding: 10px 18px;
+   }
+   .package-content .section-title {
+      width: 100% !important;
+   }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+
+@media (max-width: 767px) {
+
+   nav ul {
+      display: none;
+      margin-left: 30px;
+   }
+   nav ul li {
+      display: inline;
+   }
+   a.responsive-menu {
+      display: block;
+      margin-bottom: 15px;
+   }
+   .logo i {
+      font-size: 48px;
+   }
+   .sub-title span {
+      font-size: 36px;
+   }
+   .footer-menu ul {
+      width: 100%;
+   }
+   .footer-menu ul li {
+      display: block;
+   }
+   .bogo-content .section-title h1 {
+      font-size: 42px;
+      width: 360px;
+   }
+   .bogo-content .section-title h2 {
+      font-size: 30px;
+   }
+   .fund-content h4 {
+      width: 275px;
+   }
+   .package-content .section-title {
+      width: 380px;
+   }
+   .package-content .section-content img {
+      margin-bottom: 30px;
+   }
+   .how-content .people-img {
+      position: static;
+   }
+   .how-content .people-img img {
+      margin: auto
+   }
+   .how-content p {
+      margin-top: 0;
+   }
+   .how-content-bottom {
+      padding: 0 15px 0 15px;
+   }
+   .how-content {
+      padding: 0 10px;
+   }
+   .how-header {
+      width: 100%;
+
+   }
+}
+
+/*Medium devices (tablets, less than 992px)*/
+
+@media (max-width: 991px) {
+   nav ul li a {
+      padding: 10px 20px;
+   }
+   .footer-menu ul {
+      margin: auto;
+   }
+   .footer-menu ul li a {
+      padding: 10px;
+   }
+   .bogo-content .section-title img {
+      left: 16%;
+   }
+   .contact .col-md-5 {
+      border-right: 0px solid #ccc;
+      text-align: center;
+   }
+   .contact .col-md-5 img {
+      display: block;
+      margin: auto
+   }
+
+
+}
+
+/*Large devices (desktops, less than 1200px)*/
+
+@media (max-width: 1199px) {}
+
+/*Extra large devices (large desktops)*/
+
+/*No media query since the extra-large breakpoint has no upper bound on its width*/

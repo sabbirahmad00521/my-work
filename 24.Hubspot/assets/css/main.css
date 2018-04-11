@@ -1,0 +1,362 @@
+@font-face {
+    font-family: "KlinicSlab";
+    font-weight: 400;
+    src: url("../fonts/KlinicSlabBook.otf");
+}
+
+@font-face {
+    font-family: "proxima-nova";
+    font-weight: 600;
+    src: url("../fonts/ProximaNova-Sbold.otf");
+}
+
+@font-face {
+    font-family: "proxima-nova";
+    font-weight: 800;
+    src: url("../fonts/ProximaNova-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "proxima-nova";
+    font-weight: 400;
+    src: url("../fonts/ProximaNova-Reg.otf") format("opentype");
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+ul,
+li,
+form {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: proxima-nova;
+}
+
+p {
+    color: #797979;
+    line-height: 1.6em;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+    letter-spacing: .5px;
+}
+body{background-color: #F9F8F7;}
+ul {
+    list-style: none;
+}
+
+:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover,
+a:active,
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+.banner {
+    background: url(../images/bg.png)no-repeat center;
+    text-align: center;
+    color: #fff;
+}
+
+.banner h4 {
+    font-family: KlinicSlab;
+    margin-top: 50px;
+}
+
+.banner h1 {
+    font-family: proxima-nova;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+.banner .btn-group {
+    border-radius: 8px;
+    border: 3px solid #fff;
+    margin-bottom: 120px;
+}
+
+.banner .btn-group a {
+    border-radius: 4px;
+    background: rgba(0, 0, 0, .1);
+    color: #fff;
+    font-family: proxima-nova;
+    font-size: 14px;
+    display: block;
+    padding: 15px 55px;font-weight: 700;
+}
+
+.banner .btn-group a:hover,
+.banner .btn-group a.actives {
+    background-color: #fff;
+    color: #F9881F;
+    box-shadow: 0;
+}
+
+
+/*price
+======*/
+
+.price {
+    text-align: center;
+    margin-top: 50px;
+    color: #555555;
+    background-color: #F9F8F7;
+    padding: 30px;
+}
+
+.price .col-md-4 {
+    padding: 30px 40px 10px;
+}
+
+.price .head h2 {
+    margin-bottom: 20px;font-weight: 700;
+}
+
+.price .head p {
+    color: #797979;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+.price .doller {
+    font-weight: 700;
+    color: #555555;
+}
+
+.price .doller h1 span {
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.price .doller h1 i {
+    font-size: 50px;
+}
+
+.price .month {
+    font-size: 16px!important;
+}
+
+.price .doller>p {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.price .doller p b {
+    padding-bottom: 20px;
+    display: block;
+    color: #555555;
+    font-size: 16px;
+}
+
+.price .doller {}
+
+.price .features {}
+
+.price .features h3 {
+    text-align: center;
+    display: table;
+    margin: auto;
+    padding-top: 40px;
+    border-top: 1px solid #ccc;
+}
+
+.price .features p {
+    color: #797979;
+    margin-bottom: 30px;
+    font-size: 15px;
+    height: 50px;
+}
+
+.price .features a {
+    display: inline-block;
+    padding: 20px 50px;
+    background-color: #1DA1DB;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.price .features a:hover {
+    background-color: #60BDE6;
+}
+
+.include {
+    height: 500px;
+}
+
+.include p {
+    color: #555555;
+    font-size: 15px;
+}
+
+.include b {
+    font-size: 16px;
+    display: block;
+    height: 50px;
+}
+
+.include b span {
+    color: #797979;
+    font-weight: normal;
+}
+
+.see a {
+    color: #1DA1DB;
+    font-size: 16px;
+}
+
+.see a:hover {
+    color: #1780AE;
+}
+
+.features p .normal {
+    padding: 0;
+    color: #000;
+    color: #1DA1DB;
+    font-size: 16px;
+    background-color: transparent;
+    -webkit-transition: 0s;
+    transition: 0s;
+}
+
+.features p .normal:hover {
+    color: #1780AE;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.pro .top {
+    display: block;
+    background-color: #F7751F;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    position: absolute;
+    width: 100%;
+    top: -20px;
+    left: 0;text-transform: uppercase;
+}
+
+.pro {
+    border: 1px solid #D8D8D8;
+    border-bottom: 0px;
+    border-top: 0;
+    position: relative;
+}
+
+.price {
+    position: absolute;
+    white-space: nowrap;
+    margin: auto;
+    top: 270px;
+    background-color: #F9F8F7;
+    left: 0;
+    right: 0;
+    width: 80%;
+}
+.price .container{width: 1020px;background-color: #fff;}
+.price .row {
+    padding-top: 20px;
+}
+
+
+/*comparison
+=============*/
+
+.comparison {
+    margin-top: 1300px;
+}
+.comparison  .container{
+    width: 1020px;
+}
+.comparison h1 {
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.comparison .col-md-3 {
+    padding: 15px;
+    text-align: center;
+}
+
+.height .col-md-3 {
+    height: 100px;
+}
+
+.plan-name .col-md-3 {
+    padding: 40px;
+}
+
+.monthly-price h1 {
+    padding-top: 15px;
+}
+
+.monthly-price .month {
+    font-weight: 700;
+    color: #555555;
+    font-size: 16px;
+}
+
+.monthly-price h1 span {
+    font-weight: 700;
+    font-size: 36px;
+    color: #555555;
+}
+
+.monthly-price h1 i {
+    font-size: 36px;
+    color: #555555;
+}
+.comparison .col-md-3:nth-child(1){background-color: #F9F8F7;}
+.comparison .col-md-3:nth-child(2){
+    background-color: #fff;
+}
+.comparison .col-md-3:nth-child(4){
+    background-color: #fff;
+}
+.comparison .col-md-3:nth-child(3) {
+    border-right: 1px solid #D8D8D8;
+    border-left: 1px solid #D8D8D8;background-color: #fff;
+}
+
+.border-top {
+    border-top: 1px solid #D8D8D8;
+}
+
+.small-a {
+    font-size: 12px;
+    color: #1DA1DB;
+}
+
+.small-a:hover {
+    color: #1780AE;
+    text-decoration: underline;
+}

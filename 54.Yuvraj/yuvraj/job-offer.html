@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+   <meta charset="UTF-8">
+
+   <title>Welcome To My Portfolio</title>
+
+   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/main.css">
+
+   <script src="js/jquery-2.2.4.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/scripts.js"></script>
+
+</head>
+
+<body>
+
+   <section class="job-offer">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12 text-center">
+               <div class="top-section">
+                  <i class="fa fa-angle-double-down" id="arrow-close" style="cursor: pointer;"></i>
+                  <h2>ohh it's great, you want to offer</h2>
+                  <button id="job-btn" class="boxed-btn">A Job</button>
+                  <button id="work-btn" class="boxed-btn">A Work</button>
+               </div>
+            </div>
+         </div>
+         <script>
+            jQuery('#arrow-close').click(function() {
+               jQuery('#job').fadeOut();
+               jQuery('#job-btn').removeClass('active');
+               jQuery('#work').fadeOut(0);
+               jQuery('#work-btn').removeClass('active');
+
+            })
+            jQuery('#job-btn').click(function() {
+               jQuery('#job').fadeIn();
+               jQuery('#job-btn').addClass('active');
+               jQuery('#work').fadeOut(0);
+               jQuery('#work-btn').removeClass('active');
+
+            })
+
+            jQuery('#work-btn').click(function() {
+               jQuery('#work').fadeIn();
+               jQuery('#work-btn').fadeIn().addClass('active');;
+               jQuery('#job').fadeOut(0);
+               jQuery('#job-btn').removeClass('active');
+
+            })
+
+         </script>
+         <div class="row" id="job" style="display:none">
+            <div class="col-lg-6">
+               <div class="my-text">
+                  <p>My work speaks for the goals of my clients; it's crafted carefully, studied through the gamut of human psychology, and created to stand the test of time. My role is to listen and trust, research and explore, create and design, present and deliver, and to cater to your needs. </p>
+               </div>
+               <h6>Are You Still confused? Have a loog again on <a href="">My Work.</a></h6>
+               <h5>Contact me</h5>
+               <div class="row no-gutters contact">
+                  <div class="col">
+                     <a href="tel:+91-8699636100" class="d-flex align-items-center"><i class="fa fa-phone"></i> +91-8699636100</a>
+                  </div>
+                  <div class="col">
+                     <a href="mailto:yuvraj8april@gmail.com" class="d-flex align-items-center"><i class="fa fa-envelope"></i> yuvraj8april@gmail.com</a></div>
+               </div>
+               <div class="row no-gutters contact mt-3">
+                  <a href="" class="d-flex align-items-center"><i class="fa fa-map-marker"></i>H.no 130,St.no. 2, BAba Budha ji nagar, Rama Mahdi, JRC.</a>
+               </div>
+            </div>
+            <div class="col-lg-6 contact-form">
+               <form action="">
+                  <input type="text" placeholder="Agency/Company Name*">
+                  <input type="text" placeholder="Position*">
+                  <input type="text" placeholder="Email/Contact no.*">
+                  <textarea placeholder="Job Description*"></textarea>
+                  <button class="boxed-btn black">Send</button>
+               </form>
+            </div>
+         </div>
+
+         <div class="row" id="work" style="display:none">
+            <div class="col-lg-6">
+               <div class="my-text">
+                  <p>My work speaks for the goals of my clients; it's crafted carefully, studied through the gamut of human psychology, and created to stand the test of time. My role is to listen and trust, research and explore, create and design, present and deliver, and to cater to your needs. </p>
+               </div>
+               <h6>Are You Still confused? Have a loog again on <a href="">My Work.</a></h6>
+               <h5>Contact me</h5>
+               <div class="row no-gutters contact">
+                  <div class="col">
+                     <a href="tel:+91-8699636100" class="d-flex align-items-center"><i class="fa fa-phone"></i> +91-8699636100</a>
+                  </div>
+                  <div class="col">
+                     <a href="mailto:yuvraj8april@gmail.com" class="d-flex align-items-center"><i class="fa fa-envelope"></i> yuvraj8april@gmail.com</a></div>
+               </div>
+               <div class="row no-gutters contact mt-3">
+                  <a href="" class="d-flex align-items-center"><i class="fa fa-map-marker"></i>H.no 130,St.no. 2, BAba Budha ji nagar, Rama Mahdi, JRC.</a>
+               </div>
+            </div>
+            <div class="col-lg-6 contact-form">
+               <form action="">
+                  <input type="text" placeholder="Name*">
+                  <input type="text" placeholder="Email/Contact no.*">
+                  <select name="" id="">
+                     <option>Work Catagory</option>
+                     <option>Work Catagory 1</option>
+                     <option>Work Catagory 2</option>
+                     <option>Work Catagory 3</option>
+                     
+                  </select>
+                  <textarea placeholder="Job Description*"></textarea>
+                  <button class="boxed-btn black">Send</button>
+               </form>
+            </div>
+         </div>
+
+      </div>
+   </section>
+
+</body>
+
+</html>

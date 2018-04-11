@@ -1,0 +1,81 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Easy Fullscreen HTML5 Background Video</title>
+  <meta name="keywords" content="css3, html5, js, background video, fullscreen video">
+  <meta name="description" content="Super easy to implement HTML5 fullscreen background video library in JavaScript.">
+
+  <style>
+
+
+
+
+    <!-- #background_video { -->
+      <!-- position: absolute; -->
+	  
+      <!-- top: 50%; left: 50%; -->
+      <!-- transform: translate(-50%, -50%); -->
+
+      <!-- object-fit: cover; -->
+      <!-- height: 100%; width: 100%; -->
+    <!-- } -->
+
+    <!-- #video_cover { -->
+      <!-- position: absolute; -->
+
+      <!-- width: 100%; height: 100%; -->
+
+      <!-- background: url('video_cover.jpeg') no-repeat; -->
+      <!-- background-size: cover; -->
+      <!-- background-position: center; -->
+    <!-- } -->
+
+    <!-- @media (min-width: 768px) { -->
+      <!-- #video_controls { -->
+        <!-- display: none; -->
+      <!-- } -->
+    <!-- } -->
+
+    <!-- #overlay { -->
+      <!-- position: absolute; -->
+      <!-- top: 0; right: 0; left: 0; bottom: 0; -->
+      <!-- background: rgba(0,0,0,0.5); -->
+    <!-- } -->
+
+  </style>
+
+  <script src="https://use.typekit.net/nlq1kdt.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+<body>
+  <div id="container">
+    <video id="background_video" loop muted></video>
+   <div id="video_cover"></div>
+   <div id="overlay"></div>
+
+    <!-- <div id="video_controls"> -->
+      <!-- <span id="play"> -->
+        <!-- <img src="play.png"> -->
+      <!-- </span> -->
+      <!-- <span id="pause"> -->
+        <!-- <img src="pause.png"> -->
+      <!-- </span> -->
+    <!-- </div> -->
+
+    <!-- <section id="main_content"> -->
+      <!-- <div id="head"> -->
+        <!-- <h1>Bideo.js</h1> -->
+        <!-- <p class="sub_head">A JS library that makes it super easy to add fullscreen background videos.</p> -->
+        <!-- <p class="info">(Hold on! The video might take a while to load.)</p> -->
+      <!-- </div> -->
+    <!-- </section> -->
+  </div>
+
+
+  <script src="bideo.js"></script>
+  <script src="main.js"></script>
+
+
+</body>
+</html>

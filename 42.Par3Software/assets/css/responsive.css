@@ -1,0 +1,57 @@
+
+@media (min-width: 768px) {
+   .navbar-right {
+      float: right!important;
+      margin-right: -15px;
+      margin-top: 0px;
+      padding-bottom: 10px;
+   }
+}
+
+@media (max-width: 767px) {
+   .work h1 {
+
+      font-size: 30px;
+   }
+   .weoffer h1 {
+      font-size: 30px;
+
+   }
+   .top_head_right {
+      font-size: 12px;
+      text-align: center;
+      padding: 8px 0px 0px 0px;
+   }
+   .navbar-brand > img {
+      display: block;
+      width: 70%;
+      padding-left: 15px;
+   }
+   .navbar-brand {
+      margin-top: 0px;
+      height: auto;
+   }
+   .navbar-custom.top-nav-collapse .navbar-brand img {
+      width: 60%;
+      padding-top: 8px;
+   }
+   .nav > li {
+      position: relative;
+      display: block;
+      border-bottom: 1px solid #cacaca;
+   }
+   .top_head .list-inline > li {
+      padding-left: 20px;
+   }
+   .case .carousel-control {
+      display: none;
+   }
+
+   .work .visible-xs {
+      position: static !important;
+      margin-top: 50px !important;
+   }
+   .work .visible-xs img {
+      margin: auto !important;
+   }
+}

@@ -1,0 +1,409 @@
+p,h1,h2,h3,h4,h5,h6,ul,li,a{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*
+    main menu style
+*/
+
+.main-menu{
+    background-color: #EFEEEE;
+}
+.main-menu .logo{}
+.main-menu .logo img{}
+.logo{
+    float: left;
+    margin: 10px 25px;
+}
+.navbar{
+    margin-bottom: 0px;
+}
+.navbar-default{
+    overflow: hidden;
+    background-color: transparent;
+    border: 0px;
+}
+.menu-left{
+}
+.menu-left ul{}
+.menu-left ul li{}
+.menu-left ul li a{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 8px;
+}
+
+.menu-left ul li:nth-child(1) > a{
+    border-bottom: 4px solid #D84E55;
+    color: #D84E55;
+}
+
+.menu-left ul li:nth-child(1) > a:hover{
+    color:  #D84E55;
+}
+
+.main-menu-right{
+    display: block;
+}
+.menu-right ul{
+    float: left;
+    padding: 16px 20px;
+}
+.menu-right ul li{
+    display: inline-block;
+}
+.menu-right ul li a{
+    text-decoration: none;
+    color: #68686C;
+    font-size: 11px;
+    margin: 8px;
+
+}
+.user {}
+.user ul{
+    color: #68686C;
+    overflow: hidden;
+    padding: 16px 20px;
+}
+.user li{
+    display: inline-block;
+}
+
+.user i{
+    font-size: 28px;
+    color: #68686C;
+}
+
+
+
+/*
+    red bar
+*/
+
+.from-to-bar{
+    background-color: #D84E55;
+}
+
+.from-to-bar .left-area{
+    color: #fff;
+    padding: 3px 35px;
+}
+.from-to-bar .left-area a{
+    color: #fff;
+    padding: 8px 10px;
+    display: block;
+    display: inline-block;
+}
+
+.from-to-bar .left-area a img{
+    width: 75%;
+}
+.location{
+    
+}
+.location ul{
+    text-align: center;
+}
+.location ul li {
+    display: inline-block;
+    color: #fff;
+    padding: 13px 7px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.location ul li i{
+    
+}
+
+.right-btn{
+    padding: 12px;
+}
+.right-btn a{
+    padding: 7px 22px;
+    border: 1px solid #ddd;
+    display: table;
+    color: #fff;
+    font-size: 15px;
+    float: right;
+    margin-right: 15px;
+}
+
+.right-btn a:hover{
+    background-color: #6E0A00;
+    text-decoration: none;
+}
+
+
+
+/*
+    green bar style
+*/
+
+.green-bar{
+    background-color: #B4F7D6;
+    text-align: center;
+}
+
+.available{
+}
+.available p{
+    font-weight: 700;
+    display: block;
+    font-size: 14px;
+    padding: 5px;
+}
+.available a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 7px;
+    font-size: 15px;
+}
+
+
+/*
+    filter bar
+*/
+
+
+.filter-bar{
+    background-color: #eeeded;
+}
+.filter-bar ul{
+    text-align: center;
+}
+.filter-bar ul li{
+    display: inline-block;
+    padding: 10px 32px;
+
+}
+.filter-bar ul li a{
+    text-decoration: none;
+    color: #323232;
+    font-size: 12px;
+}
+.filter-bar ul li:hover > a{
+    letter-spacing: 0.5px
+}
+.filter-bar ul li a i{
+        color: #323232;
+
+}
+.filter-bar ul li a:nth-child(2) > i{
+    color: #D84E55;
+    -webkit-transform: rotate(70deg);
+    transform: rotate(70deg);
+}
+
+.filter-bar ul li  label{
+    background-color: red ;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+/*
+    sORT BAR
+*/
+
+
+
+.sort-bar{
+    box-shadow: 0px 3px 10px #999;
+}
+.sort-bar ul{
+    text-align: right;
+}
+.sort-bar ul li{
+    display: inline-block;
+}
+.sort-bar ul li a{
+    padding: 8px 15px;
+    display: block;
+}
+.sort-bar ul li p{
+    font-weight: 700;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+
+/*
+    available ticket
+*/
+
+.available-bus{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.bus-icon{}
+.bus-icon i{
+    font-size: 30px;
+    float: right;
+    margin-top: 40px;
+}
+
+.bus-details{}
+.extra-offer{
+    font-size: 12px;
+    margin: 10px 5px;
+    display: block;
+    
+}
+.extra-offer p{}
+.extra-offer i{
+    color:  #D84E55;
+    -webkit-transform: rotate(70deg);
+    transform: rotate(70deg);
+    margin-left: 15px;
+}
+.extra-offer span{
+    color:  #D84E55;
+}
+.extra-offer a{
+    color:  #D84E55;
+    text-decoration: none;
+}
+
+.bus-details .bus h4{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.bus-details .bus p{
+    margin-bottom: 5px;
+}
+.bus-details .bus abbr{
+    text-decoration: none;
+}
+.bus-details .bus i{
+    margin: 6px 5px;
+    font-size: 16px;
+}
+.bus-details .bus a{
+    color: #D84E55;
+    margin: 5px 0px;
+    display: block;
+    font-size: 13px;
+}
+
+.time{}
+.time ul{}
+.time ul li{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+}
+.time ul li i{
+    margin: 0px 18px;
+}
+.time p{
+    margin: 2px 0px;
+}
+.time a{
+    font-size: 13px;
+    margin-top: 36px;
+    display: block;
+    color: #D84E55;
+    text-decoration: none;
+}
+
+.rating{}
+.rating h6{
+    background-color: #F06164;
+    padding: 7px 10px;
+    display: table;
+    border-radius: 4px;
+    color: #fff;
+}
+.rating p{
+    font-size: 12px;
+    margin: 8px 0px;
+}
+.rating a{
+    color: #D84E55;
+    text-decoration: none;
+    margin-top: 26px;
+    display: block;
+}
+
+.available-seats{}
+.available-seats h6{
+    font-size: 16px;
+    font-weight: 700;
+}
+.available-seats h6 i{
+    font-size: 22px;
+    margin: 0px 15px;
+}
+.available-seats p{
+    margin-left: 57px;
+    margin-top: 2px;
+}
+
+.view-seats{}
+.view-seats h3{
+    font-weight: 700;
+    font-size: 21px;
+}
+.view-seats a{
+    color: #D84E55;
+    margin: 12px 0px;
+    text-decoration: none;
+}
+.view-seats .button{
+    display: table;
+    background-color:#D84E55; 
+    padding: 5px 18px;
+    color: #fff;
+    border-radius: 2px;
+}
+
+
+/*
+    foooter style start here
+*/
+
+
+footer{
+    background-color: #1B2330;
+    padding: 30px;
+}
+.footer-content{
+    width: 25%;
+    float: right;
+}
+footer ul{
+}
+footer ul li{
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer ul li a{
+    color: #B1BABF;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #545A64;
+    border-radius: 50%;
+    margin: 10px 0px;
+    display: block;
+}
+
+footer ul li a i{
+    width: 25px;
+    text-align: center;
+}
+
+footer p{
+    color: #B1BABF;
+    line-height: 27px;
+    font-size: 13px;
+}
+footer h6{
+    color: #B1BABF;
+}

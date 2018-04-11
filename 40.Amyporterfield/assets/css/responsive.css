@@ -1,0 +1,107 @@
+@media (max-width: 575px) {
+
+   .social-icon {
+      text-align: right;
+   }
+   .social-icon a {
+      margin-bottom: 20px;
+   }
+}
+
+
+
+@media all and (max-width:768px) {
+
+   nav {
+      text-align: left;
+      background-color: transparent;
+   }
+   nav ul {
+      display: none;
+   }
+   nav ul li {
+      display: inline;
+   }
+   nav .responsive-menu {
+      display: block;
+      margin-bottom: 15px;
+      margin-top: -30px;
+   }
+
+
+   header .logo img {
+      display: table !important;
+      margin: 0 !important;
+   }
+
+
+   .about-img {
+      background: #fff;
+      position: relative;
+      padding: 40px !important;
+   }
+
+   .about-img:after {
+      display: none !important;
+
+   }
+   .episode .content {
+
+      padding: 0 30px;
+
+   }
+}
+
+
+@media (max-width: 991px) {
+   header .logo img {
+      display: block;
+      margin: auto;
+   }
+   nav ul {
+
+      text-align: center;
+   }
+   .episode .column {
+      width: 100%;
+
+   }
+   .modal-box button.close {
+      top: 0px;
+      right: -15px;
+   }
+   .about-4 .image img {
+      position: static;
+      width: 100%;
+      height: 100%;
+
+   }
+   .about-4 .col-lg-11 {
+      padding: 50px;
+   }
+}
+
+
+@media (max-width: 1200px) {
+
+   a.boxed-button {
+      font-size: 13px;
+   }
+   .single-cheat-box h6 {
+      padding-top: 175px;
+   }
+   .episode .content h2 {
+      margin-bottom: 30px;
+      font-size: 34px;
+   }
+}
+
+@media (max-width: 1300px) {
+   nav ul li a {
+
+      font-size: 13px;
+   }
+   nav ul li {
+      margin-left: 18px;
+   }
+}

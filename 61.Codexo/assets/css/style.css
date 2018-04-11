@@ -1,0 +1,195 @@
+/* Common Styles
+================*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+@font-face {
+   font-family: "font name";
+   font-style: normal;
+   font-weight: 400;
+   src: url("../fonts/.WOFF") format("woff");
+}
+
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   background-color: #fff;
+   color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0 0 10px;
+   font-weight: 700;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:hover,
+a:visited {
+   text-decoration: none;
+   color: #333;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+
+p,
+b,
+span {
+   font-size: 20px;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+   outline: 0 solid;
+}
+
+
+body {
+   padding-top: 140px;
+   padding-bottom: 80px;
+   position: relative;
+}
+
+h1 {
+   font-size: 80px;
+}
+
+.invoice p,
+.invoice b {
+   font-size: 27px !important;
+}
+
+h1 a img {
+   height: 100px;
+   margin: auto;
+   padding-left: 20%;
+}
+
+.info h5 {
+   font-weight: 400;
+   font-size: 22px;
+   color: #999;
+}
+
+.info p {
+   margin-bottom: 5px;
+}
+
+.info span {
+   color: #999;
+}
+
+thead {
+   background: rgb(15, 119, 182);
+   background: -moz-linear-gradient(left, rgba(15, 119, 182, 1) 0%, rgba(0, 162, 226, 1) 100%);
+   background: -webkit-linear-gradient(left, rgba(15, 119, 182, 1) 0%, rgba(0, 162, 226, 1) 100%);
+   background: linear-gradient(to right, rgba(15, 119, 182, 1) 0%, rgba(0, 162, 226, 1) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f77b6', endColorstr='#00a2e2', GradientType=1);
+   color: #fff;
+}
+
+thead tr th {
+   padding: 40px 30px !important;
+   font-size: 24px;
+}
+
+table h5 {
+   font-size: 25px;
+   margin-bottom: 2px !important;
+}
+
+table span {
+   color: #999;
+   font-size: 17px;
+}
+
+tbody tr td {
+   padding: 24px 30px!important;
+}
+
+.table td,
+.table th {
+   border-top: none;
+
+}
+
+.table td {
+   border-bottom: 2px solid #27282A;
+}
+
+.total-account td {
+   padding: 10px 0px 0px!important;
+}
+
+.total-account span {
+   font-size: 24px;
+   margin-top: 5px;
+   display: block;
+}
+
+.total-account p {
+   font-size: 28px;
+   font-weight: 600;
+}
+
+.total-account td {
+   border-top: 2px solid #27282A;
+   border-bottom: none;
+}
+
+.total-account tr:nth-child(1) td {
+   border-top: none;
+}
+
+.bottom-section h2 {
+   font-size: 26px;
+   margin-bottom: 0 !important;
+}
+
+.bottom-section p {
+   font-size: 20px;
+   margin-bottom: 0 !important;
+}
+
+.contact-box {
+   position: relative;
+}
+
+.contact-box p {
+   color: #666;
+   padding-left: 70px;
+}
+
+.contact-box i {
+   position: absolute;
+   top: 3px;
+   left: 0;
+   font-size: 49px;
+}
+
+.badge img {
+   position: absolute;
+   right: 0;
+   top: 60px;
+   z-index: 99;
+   width: 130px;
+}

@@ -1,0 +1,30 @@
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 575px) {
+   .map svg {
+      height: 100px;
+   }
+   .bottom-section {
+      margin-top: 90px;
+   }
+   .text img {
+      height: 20px;
+      margin: 20px auto 0;
+   }
+   .map svg {
+      height: 100px;
+      position: absolute;
+      top: -40px;
+      left: 64px;
+   }
+}
+
+@media (max-width: 767px) {
+   .icon img {
+      height: 180px;
+      margin: auto;
+      margin-top: -50px;
+   }
+}

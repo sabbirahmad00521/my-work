@@ -1,0 +1,12 @@
+@media all and (max-width: 959px) {
+    #dropdown_float {
+        position: relative;
+        left: 10%;
+        top: 50px;
+        width: 100%;
+    }
+    
+    #logo{
+        
+    }
+}

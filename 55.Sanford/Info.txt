@@ -1,0 +1,29 @@
+Hi, I wanted to know if you could convert this pdf to html today:
+
+https://www.dropbox.com/s/dhdgg84nyu3k0v9/18-SINSP-0447_Newsletter%20Spring%202018_LP_CE-AS-Review.pdf?dl=0
+
+I don't need the menu or footer done, but I do need the header part that says "Sanford Inspire Spring Newsletter". I don't need fonts or links (i'll do that later) but I will probably need inline styles on the table.
+
+Can you send me a quote and timeline please?
+
+Sure, I can add an extra $5 for a total of $25 if you can add the images and links that I'll provide. Sound good?
+
+
+no, just use the image links that i provide so the links aren't external. Here are the links to the images:
+https://www.sanfordinspire.org/wp-content/uploads/2018/03/sandford_inspire_03_web.jpg
+https://www.sanfordinspire.org/wp-content/uploads/2018/03/sandford_inspire_001_web.jpg
+https://www.sanfordinspire.org/wp-content/uploads/2018/03/sandford_inspire_00_web.jpg
+https://www.sanfordinspire.org/wp-content/uploads/2018/03/sandford_inspire_02a_web.jpg
+https://www.sanfordinspire.org/wp-content/uploads/2018/03/sandford_inspire_02_web.jpg
+
+
+
+Here are the links in the design:
+• Cultural responsible pedagogy: https://modules.sanfordinspire.org/topic/1-introduction-28/
+• Teachers are agents of change: https://modules.sanfordinspire.org/topic/2-change-agents-vs-technicians/
+• Drug use in schools goals: https://modules.sanfordinspire.org/topic/1-history/
+• Addressing barriers to parent involvement: https://modules.sanfordinspire.org/modules/addressing-barriers-parent-involvement/
+• Classroom management: https://modules.sanfordinspire.org/modules/basic-proactive-classroom-management-strategies/
+• Causes of Misbehavior: https://modules.sanfordinspire.org/modules/causes-misbehavior/
+• Identifying Signs of Child Abuse and Neglect: https://modules.sanfordinspire.org/topic/1-introduction-44/
+• Giving Clear Directions for a Task: https://modules.sanfordinspire.org/modules/giving-clear-directions-task/

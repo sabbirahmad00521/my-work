@@ -1,0 +1,138 @@
+@media all and (max-width: 1300px) {
+    header nav ul li a {
+        padding: 20px 10px;
+        letter-spacing: 1px;
+    }
+    header .logo {
+        float: none;
+        margin-top: 10px;
+    }
+    .search-box input {
+        margin-top: 15px;
+    }
+    .container {
+        width: 95%;
+    }
+    header nav ul {
+        margin-left: 0px;
+    }
+}
+
+@media all and (max-width: 960px) {
+    .responsive-menu {
+        display: block;
+    }
+    nav.menu {
+        display: none;
+    }
+    .responsive-menu .search-box {
+        50% 10% 0;
+        display: block;
+    }
+    .col-md-2 .search-box {
+        display: none;
+    }
+    .responsive-menu .logo {
+        float: none;
+        margin-top: 0px;
+    }
+    .responsive-menu .logo img {
+        margin: 0 auto;
+        padding: 12px;
+    }
+    .col-md-3 .logo {
+        display: none;
+    }
+    .responsive-menu .logo {
+        display: block;
+    }
+    .responsive-menu nav ul ul {
+        left: 0;
+    }
+}
+
+@media all and (max-width: 820px) {
+    .contact-form .row b {
+        float: none;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .overview-box {
+        width: 70%;
+        margin: auto;
+    }
+    .overview-box img {}
+    .overview-box h2 {
+        font-size: 24px;
+        margin-top: 20px;
+        text-align: center;
+        text-transform: capitalize;
+        margin-bottom: 60px;
+    }
+    .why .banner-area p {
+        width: 80%;
+        font-size: 17px;
+    }
+    .our-team-page .banner-area p {
+        width: 80%;
+        font-size: 17px;
+    }
+    .blog .post .content {
+        width: 90%;
+        margin: auto;
+    }
+    .blog .post .content h1 {
+        font-size: 32px;
+    }
+    .our-solution-page .content .col-md-4 {
+        padding-bottom: 50px;
+        border-bottom: 1px solid #e5e5e7;
+        padding-right: 0;
+        border-right: 0;
+    }
+    .our-solution-page .content .col-md-8 {
+        padding-left: 20px;
+        margin-top: 30px;
+    }
+    .quarterly-commentary-content .row .mid {
+        border-left: 0px;
+        border-right: 0px;
+    }
+    .quarterly-commentary-content .row .col-md-4 {
+        padding: 20px 0;
+    }
+    .recent-press-content .row .mid {
+        border-left: 0;
+        border-right: 0;
+    }
+    .quarterly-commentary-content .row {
+        padding: 25px 0;
+    }
+    .recent-press-content .row .left {
+        border-left: 0;
+    }
+    .recent-press-content .row .right {
+        border-right: 0;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .overview-box {
+        width: 100%;
+        margin: auto;
+    }
+    .our-solution-page .banner-area h3 {
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .responsive-menu .logo {
+        width: 70%;
+        height: auto;
+        float: right;
+        margin-right: 10%;
+        margin-top: 2%;
+    }
+}

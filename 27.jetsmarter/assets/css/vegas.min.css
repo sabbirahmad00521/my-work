@@ -1,0 +1,105 @@
+.vegas-overlay,
+.vegas-slide,
+.vegas-slide-inner,
+.vegas-timer,
+.vegas-wrapper {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   overflow: hidden;
+   border: none;
+   padding: 0;
+   margin: 0
+}
+
+.vegas-overlay {
+   opacity: .5;
+   background: url(overlays/02.png) center center
+}
+
+.vegas-timer {
+   top: auto;
+   bottom: 0;
+   height: 2px
+}
+
+.vegas-timer-progress {
+   width: 0;
+   height: 100%;
+   background: #fff;
+   -webkit-transition: width ease-out;
+   transition: width ease-out
+}
+
+.vegas-timer-running .vegas-timer-progress {
+   width: 100%
+}
+
+.vegas-slide,
+.vegas-slide-inner {
+   margin: 0;
+   padding: 0;
+   background: center center no-repeat;
+   -webkit-transform: translateZ(0);
+   transform: translateZ(0);
+   will-change: transform, opacity
+}
+
+body .vegas-container {
+   overflow: hidden!important;
+   position: relative
+}
+
+.vegas-video {
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   height: auto
+}
+
+body.vegas-container {
+   overflow: auto;
+   position: static;
+   z-index: -2
+}
+
+body.vegas-container>.vegas-overlay,
+body.vegas-container>.vegas-slide,
+body.vegas-container>.vegas-timer {
+   position: fixed;
+   z-index: -1
+}
+
+:root body.vegas-container>.vegas-overlay,
+:root body.vegas-container>.vegas-slide,
+_::full-page-media,
+_:future {
+   bottom: -76px
+}
+
+
+.vegas-transition-asdfg,
+.vegas-transition-asdfg2 {
+   opacity: 0;
+   -webkit-transform: scale(1) translate(0, 0%);
+   transform: scale(1) translate(0, 0%);
+}
+
+.vegas-transition-asdfg-in,
+.vegas-transition-asdfg2-in {
+   opacity: 1;
+   -webkit-transform: scale(1.1) translate(0, 0);
+   transform: scale(1.1) translate(0, 0);
+}
+
+.vegas-transition-asdfg-out, 
+.vegas-transition-asdfg2-out {
+   opacity: 1;
+      -webkit-transform: scale(1) translate(0, 0%);
+   transform: scale(1) translate(0, 0%);
+}
+
+
+/*# sourceMappingURL=vegas.min.css.map */

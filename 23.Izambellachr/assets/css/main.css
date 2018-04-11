@@ -1,0 +1,355 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+form {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    color: #ddd;
+}
+
+:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover,
+a:active,
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+p {
+    font-family: Alegreya Sans;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.parallax-1 {
+    background-image: url('../img/parallax-1.jpg');
+    height: 530px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.site-name {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3))
+}
+
+.site-name h1 {
+    font-family: Cinzel;
+    color: #fff;
+}
+
+.site-name h1 a {
+    color: #fff;
+    font-size: 36px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.site-name h4 {
+    margin-bottom: 60px;
+    color: #fff;
+    opacity: 0.8;
+    font-family: Cinzel;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
+/*Navigation
+============*/
+
+header {
+    background-color: #181515;
+    padding: 10px 0;
+    border: 1px solid #5A4343;position: absolute;width: 100%;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: -3px;
+}
+
+header ul li a {
+    -webkit-transition: .2s;
+    transition: .2s;
+    color: #fff !important;
+    display: block;
+    padding: 15px 15px;
+    font-family: Alegreya Sans;
+}
+
+header ul li:hover a,
+header ul li.active a {
+    opacity: 0.8;
+    color: #fff;
+}
+
+header .downArrow {}
+
+header .downArrow i {
+    font-size: 22px;
+    color: #B1B1B1;
+    display: block;
+    padding: 14px;
+    text-align: center;
+}
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    display: block;
+    width: 100%;
+}
+
+
+/*Home
+=====*/
+.home{padding-top: 60px;}
+.post {
+    background-color: #181515;
+}
+
+.post .row {
+    margin: 80px 0;
+}
+
+.post h5 {
+    opacity: 0.8;
+    font-family: Cinzel;
+    font-size: 16px;
+}
+
+.share-this {
+    margin-top: 50px;
+}
+
+.share-this h6 {
+    font-family: Cinzel;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.share-this a {
+    color: #777777;
+    background-color: #fafafa;
+    padding: 2px 7px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.share-this a i {
+    margin-right: 4px;
+}
+
+
+/*.parallax 2
+==============*/
+
+.parallax-2 {
+    background-image: url('../img/parallax-2.jpg');
+    height: 530px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/*.parallax 3
+==============*/
+
+.parallax-3 {
+    background-image: url('../img/parallax-3.jpg');
+    height: 530px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/*.parallax 4
+==============*/
+
+.parallax-4 {
+    background-image: url('../img/parallax-4.jpg');
+    height: 530px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/*.parallax 5
+==============*/
+
+.parallax-5 {
+    background-image: url('../img/parallax-5.jpg');
+    height: 530px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.follow {
+    background-color: #181515;
+    border-top: 1px solid #5A4343;
+    padding: 50px;
+}
+
+.follow a.wp-btn {
+    background: #2ea2cc;
+    border-radius: 2px;
+    padding: 3px 6px;
+    color: #fff;
+    height: 20px;
+    line-height: 2px;
+    font-size: 11px;
+    margin-bottom: 60px;
+    -webkit-transition: .6s;
+    transition: .6s;
+}
+
+.follow a.wp-btn:hover {
+    background-color: #2190C0;
+}
+
+.follow a i {
+    font-size: 14px;
+}
+
+.follow h6 {
+    font-family: Cinzel;
+    margin-top: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+
+.follow p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.follow input {
+    padding: 5px 2px;
+    color: #bbb;
+    background-color: #100e0e;
+    border: 1px solid #5A4343;
+    border-radius: 3px;
+    font-family: "Alegreya Sans", sans-serif;
+    width: 30%;
+}
+
+.follow button {
+    background-color: #fff;
+    color: #6d6d6d;
+    border: 0;
+    display: inline-block;
+    font-family: "Alegreya Sans", sans-serif;
+    padding: 8px 25px;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-weight: bold;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.follow button:hover {
+    background-color: #BEBEBE;
+}
+
+.instagram .col-md-6 {
+    padding: 4px;
+}
+
+.instagram h5 {
+    font-family: Cinzel;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 11px;
+    margin-bottom: 25px;
+    margin-top: 60px;
+}
+
+.instagram iframe {
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #181515;
+    padding: 50px 0;
+}
+
+footer a i{
+    color: #ccc;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+footer a i:hover {
+    color: #fff;
+}
+
+
+
+/*About page
+=============*/
+
+
+
+.about.parallax-1{
+    background-image: url('../img/parallax-1.jpg');
+    height: 170px;
+    background-attachment: fixed;
+    background-position: 0% 155%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.about-me p{font-size: 20px;text-align: center; font-family: Alegreya Sans;}.about-me p b{text-align: left;font-style: italic;}

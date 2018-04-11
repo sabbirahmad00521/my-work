@@ -1,0 +1,265 @@
+/* Common Css */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.align-right {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    background-color: transparent;
+    background-image: url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: normal;
+    line-height: normal;
+    height: 100%;
+}
+
+
+/*Logo*/
+
+.logo>a>img {
+    display: block;
+    margin: 150px auto 25px;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.about-us .reg-no {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 40px 0 25px;
+}
+
+.about-us .refer>a,
+.about-us .contact>button {
+    background-color: #222;
+    border-radius: 30px;
+    border: none;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    display: block;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.about-us .refer a:hover,
+.about-us .contact .aaa:hover {
+    background-color: #fff;
+    color: #222;
+}
+
+.glyphicon {
+    color: rgba(255, 255, 255, 1)!important;
+}
+
+.glyphicon:hover {
+    background-color: transparent;
+    color: red;
+}
+
+.close {
+    opacity: 1;
+    color: #fff;
+}
+
+.close:focus,
+.close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: 1;
+}
+
+.about-us .refer,
+.about-us .contact>button {
+    display: table;
+    width: 270px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+/*popup box*/
+
+.modal {
+    padding-right: 0px !important;
+}
+
+.modal-lg {
+    width: 100%;
+}
+
+.modal-dialog {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.modal-content {
+    height: 100%;
+    border-radius: 0;
+    color: white;
+    overflow: auto;
+}
+
+.modal-transparent {
+    background: transparent;
+}
+
+.modal-transparent .modal-content {
+    background: transparent;
+}
+
+.modal-backdrop.modal-backdrop-transparent {
+    background: #ffffff;
+}
+
+.modal-backdrop.modal-backdrop-transparent.in {
+    opacity: .9;
+    filter: alpha(opacity=90);
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 0px solid #e5e5e5;
+}
+
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 0px solid #e5e5e5;
+}
+
+
+/*form*/
+
+.modal-body {
+    margin-top: 90px;
+}
+
+.modal-body form {
+    border-right: 2px solid black;
+}
+
+.modal-body form input,
+.modal-body form textarea {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-width: 1px;
+    border-radius: 30px;
+    overflow: hidden;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.6);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: block;
+    color: #000000;
+    font-family: inherit;
+    font-size: 16px;
+    width: 95%;
+    margin-bottom: 20px;
+    margin-right: 5%;
+}
+
+.modal-body form input:focus {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0AF;
+}
+
+.modal-body form input[type="submit"] {
+    background-color: #000;
+    border-radius: 30px;
+    border: none;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 3px 10px;
+    display: table;
+    text-transform: uppercase;
+    width: auto;
+    float: right;
+}
+
+.modal-body form input[type="submit"]:hover {
+    background-color: #222;
+}
+
+.modal-body .contact-info {
+    margin-top: 30px;
+}
+
+.modal-body .contact-info p {
+    font-weight: bold;
+    color: #FFF;
+    font-family: inherit;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+
+/*copyright*/
+
+.copyright {
+    color: #222222;
+    font-family: inherit;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 270px;
+    margin-bottom: 10px;
+}

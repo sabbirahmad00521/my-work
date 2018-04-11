@@ -1,0 +1,97 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575px) {
+   header .contact span {
+      display: block;
+   }
+   .home-page img {
+      width: 100%;
+   }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+
+@media (max-width: 767px) {}
+
+/*Medium devices (tablets, less than 992px)*/
+
+@media (max-width: 991px) {}
+
+/*Large devices (desktops, less than 1200px)*/
+
+@media (max-width: 1199px) {}
+
+/*Extra large devices (large desktops)*/
+
+/*No media query since the extra-large breakpoint has no upper bound on its width*/
+
+@media all and (max-width:768px) {
+
+   nav {
+      text-align: left;
+      background-color: transparent;
+   }
+   nav ul {
+      display: none;
+   }
+   nav ul li {
+      display: inline;
+   }
+   nav .responsive-menu {
+      display: block;
+      margin-bottom: 15px;
+      margin-top: -30px;
+   }
+
+   .logo {
+      display: none;
+   }
+   .logo-res {
+      display: block;
+   }
+   .logo-res img {
+      height: 60px;
+      padding: 5px;
+   }
+   nav .logo-area {
+      display: block;
+   }
+   nav ul li a,
+   nav ul li:hover a,
+   nav ul li:active a,
+   nav ul li:focus a,
+   nav ul li:visited a,
+   nav ul li.active a {
+      border-top: 0px;
+      color: #000;
+   }
+   nav ul ul > li > a,
+   nav ul ul > li:hover > a,
+   nav ul ul > li:active > a,
+   nav ul ul > li:focus > a,
+   nav ul ul > li:visited > a {
+      color: #000;
+      border-bottom: 0px;
+      background: transparent;
+   }
+
+   .contact {
+      width: 100%;
+      text-align: center;
+   }
+   .header-top .social-icon {
+      width: 100%;
+      margin-top: 15px;
+   }
+   header .social-icon {
+      text-align: center;
+   }
+
+   .animated-fixed {
+      position: initial;
+      width: 100%;
+
+      background-color: #fff;
+   }
+
+}

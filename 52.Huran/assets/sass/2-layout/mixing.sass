@@ -1,0 +1,57 @@
+
+//Mixing
+//========
+=inputStyle
+   height: 43px
+   line-height: 43px
+   border-radius: 3px
+   font-size: 16px
+   padding: 10px
+   font-weight: 400
+   color: #000
+   border-top: 1px solid rgba(0,0,0,0.33)
+   border-right: 0
+   border-bottom: 0
+   border-left: 1px solid rgba(0,0,0,0.33)
+   
+=modelbox($pt, $pb, $bgc)
+   padding-top: $pt
+   padding-bottom: $pb
+   background-color: $bgc
+   
+=icon($HWL,$color,$bg)
+   color: $color
+   height: $HWL
+   width: $HWL
+   background-color: $bg
+   line-height: $HWL
+   display: block
+   text-align: center
+   -webkit-border-radius: 50%
+   -moz-border-radius: 50%
+   border-radius: 50%
+   position: relative
+   font-size: $HWL/2.2
+   &:after
+      position: absolute
+      left: 50%
+      margin-left: -$HWL/2.5
+      top: 80%
+      content: ''
+      height: 0px
+      width: 0px
+      border-top: 1px solid $bg
+      border-left: 1px solid transparent
+      border-right: 1px solid transparent
+      border-width: $HWL/2 $HWL/2.5 0 $HWL/2.5
+   
+=border($top,$left,$bottom,$right,$radius,$paddingX,$paddingY)
+   border: solid $gray
+   border-width: $top $left $bottom $right
+   border-radius: $radius
+   padding: $paddingX $paddingY
+   
+=boxinner($padding)
+   padding: $padding
+   border-bottom: 5px solid $darkgray
+   border-radius: 0 0 5px 5px

@@ -1,0 +1,135 @@
+/* Common Styles
+================*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:300,400,600,700,800,900|Roboto:300,400,500,700,900');
+
+@font-face {
+   font-family: "font name";
+   font-style: normal;
+   font-weight: 400;
+   src: url("../fonts/.WOFF") format("woff");
+}
+
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   background-color: #000;
+   color: #fff;
+   height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0 0 15px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:hover,
+a:visited {
+   text-decoration: none;
+   color: #333;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+
+
+input:focus,
+textarea:focus,
+button:focus {
+   outline: 0 solid;
+}
+.body{
+   background-image: url(../img/BG_Welcome_preview.png);
+   -webkit-background-size: 100% 100%;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.icon img {
+   height: 250px;
+   margin: auto;
+   margin-top: -50px;
+}
+
+.text img {
+   height: 20px;
+   margin: 50px auto 0;
+
+}
+
+.bottom-section {
+   margin-top: 120px;
+}
+
+
+.map a {
+   display: block;
+   height: 100%;
+   color: #fff;
+   transition: .6s
+}
+
+.map a:hover,
+.map a:hover path {
+   color: #8C0001;
+   fill: #8C0001
+}
+
+.map svg {
+   height: 150px;
+   position: absolute;
+   top: -70px;
+}
+.right-map svg{
+   left: 30px;
+}
+.map svg path {
+   height: 100px;
+   fill: #fff;
+   transition: .6s
+}
+
+.or {
+   position: relative;
+}
+
+.or:after,
+.or:before {
+   position: absolute;
+   top: 130%;
+   height: 20px;
+   background-color: #8C0001;
+   width: 2px;
+   margin-left: -1px;
+   content: '';
+   left: 50%;
+}
+
+.or:before {
+   top: auto;
+   bottom: 130%;
+}
+
+.container > .row {
+   height: 100vh;
+}

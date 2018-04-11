@@ -1,0 +1,718 @@
+/*================================================*/
+
+
+/*--------------->>> CSS STYLES <<<---------------*/
+
+
+/*================================================*/
+
+
+/***** About Theme *****
+------------------------------
+    Theme name here
+    Author : author name here
+    Copyright 2017
+*/
+
+
+/***** Table of Contents *****
+------------------------------
+    1.0 Body and Core Css
+        1.1 Social Links
+        1.2 Button And Text
+        1.3 Preloading
+        1.4 Highlight
+    2. Menu / .menu
+        2.1 LOGO / .logo
+        2.2 Navbar / nav
+    3. Slider/  .slide
+    4. Services/ 
+    5. Who We Are / .who-we-are
+    6. Featured / .featured
+    7. News / .news
+    8. Pricing / .pricing
+    9. Castomer Preference / .preference
+    10. Portfolio / .portfolio
+    11. Blog / .blog
+    12. Share / .share
+    13. Contact / .contact
+    14. Footer / .footer
+    15. Other page design / .others
+    16. Other page design / .others
+    17. Other page design / .others
+*/
+
+
+/***** Color codes *****
+------------------------
+    # Dark grey (text): #333333
+    # Dark Blue (headings, links) #000066
+    # Mid Blue (header) #333399
+    # Light blue (top navigation) #CCCCFF
+    # Mid grey: #666666
+
+    Background:	#ffffff (white)
+    Content:	#1e1e1e (light black)
+    Header h1:	#9caa3b (green)
+    Header h2:	#ee4117 (red)
+    Footer:		#b5cede (dark black)
+
+    a (standard):	#0040b6 (dark blue)
+    a (visited):	#5999de (light blue)
+    a (active):	#cc0000 (pink)
+*/
+
+
+/*****Typography****
+--------------------
+    Body copy:		1.2em/1.6em Verdana, Helvetica, Arial, Geneva, sans-serif;
+    Headers:		2.7em/1.3em Helvetica, Arial, "Lucida Sans Unicode", Verdana, sans-serif;
+    Input, textarea:	1.1em Helvetica, Verdana, Geneva, Arial, sans-serif;
+    Sidebar heading:	1.5em Helvetica, Trebuchet MS, Arial, sans-serif;
+
+    Notes:	decreasing heading by 0.4em with every subsequent heading level
+*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+    line-height: 2;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #184583;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #184583;
+}
+
+
+/**********************************
+Header area style start from here
+**********************************/
+
+
+/*Top bar start
+--------------*/
+
+.top-bar {
+    background: #184583;
+}
+
+
+/*social-nav*/
+
+.social-nav {}
+
+.social-nav li {
+    display: inline-block;
+}
+
+.social-nav li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    color: #ffffff;
+    background-color: #55a098;
+    border-color: #55a098;
+    border-radius: 4px;
+    margin: 10px 3px;
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.social-nav li a:hover {
+    background-color: #498E94;
+    border-color: #498E94;
+}
+
+.social-nav li a i {}
+
+
+/*search-and-lang*/
+
+.search-and-lang {
+    text-align: right;
+}
+
+.search-and-lang li {
+    display: inline-block;
+    border-right: 1px solid white;
+}
+
+.search-and-lang li a {
+    display: block;
+    text-decoration: none;
+    padding: 13px 12px;
+    color: white;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.search-and-lang li:nth-child(3) {
+    border-right: 0px;
+}
+
+.search-and-lang li:hover a {
+    color: white;
+}
+
+.search-btn {
+    position: relative;
+}
+
+.search-box {
+    position: absolute;
+    top: 100%;
+    right: 16px;
+    width: 100%;
+    display: none;
+}
+
+.search-box input[type="text"] {
+    border-color: #d2d2d2;
+    color: #aaa9a9;
+    height: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 1px solid #D2D2D2;
+    font-size: 13px;
+    padding: 8px 15px;
+    width: 150px;
+    float: right;
+}
+
+.search-box input[type="submit"] {
+    background: #000;
+    border: none;
+    border-radius: 0;
+    color: #FFF;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    cursor: pointer;
+    font-family: FontAwesome;
+    text-shadow: none;
+    height: 40px;
+    width: 40px;
+    float: right;
+}
+
+
+/*Logo Area start
+-----------------*/
+
+.logo-area {
+    display: block;
+    text-align: center;
+    padding: 32px 0;
+}
+
+.logo-area img {
+    display: initial;
+}
+
+
+/*Menu Area star
+-----------------*/
+
+nav {
+    background-color: #DAD8CF;
+    text-align: center;
+}
+
+nav ul>li {
+    display: inline-block;
+    position: relative;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #184583;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+nav ul li:active a,
+nav ul li a:focus,
+nav ul li:visited a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul>li:hover>a,
+nav ul>li.active>a {
+    text-decoration: none;
+    border-top: 2px solid #184583;
+}
+
+nav ul ul {
+    display: none;
+    text-align: left;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 999;
+    background-color: #F3EFEE;
+    -webkit-transition: 1s;
+    transition: 1s
+}
+
+nav ul ul li {
+    display: inline;
+}
+
+nav ul ul>li>a {
+    color: #333333;
+    padding: 11px 25px;
+    width: 200px;
+    border-bottom: 1px solid #dcdadb;
+}
+
+nav ul ul li a:hover {
+    background-color: #F8F8F8;
+    border-top: 0;
+    padding: 11px 25px;
+}
+
+nav .responsive-menu {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: none;
+}
+
+nav .responsive-menu:hover,
+nav .responsive-menu:focus,
+nav .responsive-menu:active,
+nav .responsive-menu:visited {
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav .responsive-menu i {
+    float: right;
+    color: black
+}
+
+nav ul li:hover>ul {
+    display: block !important;
+}
+
+nav .logo-area {
+    display: none;
+}
+/*
+
+@media all and (max-width: 767px) {
+    nav {
+        text-align: left;
+        background-color: transparent;
+    }
+    nav ul {
+        display: none;
+        margin-left: 30px;
+    }
+    nav ul li {
+        display: inline;
+    }
+    nav .responsive-menu {
+        display: block;
+        margin-bottom: 15px;
+    }
+    nav ul ul {
+        position: inherit;
+        left: px;
+        background: transparent;
+    }
+    .logo-area {
+        display: none;
+    }
+    nav .logo-area {
+        display: block;
+    }
+    nav ul li a,
+    nav ul li:hover a,
+    nav ul li:active a,
+    nav ul li:focus a,
+    nav ul li:visited a,
+    nav ul li.active a {
+        border-top: 0px;
+        color: #000;
+    }
+    nav ul ul>li>a,
+    nav ul ul>li:hover>a,
+    nav ul ul>li:active>a,
+    nav ul ul>li:focus>a,
+    nav ul ul>li:visited>a {
+        color: #000;
+        border-bottom: 0px;
+        background: transparent;
+    }
+}
+*/
+
+
+
+
+
+
+/*****************
+Our History Start
+*****************/
+.our-history {
+    margin-top: 258px;
+    background-color: #f5f5f5;
+    position: relative;
+    z-index: 1;
+    bottom: 200px;
+}
+.our-history .short-description {
+    width: 100%;
+    margin: auto;
+}
+.our-history .short-description h1 {
+    margin: 30px 0;
+}
+.our-history .short-description p {
+    padding-bottom: 6px;
+}
+.our-history .year-history {}
+.our-history .year-history img {
+    margin-top: 40px;
+    max-width: 97%;
+}
+.our-history .year-history h3 {
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+.our-history .year-history p {
+    width: 96%;
+    margin-bottom: 40px;
+}
+
+/*Scrool to top */
+.scrolltotop {
+    color: #FFFFFF;
+    background: rgba(000, 000, 000, .7);
+    padding: 5px 18px;
+    border-radius: 5px 5px 0 0;
+    position: fixed;
+    right: 30px;
+    bottom: 0;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    z-index: 9999;
+}
+.scrolltotop:active,
+.scrolltotop:hover,
+.scrolltotop:visited,
+.scrolltotop:focus {
+    color: #fff;
+}
+.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    display: block;
+    width: 100%;
+}
+
+/******************
+footer style start
+******************/
+footer {
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+.sister-concern {
+    text-align: center;
+    padding: 40px 0 30px;
+}
+.sister-concern li {
+    display: inline-block;
+}
+.sister-concern li a {
+    text-decoration: none;
+}
+footer .social-nav {
+    float: right;
+}
+footer .social-nav a {
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+}
+footer .copyright {
+    padding: 0px 0 20px;
+}
+footer .copyright p {
+    color: #999999;
+    font-size: 12px;
+}
+
+/*
+***********************************************
+******  HOME PAGE STYLE START FROM HERE  ******
+***********************************************
+*/
+.youtube-icon {
+    text-align: center;
+    background: transparent;
+}
+.youtube-icon a {
+    text-decoration: none;
+    font-size: 65px;
+    color: rgba(206, 32, 33, .8);
+}
+.youtube-icon a:hover {
+    color: rgba(206, 32, 33, 1);
+}
+.youtube-icon .modal-title {
+    text-align: left;
+    font-size: 18px;
+    color: #184583;
+}
+.youtube-icon .modal-footer button {
+    border-radius: 2px;
+    font-family: "PT Sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background: #55a098;
+    padding: 11px 23px;
+    line-height: 16px;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    overflow: hidden;
+    border: 0;
+}
+.parallax-1 {
+    background-image: url('../img/home-page/firstimg.jpg');
+    height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+.future-plan {
+    text-align: center;
+    display: block;
+    padding-bottom: 80px;
+}
+.future-plan::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.future-plan h1 {
+    font-size: 45px;
+    text-align: center;
+    line-height: 1.41;
+    padding: 80px 0;
+}
+.future-plan p {
+    width: 95%;
+    text-align: left;
+    margin: auto;
+    height: 300px;
+}
+.future-plan a {
+    border-radius: 2px;
+    font-family: "PT Sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background: #55a098;
+    padding: 11px 23px;
+    line-height: 16px;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    display: inline;
+    margin: auto;
+    overflow: hidden;
+}
+.parallax-2 {
+    background-image: url('../img/home-page/secondimg.jpg');
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.our-service {
+    text-align: center;
+    display: block;
+}
+.our-service .col-md-3 {
+    padding: 20px 0;
+    background-color: #F2F0E9;
+    margin: 40px 2%;
+    width: 21%;
+    position: relative;
+    min-height: 1px;
+}
+.our-service a {
+    text-decoration: none;
+    font-style: italic;
+}
+.our-service h2 {
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.41;
+    padding: 20px 0;
+    color: #17437F;
+}
+.our-service img {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.our-service .para p {
+    margin: 40px 0 80px;
+}
+.our-service>p {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.our-service .box p {
+    font-weight: 700;
+    font-size: 13px;
+}
+.parallax-3 {
+    background-image: url('../img/home-page/fotosFRUTA.jpg');
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slogan {
+    text-align: center;
+}
+.slogan h1 {
+    margin: 40px 0;
+    font-size: 45px;
+}
+.slogan p {
+    margin-bottom: 60px;
+}
+.parallax-4 {
+    background-image: url('../img/home-page/trasnsportamoscalidad-1.jpg');
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quality .head {
+    text-align: center;
+}
+.quality .head h1 {
+    margin: 40px 0;
+    font-size: 45px;
+    font-style: italic;
+}
+.quality .head p {
+    margin: 40px 0 80px;
+}
+.quality .box a {
+    text-decoration: none;
+}
+.quality .box a img {
+    width: 300px;
+    height: 180px;
+    margin: 40px 0 10px;
+}
+.quality .box a p {
+    color: #184583;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.quality .button {
+    text-align: center;
+    margin: 80px 0 180px;
+}
+.quality a.btn {
+    display: inline;
+    border-radius: 2px;
+    font-family: "PT Sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background: #55a098;
+    padding: 11px 23px;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.quality {
+    margin-top: 258px;
+    background-color: #f5f5f5;
+    position: relative;
+    z-index: 1;
+    bottom: 200px;
+}
+footer.index {
+    display: none;
+}

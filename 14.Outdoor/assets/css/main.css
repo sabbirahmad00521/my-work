@@ -1,0 +1,892 @@
+.container-fluid {
+    padding-right: 78px;
+    padding-left: 78px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #004276;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:Open Sans, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    background-color: #FFF5C0;
+    color: #004276;
+}
+
+.sm-link a {
+    color: #004276;
+    font-family: Open Sans, Helvetica, Arial, sans-serif;;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.sm-link a:hover {
+    background-color: #FFF5C0;
+    color: #004276;
+}
+
+a#img {
+    display: table;
+}
+
+a#img:hover {
+    background-color: transparent;
+}
+
+p {
+    font-family: Georgia, "times new roman", times, serif;
+    color: #333;
+    margin: 0 10px 0 0;
+    font-size: 19px;
+    line-height: 28px;
+}
+
+p b {
+    font-family: Georgia, "times new roman", times, serif;
+    color: #333;
+    margin: 0 10px 0 0;
+    font-size: 19px;
+    line-height: 28px;
+}
+
+p a {
+    font-family: Georgia, "times new roman", times, serif;
+    margin: 0 10px 0 0;
+    font-size: 19px;
+    line-height: 28px;
+    text-decoration: underline;
+}
+
+h3 {
+    color: #666;
+    font-family: 'Roboto Slab', Open Sans, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+b {
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin-right: 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/*NAVBAR STYLE*/
+
+header {
+    background-color: #333333;
+}
+
+.navbar-default {
+    background-color: #333;
+    border: none;
+}
+
+.navbar {
+    margin-bottom: 0;
+    min-height: auto;
+}
+
+header .logo {
+    margin-top: 5px;
+}
+
+.navbar-default .navbar-nav> li> a {
+    color: #fff;
+    padding: 10px 15px;
+    font-family: 'Roboto Slab', Open Sans, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav> li> a:focus,
+.navbar-default .navbar-nav> li> a:hover {
+    color: #78B485;
+}
+
+.navbar .navbar-collapse {
+    position: relative;
+    overflow: hidden !important;
+}
+
+header .right-side {
+    float: right;
+}
+
+header .right-side ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .right-side ul li {
+    float: left;
+}
+
+header .right-side ul li a {
+    font-weight: 300;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+header .right-side ul li a.search {
+    padding-left: 50px !important;
+}
+
+header .right-side ul li a.search img {
+    height: 20px;
+}
+
+header .right-side ul li a span {
+    padding: 10px 8px;
+    float: left;
+    display: block;
+}
+
+header .right-side ul li a span:hover {
+    color: #78B485;
+}
+
+header .right-side ul li a i {
+    margin: 0;
+    padding: 7px 0px!important;
+    font-size: 22px;
+}
+
+header .right-side a i:hover {
+    color: #fff;
+}
+
+header .right-side ul li a:hover {
+    background-color: transparent;
+}
+
+header .right-side a img {
+    height: 20px;
+    margin-top: 9px;
+}
+
+
+
+/*breadcrumb*/
+
+.breadcrumb {
+    padding: 0;
+    background: #fff;
+}
+
+.breadcrumb a {
+    color: #004276;
+    font-family: Open Sans, Helvetica, Arial, sans-serif;;
+    font-size: 12px;
+    line-height: 27px;
+}
+
+.breadcrumb a:hover {
+    background-color: #FFF5C0;
+}
+
+.banner img {
+    display: block;
+    margin: auto
+}
+
+.hr-dotter {
+    border-bottom: 1px dotted black;
+}
+
+
+/*gear-review*/
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+.gear-review {
+    margin-top: 20px;
+    border-bottom: 1px solid #999;
+}
+
+.gear-review h3 {
+    color: #666;
+    font-family: 'Roboto Slab', Open Sans, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.gear-review a {
+    color: #004276;
+}
+
+
+/*HOKA ONE ONE Tor Summit Mid WP Review*/
+
+.wp-review {
+    margin-top: 5px;
+}
+
+.wp-review .hiking-boots {}
+
+.wp-review .hiking-boots h1 {
+    font-family: Abril Fatface,"Times New Roman",Times,serif;
+    margin: 15px 0px 5px;
+    font-size: 36px;
+}
+
+.wp-review .hiking-boots h3 a {
+    color: #444;
+    font-family: 'Roboto Slab', Open Sans, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.wp-review .hiking-boots> a {
+    margin: 15px 45px 10px;
+    display: block;
+}
+
+.wp-review .hiking-boots a.top-pick {
+    margin: 0px;
+}
+
+
+/*product-details*/
+
+.product-details {
+    border-top: 3px solid #748E3A;
+    border-bottom: 3px solid #748E3A;
+}
+
+.product-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    font-family: Open Sans, Helvetica, Arial, sans-serif;;
+    border-bottom: 1px dotted black;
+}
+
+.product-details p b {
+    margin-right: 8px;
+    color: #999;
+    float: left;
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.product-details p a {
+    color: #004276;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Open Sans, Helvetica, Arial, sans-serif;;
+    margin: 0;
+    padding: 0;
+}
+
+.product-details p i {
+    color: #F29100;
+}
+
+
+/*overview*/
+
+.overview {
+    padding-bottom: 5px;
+    border-bottom: 1px dotted black;
+}
+
+.overview h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
+/*compare*/
+
+.compare {
+    padding-bottom: 30px;
+    border-bottom: 1px dotted black;
+}
+
+.compare h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.compare table {
+    font-size: 12px;
+    color: #000;
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+}
+
+.compare table a {
+    font-size: 12px;
+}
+
+td.compare-breadcrumb a {
+    font-size: 14px;
+}
+
+.compare .table {
+    margin-bottom: 0;
+}
+
+.compare .compare-names {
+    background-color: #DDD;
+    padding: 5px;
+    border: #FFF 1px solid;
+    border-left: none;
+    border-top: none;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.compare .compare-items {
+    padding: 5px;
+    border: #CCC 1px solid;
+    border-left: none;
+    border-top: none;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+}
+
+.rating-bar-box {
+    border: 1px solid #BFCAD3;
+    display: block;
+    font-size: 12px;
+    height: 21px;
+    margin: 2px;
+    width: 135px;
+    background-color: #FFFFFF;
+}
+
+.rating-bar-end {
+    display: block;
+    float: right;
+    font-size: 10px;
+    margin: 3px 3px 0px 0;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+}
+
+.rating-bar-begin {
+    display: block;
+    float: left;
+    font-size: 10px;
+    margin: 3px 0 0px 3px;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+}
+
+.rating-bar-scale-box {
+    display: block;
+    float: left;
+    height: 15px;
+    margin: 2px 0 0 3px;
+    width: 100px;
+    background-color: #E0E0E0;
+}
+
+.rating-bar {
+    background-color: #990000;
+    display: block;
+    float: left;
+    height: 15px;
+    padding: 0px 1px 2px 0px;
+    color: #fff;
+    text-align: right;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.sub-rating-bar-scale-box {
+    display: block;
+    float: left;
+    height: 15px;
+    margin: 2px 0 0 3px;
+    width: 100px;
+    background-color: #E0E0E0;
+}
+
+.sub-rating-bar {
+    background-color: #95b0d5;
+    display: block;
+    float: left;
+    height: 15px;
+    padding: 0px 1px 2px 0px;
+    text-align: right;
+    font-size: 11px;
+}
+
+.rating-score {
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    font-size: 11px;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 11px;
+    margin: 0px 2px 3px 10px;
+    position: relative;
+    z-index: 999;
+}
+
+.compare span,
+.compare span a {
+    font-size: 12px;
+}
+
+
+/****************ANALYSIS****************/
+.analysis p{
+    font-size: 17px;
+}
+.analysis h2 {
+    color: #333;
+    font-family: 'Roboto Slab', Open Sans, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.charts {
+    width: 120%;
+}
+
+.photo-caption {
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    color: #666;
+    font-size: 12px;
+}
+
+.photonormal {
+    margin: 10px 0 10px 0;
+}
+
+.photonormal a img {
+    height: 400px;
+    width: 600px;
+}
+
+.analysis-head {
+    padding: 15px 0;
+    border-bottom: 1px dotted black;
+    margin-bottom: 20px;
+}
+
+.comfort {
+    color: #333;
+    font-size: 22px;
+}
+
+.advice {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.advice img {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 50px;
+}
+
+.advice {
+    font-family: Georgia, "times new roman", times, serif;
+    color: #000;
+    font-size: 14px;
+}
+
+.advice a {
+    font-family: Georgia, "times new roman", times, serif;
+    font-size: 14px;
+}
+
+
+/******* Other Versions *******/
+
+.bd {
+    border-bottom: 1px dotted black;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.other-version:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.other-version h2 {
+    color: #333;
+    font-family: 'Roboto Slab', Open Sans, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.other-version .features {
+    float: left;
+}
+
+.other-version .picture {
+    width: 150px;
+    float: left;
+}
+
+.other-version ul {
+    list-style: square;
+}
+
+.other-version ul li {
+    margin: 15px 0;
+    font-size: 17px;
+    font-family: Georgia, "times new roman", times, serif;
+    color: #333;
+}
+
+.other-version i {
+    float: right;
+}
+
+
+/*Where to Buy?*/
+
+.some-info .container-fluid> .row {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.review-buy-area {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px dotted #ccc;
+}
+
+a.red {
+    color: #990000;
+}
+
+img.sale-it {
+    float: right;
+}
+
+.buy-text {
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    color: #666;
+    border-bottom: 1px dotted black;
+    padding-bottom: 15px;
+}
+
+
+/**OutdoorGearLab Member Reviews**/
+
+.member-review span {
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    color: #666;
+}
+
+.member-review P {
+    font-size: 14px;
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    line-height: 18px;
+    margin: 30px 0 20px;
+}
+
+.member-review .heading h3 {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.member-review .footer {
+    text-align: center;
+}
+
+.member-review .footer button {
+    background: -webkit-linear-gradient(#FEFEFE 50%, #ccc 50%);
+    background: linear-gradient(#FEFEFE 50%, #ccc 50%);
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', Open Sans, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.member-review .footer button:hover {
+    background: -webkit-linear-gradient(#9FC463 50%, #8DB253 50%);
+    background: linear-gradient(#9FC463 50%, #8DB253 50%);
+    color: #fff;
+}
+
+.review {
+    padding: 10px;
+    border-top: 3px solid #748E3A;
+    border-bottom: 3px solid #748E3A;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.review h4,
+.review h6 {
+    font-size: 14px;
+    color: #999;
+    font-weight: bold;
+}
+
+.review:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.rating {
+    border-left: 1px solid #ccc;
+}
+
+.rating b {
+    font-size: 12px;
+    color: #666;
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+}
+
+.row table {
+    margin: auto;
+    text-align: left;
+}
+
+.star ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.star ul li {
+    display: inline;
+    color: #F2941B;
+}
+
+.bar {
+    width: 120px;
+    height: 16px;
+    background-color: #eeeecc;
+}
+
+img.bar-img {
+    width: 120px;
+    height: 16px;
+}
+
+
+/*FOOTER AREA*/
+
+footer {
+    background: #fff;
+    text-align: center;
+}
+
+footer .nav {
+    background: -webkit-linear-gradient(#efefef, #fff);
+    background: linear-gradient(#efefef, #fff);
+}
+
+footer nav {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline-block;
+}
+
+footer nav ul li a {}
+
+footer nav ul li a img {
+    float: left;
+    margin-right: 5px;
+}
+
+span.copyright {
+    font-size: 12px;
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    color: #666;
+}
+
+footer P {
+    font-size: 14px;
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+    line-height: 18px;
+    margin: 15px 0px 0px;
+}
+
+footer .advice {
+    width: 65%;
+    margin: auto;
+    text-align: left !important;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 45px;
+}
+
+footer .advice h6 b {
+    font-family: Georgia, "times new roman", times, serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+footer .advice img {
+    margin-right: 20px;
+}
+
+.advice .right-side {
+    padding: 15px 0 10px;
+    padding-left: 50px;
+}
+
+
+/*SIDEBAR*/
+
+.hr-dot {
+    border-bottom: 1px dotted black;
+    overflow: hidden;
+    margin: 8px 0px;
+}
+
+.common-style {
+    padding-top: 10px;
+    border-top: 1px dotted black;
+    margin-bottom: 20px;
+}
+
+.common-style-4 {
+    padding-top: 10px;
+    border-top: 1px dotted black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.side-bar-4 {
+    margin-bottom: 30px;
+}
+
+.side-bar-4 a img {
+    float: left;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.side-bar-4 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.side-bar-4 ul li {
+    display: inline;
+    color: #F29100;
+}
+
+.side-bar-4 ul li i {}
+
+.side-bar-4 h3 {
+    border-top: 1px solid #ddd;
+    background: -webkit-linear-gradient(#efefef, #fff);
+    background: linear-gradient(#efefef, #fff);
+    padding: 6px;
+    margin-bottom: 10px;
+    line-height: 26px;
+}
+
+.side-bar-4 .box {
+    margin-left: 15px;
+}
+
+.side-bar-4 a b {
+    color: #004276
+}
+
+.wp-review .rightside .head {
+    display: none;
+    margin-bottom: 20px;
+}
+
+#copy-right {
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+.fa-envelope-o{
+    margin-right: 5px;
+}
+
+.gray-bg{
+    background-color: #eee;
+}
+
+.other-version .picture img{
+    width:121px; 
+    height: 128px;
+}
+
+.where-buy-area .table-header{
+    background: #EEEEEE;
+}
+
+.table > tbody > tr.table-header{
+	line-height: 1.42857143;
+	vertical-align: top;
+	border-top: 1px solid #ddd;
+	background: #eee;
+        border-bottom: 3px solid #CCCCCC;
+
+}
+
+.table > tbody > tr.table-header th{
+    	padding: 5px 8px !important;
+color: #000;
+
+}
+
+.where-buy-area  h3{
+    background: -webkit-linear-gradient(#efefef,#f6f6f6);
+    background: linear-gradient(#efefef,#f6f6f6);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    padding-left: 5px;
+    border-top: 1px solid #ccc;
+}

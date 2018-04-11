@@ -1,0 +1,152 @@
+@media all and (max-width:1200px) {
+    nav li a {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+    .future-plan p {
+        height: 400px;
+    }
+}
+
+@media all and (max-width:992px) {
+    nav li a {
+        font-size: 12px;
+        padding: 10px 8px;
+    }
+    nav .container {
+        padding: 0px 10px;
+    }
+    .future-plan p {
+        height: 450px;
+    }
+    .future-plan h1 {
+        font-size: 35px;
+    }
+    .slogan h1 {
+        font-size: 35px;
+    }
+    .our-service .col-sm-6 {
+        width: 45%;
+        float: left;
+        padding: 0;
+    }
+}
+
+@media all and (max-width:768px) {
+    
+    
+     nav {
+        text-align: left;
+        background-color: transparent;
+    }
+    nav ul {
+        display: none;
+        margin-left: 30px;
+    }
+    nav ul li {
+        display: inline;
+    }
+    nav .responsive-menu {
+        display: block;
+        margin-bottom: 15px;
+    }
+    nav ul ul {
+        position: inherit;
+        left: 0px;
+        background: transparent;
+        z-index: -10;
+    }
+    .logo-area {
+        display: none;
+    }
+    nav .logo-area {
+        display: block;
+    }
+    nav ul li a,
+    nav ul li:hover a,
+    nav ul li:active a,
+    nav ul li:focus a,
+    nav ul li:visited a,
+    nav ul li.active a {
+        border-top: 0px;
+        color: #000;
+    }
+    nav ul ul>li>a,
+    nav ul ul>li:hover>a,
+    nav ul ul>li:active>a,
+    nav ul ul>li:focus>a,
+    nav ul ul>li:visited>a {
+        color: #000;
+        border-bottom: 0px;
+        background: transparent;
+    }
+
+
+    .our-history {
+        margin-top: 10px;
+        position: initial;
+    }
+    .sister-concern li a {
+        text-decoration: none;
+        padding: 20px;
+    }
+    .year-history img {
+        width: 500px;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .year-history {
+        text-align: center;
+    }
+    footer {
+        position: initial;
+    }
+    .future-plan p {
+        height: auto;
+        margin: 50px 0 30px;
+        text-align: center;
+    }
+    .future-plan h1 {
+        font-size: 30px;
+    }
+    .slogan h1 {
+        font-size: 30px;
+    }
+}
+
+@media all and (max-width:600px) {
+    .our-service .col-xs-12 {
+        width: 96%;
+        float: left;
+        padding: 0;
+    }
+    .quality .col-xs-6 {
+        width: 100%;
+    }
+    
+    .quality .head h1 {
+    margin: 30px 0;
+    font-size: 35px;
+}
+    .quality h3 {
+        text-align: center;font-size: 26px;
+    }
+    .quality .box a {
+        text-align: center;
+    }
+    .quality .box a img {
+        margin: 60px auto 10px;
+        text-align: center;
+        display: block;
+    }
+    .quality .box a p {
+        width: 80%;
+        margin: auto;
+    }
+}
+@media all and (max-width: 500px) {
+    .top-bar .col-xs-6 {
+        width: 100%;
+    }
+}

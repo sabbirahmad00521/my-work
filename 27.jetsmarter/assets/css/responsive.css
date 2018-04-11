@@ -1,0 +1,431 @@
+@media all and (max-width: 1280px) {
+    section.level-six .arrows-pages {
+        margin-top: 70px !important;
+        margin-left: 30px;
+    }
+    section.level-seven {
+        padding-top: 40px;
+    }
+    footer p {
+        font-size: 14px;
+    }
+    footer h4 {
+        color: #716D66 !important;
+        font-weight: 400;
+        font-size: 16px;
+        margin: 0;
+    }
+    footer h1 {
+        color: #716D66 !important;
+        font-size: 33px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    footer a {
+        color: #FF5C49 !important;
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 1230px) {
+    section.level-five .arrows-pages {
+        display: none;
+    }
+
+    section.level-five img {
+        display: none;
+    }
+    section.level-five h1 {
+        font-size: 26px;
+    }
+    section.level-four .arrows-pages a.text {
+        font-size: 13px;
+        padding-top: 0px;
+    }
+    .arrows-pages i {
+        padding: 7px;
+    }
+    .arrows-pages span {
+        padding-left: 1em;
+        font-size: 11px;
+    }
+    section.level-six .arrows-pages {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    section.level-one h1 {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    section.level-one h4 {
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    a.button-active {
+        background-color: #FF5C49;
+        padding: 13px;
+        font-size: 16px;
+    }
+    a.button {
+        padding: 13px;
+        font-size: 16px;
+    }
+    section.level-one .checkout .top .image a img {
+        height: 90px;
+        width: 90px;
+        border-radius: 45px;
+    }
+}
+
+@media all and (max-width: 1130px) {}
+
+@media all and (max-width: 1130px) {
+    section.level-four .head {
+        top: 66px;
+    }
+    section.level-four .head h1 {
+        margin-bottom: 0px;
+    }
+    section.level-four .col-md-3 {
+        padding: 10px;
+        padding-top: 135px;
+    }
+    section.level-six .col-padding {
+        padding: 50px 30px;
+    }
+}
+
+@media all and (max-width: 1065px) {
+    section.level-four .head {
+        top: 70px;
+    }
+    section.level-four .col-md-3 p {
+        font-size: 12px;
+    }
+    section.level-four .col-md-3 h4 {
+        font-size: 18px;
+    }
+    section.level-four .col-md-3 {
+        width: 25%;
+    }
+    .level-six .head h1 {
+        font-size: 26px;
+    }
+    section.level-six .col-md-4 img {
+        margin-top: 65px;
+    }
+}
+
+@media all and (max-width: 992px) {
+    footer .row {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    footer .row .col-md-3 {
+        display: inline-block;
+        float: none;
+    }
+    
+    .contact-page h1 {
+    font-size: 32px;
+    margin-top: 20px;
+}.contact-page p {
+    font-size: 20px;
+    margin: 15px 0;
+    width: 80%;
+}
+.contact-page input {
+    padding: 5px 40% 5px 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}.contact-page input[type="submit"] {
+	
+	margin-top: 20px;
+	margin-left: 33%;
+
+}
+}
+
+@media all and (max-width: 900px) {
+    section.level-six .col-md-4 h4 {
+        font-size: 20px;
+    }
+    section.level-six .col-md-4 p {
+        font-size: 13px;
+    }
+    header .menu-btn {
+        border: 0;
+        background-color: transparent;
+        position: absolute;
+        right: 9px;
+        top: 0px;
+        color: #fff;
+        font-size: 38px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    section.level-six .col-padding {
+        padding: 60px 0px !important;
+    }
+    section.level-six .arrows-pages {
+        margin-top: 0px;
+        margin-left: 0px;
+        display: none;
+    }
+    section.level-nine {
+        padding-top: 50px;
+    }
+    section.level-nine h1 {
+        margin-bottom: 0;
+    }
+    section.level-nine .content-inner {
+        margin-top: 7vh;
+        margin-left: 5vh;
+    }
+    section.level-nine a.button-active {
+        display: block !important;
+        width: 100% !important;
+        padding: 12px !important;
+        border-radius: 20px !important;
+        font-size: 10px !important;
+        margin-bottom: 15px !important;
+    }
+}
+@media all and (max-width: 920px) {
+    section.level-four {display: none;}
+}
+@media all and (max-width: 768px) {
+    section.level-four {display: block;}
+    section.level-six .col-md-4 img {
+        margin-top: 65px;
+        display: none;
+    }
+    section.level-six .col-md-4 h4 {
+        font-size: 20px;
+        margin: 0;
+    }
+    section.level-six .col-xs-12 {
+        height: 30%;
+    }
+    section.level-six .col-padding {
+        padding: 20px !important;
+    }
+    section.level-six .col-padding h4,
+    section.level-six .col-padding p,
+    section.level-six .col-md-4 a.text {
+        text-align: left;
+        width: 100%;
+    }
+    section.level-six .head {
+        position: static;
+        width: 100%;
+        text-align: center;
+    }
+    section.level-six .arrows-pages {
+        display: none;
+    }
+    section.level-six .bgi1.col-md-4 {
+        background: transparent;
+    }
+    section.level-six .bgi2.col-md-4 {
+        background: transparent;
+    }
+    section.level-six .bgi3.col-md-4 {
+        background: transparent;
+    }
+    section.level-six {
+        background: url(../images/bg-4.jpg);
+        background-size: 100%;
+    }
+    .level-six .head h1 {
+        font-size: 18px;
+        margin-bottom: 0 !important;
+        margin-top: 40px !important;
+    }
+}
+
+@media all and (max-width: 720px) {
+    .slide {
+        display: none !important;
+    }
+    section.level-one .store {
+        display: none !important;
+    }
+    a.button {
+        background-color: transparent !important;
+        display: block !important;
+        width: 72% !important;
+        padding: 12px !important;
+        border-radius: 20px !important;
+        text-align: center !important;
+        font-size: 13px !important;
+        margin-bottom: 15px !important;
+    }
+    h1 {
+        margin: 0px !important;
+        margin-bottom: 20px !important;
+    }
+    section {
+        padding-top: 30px !important;
+    }
+    a.button-active {
+        display: block !important;
+        width: 72% !important;
+        padding: 12px !important;
+        border-radius: 20px !important;
+        font-size: 12px !important;
+        margin-bottom: 15px !important;
+    }
+    section.level-one .checkout .top .image a img {
+        height: 80px !important;
+        width: 80px !important;
+        border-radius: 40px !important;
+    }
+    section.level-one .checkout .top .image i {
+        position: absolute !important;
+        font-size: 42px !important;
+        top: 70px !important;
+        left: 90px !important;
+        color: #FF5C49 !important;
+    }
+    section.level-one .checkout .top .image a img {
+        height: 80px;
+        width: 80px;
+        border-radius: 40px;
+    }
+    section.level-one .checkout .top .image i {
+        display: none;
+    }
+    section.level-four .col-md-3 p {
+        display: none;
+    }
+    section.level-four .col-md-3 img {
+        width: 40px;
+    }
+    section.level-four .col-md-3 h4 {
+        font-size: 18px !important;
+        margin-top: 15px;
+        font-weight: 300;
+    }
+    section.level-four .col-md-3 .c-orange {
+        font-size: 18px !important;
+    }
+    section.level-four .col-md-3 {
+        height: 30vh;
+        padding: 20px;
+        padding-top: 180px;
+    }
+    section.level-four .col-md-3:hover {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    section.level-four .arrows-pages a.text {
+        font-size: 13px;
+        padding-top: 0px;
+    }
+    section.level-four .arrows-pages {
+        display: none;
+    }
+    h1 {
+        font-size: 30px !important;
+    }
+    h2 {
+        font-size: 18px !important;
+    }
+    h4 {
+        font-size: 18px !important;
+    }
+    h5 {
+        font-size: 13px !important;
+    }
+    h6 {
+        font-size: 13px !important;
+    }
+    p {
+        font-size: 13px !important;
+    }
+    a {
+        font-size: 13px !important;
+    }
+    span {
+        font-size: 13px !important;
+    }
+    header .menu-btn {
+        right: 0%;
+        top: 0;
+    }
+    section.level-four .col-md-3 h4 {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 670px) {
+    section.level-four .col-md-3 {
+        width: 50%;
+    }
+    .contact-page {padding: 30px;}
+    .contact-page .col-xs-6{width: 100%;}
+    .contact-page input[type="text"],
+.contact-page input[type="email"] {
+    margin-bottom: 10px;    padding: 5px 30% 5px 0px;
+
+}.contact-page input[type="submit"] {
+	padding: 10px 8%;
+
+}
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 26px !important;
+    }
+    h2 {
+        font-size: 16px !important;
+    }
+    h4 {
+        font-size: 16px !important;
+    }
+    h5 {
+        font-size: 12px !important;
+    }
+    h6 {
+        font-size: 12px !important;
+    }
+    p {
+        font-size: 12px !important;
+    }
+    a {
+        font-size: 12px !important;
+    }
+    span {
+        font-size: 12px !important;
+    }
+    a.button {
+        width: 52% !important;
+        padding: 8px !important;
+        border-radius: 10px !importan;
+        font-size: 12px !important;
+        margin-bottom: 10px !important;
+    }
+    a.button-active {
+        width: 52% !important;
+        padding: 8px !important;
+        border-radius: 10px !important;
+        font-size: 12px !important;
+        margin-bottom: 10px !important;
+    }
+    section.level-one .checkout .top .image a img {
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+    }
+    section.level-one h4 {
+        margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    section.level-six .col-padding {
+        padding: 10px !important;
+    }
+}

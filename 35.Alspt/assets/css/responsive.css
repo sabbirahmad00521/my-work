@@ -1,0 +1,54 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   nav ul li a {
+      font-size: 14px;
+      padding: 10px 5px;
+   }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 440px) {
+   .contact input {
+      width: 80%;
+   }
+   .contact button {
+      width: 18%;
+      margin-left: 2%;
+      padding: 19px 12px;
+   }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+   nav ul li a {
+      font-size: 14px;
+      padding: 10px 4px;
+   }
+   nav ul {
+      text-align: center;
+   }
+   .logo {
+      text-align: center;
+   }
+   .portfolio p {
+      width: 90%;
+   }
+   .fixed-menu .col-xs-6 {
+      margin: 0;
+      padding: 0;
+   }
+   .fixed-menu a,
+   .fixed-menu p {
+      font-size: 18px;
+   }
+}

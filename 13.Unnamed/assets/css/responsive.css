@@ -1,0 +1,336 @@
+@media all and (max-width: 420px) {
+    .menu .col-xs-6 {
+        width: 100%;
+    }
+    .menu .logo a {
+        text-align: center;
+        display: block;
+    }
+    .menu .login {
+        display: block;
+    }
+    .sign-up .box-area .radio-btn span {
+        display: block;
+        margin-bottom: 15px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .sign-up .box-area {
+        top: 210px;
+    }
+}
+
+@media all and (max-width: 1020px) {
+    footer .col-sm-6 {
+        width: 100%;
+    }
+    footer ul {
+        text-align: center;
+    }
+    footer .language {
+        float: none;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    footer select {
+        display: block;
+        margin: auto;
+    }
+    /*    */
+    footer .footer-for-all-page .col-sm-6 {
+        width: 100%;
+    }
+    footer .footer-for-all-page ul {
+        text-align: center;
+    }
+    footer .footer-for-all-page .language {
+        float: none;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    footer .footer-for-all-page select {
+        display: block;
+        margin: auto;
+    }
+    header .how-button {
+        margin-top: 40px;
+    }
+    .how-works-area .box-3 p {
+        margin-bottom: 80px;
+    }
+}
+
+@media all and (max-width: 520px) {
+    footer .col-sm-6 {
+        width: 100%;
+    }
+    footer ul li {
+        text-align: center;
+        display: block;
+        padding: 10px;
+    }
+    .black-area .bottom-area .col-xs-6 {
+        width: 100%;
+    }
+    .black-area .bottom-area .owner {
+        margin: auto;
+        display: block;
+        text-align: center;
+        width: 60%;
+    }
+    .black-area .bottom-area .social ul {
+        float: none;
+        margin-top: 15px;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .header-area .col-md-6,
+    .header-area .col-md-3 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .header-area .logo a {
+        display: block;
+        text-align: center;
+    }
+    .header-area .login {
+        text-align: center !important;
+    }
+    .black-area .bottom-area {
+        margin-top: 25px;
+    }
+    header .menu .login {
+        margin-top: 15px;
+    }
+}
+
+@media all and (max-width: 910px) {
+    .domain .col-sm-6,
+    .domain .col-sm-3 {
+        text-align: left;
+        display: block;
+        margin: auto;
+    }
+    .car-domains .domain a {
+        margin: auto;
+        float: none;
+    }
+    .car-domains {
+        padding: 15px 0px 50px;
+    }
+}
+
+@media all and (max-width: 770px) {
+    .domain .col-sm-6,
+    .domain .col-sm-3 {
+        width: 100%;
+        text-align: center;
+    }
+    .car-domains .domain img {
+        display: block;
+        float: none;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    .car-domains .domain a {
+        margin-top: 15px;
+    }
+    .car-domains .domain p {
+        margin: 5px 0px;
+    }
+    .domain-sell .info {
+        text-align: center;
+        display: block;
+    }
+    .domain-sell .left-side .seller img {
+        float: none;
+        display: block;
+        margin: auto
+    }
+}
+
+@media all and (max-width: 450px) {
+    .domain {
+        width: 100%;
+    }
+    .car-domains .container {
+        width: 100%;
+    }
+    .car-domains {
+        padding: 10px;
+    }
+    .domain .top .col-xs-6 {
+        width: 100%;
+        text-align: center;
+    }
+    .domain-sell .left-side h2 {
+        font-size: 20px;
+    }
+    .domain-sell .left-side h1 {
+        font-size: 24px;
+    }
+    .domain-sell .left-side h2 {
+        font-size: 20px;
+    }
+    .populer-area h1 {
+        font-size: 18px;
+        display: block;
+        text-align: center;
+    }
+    .populer-area .owner h2 {
+        font-size: 15px;
+    }
+    .populer-area .owner h3 {
+        font-size: 12px;
+    }
+    .populer-area .owner .row {}
+    .populer-area {
+        padding: 0;
+        padding-top: 25px;
+    }
+    .populer-area .owner img {
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    .populer-area .owner {
+        text-align: center;
+    }
+    .populer-area .domains p {
+        font-size: 16px;
+    }
+    .populer-area .domains span {
+        font-size: 16px;
+    }
+    .populer-area a {
+        width: 80%;
+    }
+    .populer-area a {
+        margin-bottom: 30px;
+    }
+    header .menu .login {
+        float: none;
+        text-align: center;
+        margin-top: 15px;
+    }
+    header .menu .login a:nth-child(2) {
+        margin: auto;
+    }
+    header .menu .col-xs-6 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    header .menu .logo {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 570px) {
+    .footer-for-all-page ul li {
+        display: block !important;
+    }
+    .footer-for-all-page ul li a {
+        margin: auto !important;
+    }
+    .domain-sell .left-side .col-xs-4 {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 772px) {
+    .why-choose-area .box {
+        margin-top: 30px;
+    }
+    .keep-safe-area .for-signp-page .box {
+        margin-top: 30px;
+    }
+    .domain-sell .left-side .info {
+        margin-left: 0px !important;
+    }
+    .price-area select {
+        float: none;
+        margin: auto;
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+@media all and (max-width: 365px) {
+    .ready {}
+    .ready a {
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+    .black-area .bottom-area {
+        margin-top: 15px !important;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .sign-up .box-area {
+        width: 100%;
+    }
+    .sign-up .col-md-6 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media all and (max-width: 642px) {
+    .why-choose-area {
+        padding-top: 350px;
+    }
+    .how-works-area .box-1 h2,
+    .how-works-area .box-2 h2,
+    .how-works-area .box-3 h2 {
+        margin-top: 0px;
+    }
+    .how-works-area .box-1,
+    .how-works-area .box-2,
+    .how-works-area .box-3 {
+        margin-top: 50px;
+    }
+    .populer-area a {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .car-domains .domain {
+        width: 100%;
+    }
+    .price-area .row {
+        width: 100%;
+    }
+    .black-area .bottom-area {
+        width: 100%;
+        margin: auto;
+    }
+    .domain-sell .left-side h2 {
+        font-size: 20px;
+    }
+    .domain-sell .left-side h1 {
+        font-size: 30px;
+    }
+    .domain-sell .left-side h3 {
+        font-size: 22px;
+    }
+    .domain-sell .row {
+        width: 100%;
+    }
+    .populer-area .row {
+        width: 100%;
+    }
+    .populer-area .domains {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .sign-up .box-area .radio-btn input[id="yes"] {
+        margin: 0px
+    }
+}

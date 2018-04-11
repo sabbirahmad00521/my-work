@@ -1,0 +1,127 @@
+/* Common Styles
+================*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700|Roboto+Slab:400,700');
+
+/*
+font-family: 'Roboto Slab', serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   background-color: #fff;
+   color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0 0 15px;
+   font-weight: 700;
+   font-family: 'Roboto Slab', serif;
+   font-weight: 300;
+}
+
+p {
+   font-size: 11px;
+   color: #888;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:hover,
+a:visited {
+   text-decoration: none;
+   color: #3198D6;
+   font-size: 11px;
+   font-weight: 500;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+
+
+input:focus,
+textarea:focus,
+button:focus {
+   outline: 0 solid;
+}
+
+header {
+   background-color: #E15232;
+   color: #fff;
+}
+
+.content {
+   padding: 100px 0;
+}
+
+table {
+   font-size: 11px;
+   color: #666;
+}
+
+.tips a {
+   display: block;
+   margin-top: 7px;
+}
+
+.tips img {
+   display: block;
+   margin: auto;
+   margin-top: 20px;
+}
+
+h3 {
+   font-size: 22px;
+}
+
+h5 {
+   font-size: 14px;
+   font-weight: 700;
+}
+
+h6 {
+   font-weight: 700;
+   font-size: 12px;
+   color: #000;
+}
+
+.boxed-btn {
+   display: table;
+   margin: auto;
+   background-color: #99C53E;
+   font-weight: 700;
+   color: #fff !important;
+   padding: 15px 30px;
+   transition: .5s
+}
+
+.boxed-btn:hover {
+   font-weight: 700;
+   background-color: #3FC380;
+}
+
+.inspire a {
+   display: inline-block;
+}
+
+.mission h6 {
+   margin-top: 25px;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+   margin-left: 18px;
+}

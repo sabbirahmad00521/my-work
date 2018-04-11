@@ -1,0 +1,442 @@
+header {
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.mid {
+    width: 85%;
+    margin: auto;
+}
+
+.social-icons {}
+
+.social-icons ul {
+    display: block;
+    text-align: right;
+}
+
+.social-icons ul li {
+    display: inline-block;
+    margin: 13px 6px;
+}
+
+.social-icons ul li i {}
+
+.social-icons ul li a {
+    font-size: 18px;
+    color: #fff;
+}
+
+.social-icons ul li a:hover {
+    color: #6397D1;
+}
+
+
+/*
+    nav ber
+*/
+
+.logo {
+    width: 15%;
+    float: left;
+}
+
+.logo img {
+    height: 48px;
+}
+
+.navigation {
+    width: 70%;
+    margin: auto;
+    float: right;
+}
+
+.navigation ul {
+    float: right;
+}
+
+.navigation ul li {
+    float: left;
+}
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+    display: block;
+    font-family: sans-serif;
+}
+
+.navigation ul li:hover> a {
+    color: #3475C6;
+}
+
+.navigation ul li ul li {
+    float: none;
+}
+
+.navigation ul li ul li a {
+    color: #000;
+    padding: 10px;
+}
+
+.navigation img {
+    height: 17px;
+}
+
+.navigation ul li ul {
+    position: absolute;
+    background-color: white;
+    display: none;
+}
+
+.navigation ul li:hover ul {
+    display: block;
+}
+
+
+/*
+    header content
+*/
+
+.header-con {
+    width: 100%;
+    font-weight: bold;
+    display: block;
+    margin: 110px auto 0px;
+}
+
+.header-con .text {
+    margin-top: 25px;
+    width: 45%;
+    float: left;
+}
+
+.header-con .text h2 {
+    font-size: 34px;
+    color: #fff;
+}
+
+.header-con .text p {
+    font-size: 22px;
+    color: #fff;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.trade {
+    width: 500px;
+    margin: auto;
+    background-color: #fff;
+    float: right;
+    border-radius: 15px;
+    padding: 45px;
+    color: #888888;
+}
+
+.trade h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 45px;
+    font-weight: bolder;
+}
+
+.deposit {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+.receive {
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+
+.deposit h4,
+.receive h4 {
+    text-align: center;
+}
+
+.coin-logo {
+    padding: 28px
+}
+
+.ex-btn i {
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    float: left;
+    margin-top: 23%;
+    font-size: 23px;
+    color: #cccccc;
+}
+
+.ex-btn i:hover,
+.coin-logo:hover {
+    opacity: .5;
+}
+
+.trade> a {
+    padding: 18px 0px;
+    width: 49.45%;
+    display: inline-block;
+    background-color: #cccccc;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+#Continue {
+    padding: 5% 0%;
+    width: 100%;
+    background-color: #55779F;
+    color: #fff;
+    display: inline-block;
+    margin-top: 13px;
+}
+
+
+/*    
+    transactions
+*/
+
+.transactions {
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.transactions .mid {
+    width: 85%;
+    margin: auto;
+}
+
+.transactions .mid > h6{
+    background-color: #f4f4f4;
+    width: 100%;
+    padding: 12px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    display: block;
+    text-align: center;
+    margin-top: 55px;
+    font-size: 22px;
+    color: #999;
+}
+
+.table-box{
+    width: 31%;
+    float: left;
+    text-align: center;
+    margin-right: 26px;
+}
+
+.transactions table {
+    float: left;
+}
+
+.table-head {
+    text-align: center;
+}
+
+.table-head h4 {
+    display: inline-block;
+    color: #999999;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+.table-head i {
+    margin: 0px 2px;
+    color: #999999;
+    font-size: 18px;
+}
+
+.transactions table td img {
+    width: 25px;
+}
+
+.transactions table td i {
+    float: left;
+    margin: 3px;
+    color: #999;
+}
+
+.transactions table td p {
+    float: left;
+    margin: 0px 5px;
+    color: #999;
+    font-size: 14px;
+}
+
+.transactions table td a {
+    float: left;
+    font-size: 14px;
+    color: #657380;
+}
+
+.transactions table td h6 {
+    float: right;
+    font-size: 12px;
+    color: #657380;
+    padding: 16px 20px;
+    background-color: #F4F4F4;
+    margin-top: -5px;
+    color: #999;
+    font-weight: 700;
+}
+
+
+/*
+    Statistics
+*/
+
+
+.Statistics{
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+}
+.Statistics .mid{
+    width: 85%;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+.Statistics .mid:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.Statistics .mid h6{
+    background-color: #f4f4f4;
+    width: 100%;
+    padding: 12px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    display: block;
+    text-align: center;
+    margin-bottom: 55px;
+    font-size: 24px;
+    color: #999;
+    margin-top: 30px;
+}
+.Statistics .mid .box-1{
+    width: 13%;
+    text-align: center;
+    float: left;
+    margin: 20px;
+
+}
+
+.Statistics .mid .box-1 p{
+    background-color: #f4f4f4;
+    padding: 8px;
+    border: 1px solid #ddd;
+
+}
+
+.Statistics .mid .box-1 h5{
+    padding: 8px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    color: #999999;
+    background-color: #fff;
+}
+
+.Statistics .mid img{
+    float: left;
+    margin-bottom: 35px;
+}
+.subscribe{
+    padding: 18px;
+    background-color:#3A526D;
+}
+
+.subscribe:afer{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.subscribe input[type="text"]{
+    width: 43%;
+    padding: 13px 0px 13px 13px;
+    border-radius: 4px;
+    border: 0px;
+    position: absolute;
+    left: 27%;
+}
+
+.subscribe input[type="submit"]{
+    padding: 13px;
+    background-color: #5CB85C;
+    border: 0px;
+    border-radius: 0px 4px 4px 0px;
+    color: #fff;
+    position: relative;
+    left: 65%;
+}
+
+
+
+footer{
+    background-color: #28394D;
+    height: auto;
+    padding: 2.px 0px;
+}
+footer:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+footer .mid{
+    width: 85%;
+    margin: auto;
+}
+
+footer .box-1{
+    width: 20%;
+    float: left;
+}
+
+footer .box-1 img{
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+footer .box-1 a{
+    color: #9fa7ad;
+    font-size: 14px;
+}
+
+footer .box-2{
+    float: left;
+    width: 20%;
+    margin-left: 6%;
+    font-size: 19px;
+    line-height: 21px;
+    margin-top: 45px;
+}
+
+footer .box-2 h2{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer .box-2 a{
+    color:#9fa7ad;
+    font-size: 15px;
+}
+
+footer .box-2 a:hover{
+    color: #3A526D;
+}
+
+.container {
+  width: 20%;
+  margin: 15px auto;
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE HTML>
+<html lang="he">
+   <html>
+      <head>
+         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+         <script src="js/bootstrap.js"></script>
+         <script src="js/mobilemenu.js"></script>
+         <script src="js/jquery-scrolltofixed.js"></script>
+         <script src="js/sweet-scroll.js"></script>
+         <script src="js/jquery.viewportchecker.min.js"></script>
+         <script src="js/jquery.viewportchecker.js"></script>
+         <link rel="stylesheet" href="css/animate.min.css">
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+		 <link rel="stylesheet" href="css/style.css">
+         <link rel="stylesheet" href="css/responsive.css">		 
+         <script>
+            document.addEventListener('DOMContentLoaded', () => {
+            const scroller = new SweetScroll({
+            
+            trigger: '[data-scroll]',       // Selector for trigger (must be a valid css selector)
+            header: '[data-scroll-header]', // Selector or Element for fixed header (Selector of must be a valid css selector)
+            duration: 1000,                 // Specifies animation duration in integer
+            easing: 'easeInSine',         // Specifies the pattern of easing
+            offset: 0,                      // Specifies the value to offset the scroll position in pixels
+            vertical: true,                 // Enable the vertical scroll
+            horizontal: false,              // Enable the horizontal scroll
+            cancellable: true,              // When fired wheel or touchstart events to stop scrolling
+            updateURL: false,               // Update the URL hash on after scroll (true | false | 'push' | 'replace')
+            preventDefault: true,           // Cancels the container element click event
+            stopPropagation: true,          // Prevents further propagation of the container element click event in the bubbling phase
+            quickMode: false,               // Instantly scroll to the destination! (It's recommended to use it with `easeOutExpo`)
+            
+            // Callbacks
+            before: null,
+            after: null,
+            cancel: null,
+            complete: null,
+            step: null,
+            
+            
+            
+            
+            
+            
+            
+            
+            });
+            }, false);
+            
+         </script>
+         <script>
+            $(document).ready(function() {
+            $('.nav').scrollToFixed();
+			$('nav#dropdown').meanmenu();
+            });
+            
+            
+         </script>
+         <script>
+            jQuery(document).ready(function() {
+            jQuery('.bgsrv2').addClass("hideit").viewportChecker({
+            classToAdd: 'showit animated 	jackInTheBox',
+            offset: 100 
+            
+            
+            });
+            });
+            
+         </script>
+         <script>
+            jQuery(document).ready(function() {
+              
+              var btn = $('#button');
+            
+              $(window).scroll(function() {
+                if ($(window).scrollTop() > 500) {
+                  btn.fadeIn('show');
+                } else {
+                  btn.fadeOut('show');
+                }
+              });
+            
+              btn.on('click', function(e) {
+                e.preventDefault();
+                $('html, body').animate({scrollTop:0}, '300');
+              });
+            
+            });
+            
+         </script>  
+      </head>
+      <body>
+         <a id="button" class="animated tada"></a>
+		 
+			<div class="hidden_MDddd">
+				<div class="mobile-menu-area hidden-sm hidden-md hidden-lg">
+					<div class="container c">
+						<div class="row">
+							<div class="col-xs-12">								  
+								<div class="mobile-menu">
+									<nav id="dropdown">
+									  <ul>
+									    <li class="slider" data-scroll><a href=".slider">דף הבית</a></li>
+										<li class="about1"><a href="#invi2" data-scroll>אודות</a></li>										
+										<li class="submenu">
+											<a href=".services" aria-haspopup="true" data-scroll><span class="caret"></span> שירותים</a>
+											<ul>
+											   <li><a href="services.html">פריצת בתים</a></li>
+											   <li><a href="services3.html">פריצת רכבים</a></li>
+											   <li><a href="services2.html">פריצת כספות</a></li>
+											   <li><a href="services4.html">קודנים</a></li>
+											   <li><a href="services5.html">שלטים</a></li>
+											   <li><a href="services6.html">שירותים נוספים</a></li>
+											</ul>
+										</li>
+										<li class="contact"><a href="#invi1" data-scroll>צור קשר</a></li>										 
+									  </ul>								
+									</nav>
+								</div>								  
+							</div>								  
+						</div>								  
+					</div>										
+			   </div>
+		   </div>	
+		<div class="desktop_memu">
+         <div class="nav cccc">
+            <div class="container1 padding-less">
+               <div class="pic-phone">
+                  <div class="phoneee">
+                     <img class="" id="phonecon1" src="images/iconphone1.png">
+                     <h1>התקשרו עכשיו</h1>
+                  </div>
+                  <h2><a id="hithere" href="tel:0545124130">054-5124-130</a></h2>
+               </div>
+               <div class="mainmamu">
+                  <ul class="mainul2">
+                     <li class="contact">
+                        <a href="#invi1" data-scroll>צור קשר</a>
+                        <ul>
+                        </ul>
+                     </li>
+                     <li class="submenu">
+                        <a href=".services" aria-haspopup="true" data-scroll><span class="caret"></span> שירותים</a>
+                        <ul>
+                           <li><a href="services.html">פריצת בתים</a></li>
+                           <li><a href="services3.html">פריצת רכבים</a></li>
+                           <li><a href="services2.html">פריצת כספות</a></li>
+                           <li><a href="services4.html">קודנים</a></li>
+                           <li><a href="services5.html">שלטים</a></li>
+                           <li><a href="services6.html">שירותים נוספים</a></li>
+                        </ul>
+                     </li>
+                     <li class="about1"><a href="#invi2" data-scroll>אודות</a>
+                     </li>
+                     <li class="slider" data-scroll><a href=".slider">דף הבית</a></li>
+                  </ul>
+               </div>
+               <div id="logo"><img src="images/logo.png"></div>
+            </div>
+         </div>		
+		</div> 
+         <div class="slider cc" >
+            <div class="container">
+               <div class="slider_text">
+                  <h1 class="animated bounce">מו <span style="color:#fce070">כנים</span></h1>
+                  <h3 class="animated fadeInUp">כי המנעולן שלנו כבר אצלכם</h3>
+                  <h4 class="animated fadeInDown">שירותי מנעולנות בכל התחומים</h4>
+               </div>
+               <div class="slider_bbotun">
+                  <button id="button1">מבצע החודש</button><button id="button2">צור קשר</button>
+               </div>
+            </div>
+         </div>
+         <section class="check">
+            <div class="bodysrv container">
+               <div class="bgsrv2">
+
+                  <div class="titletxt ccc">
+				     <img id="phonecon" src="images/srvhomecon4.png">
+					 <h2>-קצת על המומחיות שלנו ב</h2>
+                     <h1>פריצת בתים</h1>
+                    
+                  </div>
+				  
+                  <div class="innertxt">
+				     <div class="imggfdhf"><a href="tel:0545124130"><img id="boxphones" src="images/phonenote.png"> </a>  </div>
+				      
+					 <div class="interfsd">
+						 <div class="innertxtee">
+						 <h1>נכון שזה נהדר ?<br>
+							ממש ככה אנחנו עובדים ונותנים את המקסימום למען הלקוח<br>
+							אנו מספקים המון המון שירותים למען הלקוחות שלנו כדי שירותים שלנו.
+							<br>אנו מספקים המון המון שירותים למען הלקוחות שלנו כדי שירותים שלנו.
+							<br>אנו מספקים המון המון שירותים למען הלקוחות שלנו כדי שירותים שלנו.
+							<br>אנו מספקים המון המון שירותים למען הלקוחות שלנו כדי שירותים שלנו.
+							<br>אנו מספקים המון המון שירותים למען הלקוחות שלנו כדי שירותים שלנו.
+							<br>אנו מספקים המון המון שירותים למען הלקוחות שלנו כדי שירותים שלנו.
+							<br>אנו מספקים המון המון שירותים למען הלקוחות שלנו כדי שירותים שלנו.
+						 </h1>					 
+					 </div>	
+
+				  
+					  </div>					 
+					 </div>
+
+
+                  </div>
+               </div>
+      		
+         <footer class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-4 socialtxyy">
+                     <div class="socialtxt">
+                        <h1>אנו נמצאים גם ברשתות החברתיות</h1>
+                     </div>
+                     <div class="socialcons">
+                        <a href="https://www.facebook.com/eslockil"><img id="facon" src="images/facon.png"></a>
+                        <a href="https://www.instagram.com/Eslock.co.il"><img id="instacon" src="images/instacon.png"></a>
+                        <a href="https://twitter.com/eslockil"><img id="twtcon" src="images/twtcon.png"></a>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="navtxt">
+                        <h1>ניווט מהיר</h1>
+                        <li><a id="ftlink6" href="services2.html" data-scroll>פריצת כספות</a></li>
+                        <li><a id="ftlink1" href="services7.html">שירותים נוספים</a></li>
+                        <li><a id="ftlink2" href="index.html" data-scroll>דף הבית</a></li>
+                        <li><a id="ftlink3" href="services4.html">רכבים</a></li>
+                        <li><a id="ftlink4" href="services5.html">שלטים</a></li>
+                        <li><a id="ftlink7" href="index.html" datascroll>אודות</a></li>
+                        <li><a id="ftlink8" href="services.html">בתים</a></li>
+                        <li><a id="ftlink5" href="services3.html">קודנים</a></li>
+                        <li><a id="ftlink10" href="index.html" data-scroll>שירותים</a></li>
+                     </div>
+                  </div>
+                  <div class="col-md-4 detailstxt33ee">
+                     <div class="detailstxt">
+                        <h1>א.ש מנעולים</h1>
+                        <h2>מנעולן בת"א 24 שעות ביממה</h2>
+                        <div class="detailstxtee">
+                           <div class="detailstxtee2">
+                              <img id="phonefooter" src="images/phonecon.png">
+                              <h3>054-5124-130</h3>
+                              <h4>050-3112-031</h4>
+                           </div>
+                        </div>
+                     </div>
+                     <img id="footerlogo" src="images/footerlogo.png">		   
+                  </div>
+               </div>
+               <div class="btmline"></div>
+            </div>
+         </footer>
+         <section class="footer_bottom">
+            <div class="container">
+               <div class="row">
+                  <div class="credits">
+                     <div class="bgcredits"></div>
+                     <h1><span class="styletxt1">Developed And Designed By</span><span class="styletxt2"> C<span class="bluep">P</span>S STUDIOS</span></h1>
+                  </div>
+               </div>
+            </div>
+         </section>
+          </section>
+       </body>
+   </html>

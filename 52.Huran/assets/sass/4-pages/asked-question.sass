@@ -1,0 +1,44 @@
+      
+//================= |||
+//  Asked Question  |||
+//================= |||
+.accordion-section
+   +modelbox(40px,40px,$white)
+#accordion
+   i
+      width: 50px
+      font-size: 20px
+      text-align: center
+      margin: 0 auto
+   h4
+      border-top: 1px solid  $gray
+      padding-top: 25px
+      &:nth-child(1)
+         border-top: 0px solid  $gray
+   .single-accordion-row
+      border-top: 1px solid  $gray
+      &:nth-last-child(1)
+         border-bottom: 1px solid  $gray
+         
+   .accordion-header
+      +modelbox(22px,22px,$white)
+      a
+         cursor: pointer
+         &:after
+            font-family: 'Font Awesome 5 Free'
+            font-weight: 900
+            content: "\f0d7"
+            float: left
+            margin-right: 15px
+            margin-left: 15px
+      a.collapsed:after
+         font-family: 'Font Awesome 5 Free'
+         font-weight: 900
+         content: "\f0da"
+   .card-body
+      padding-top: 0 !important
+      
+.collaps-text-btn
+   font-weight: 500
+   display: block
+   margin-top: 15px

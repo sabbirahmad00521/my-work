@@ -1,0 +1,13 @@
+@media all and(max-width: 980px) {
+    .nav-top{
+        display: none;
+    }
+    .navbar-static-top{
+        
+    }
+}
+@media all and(max-width: 770px) {
+    footer{
+        padding: 15px;
+    }
+}

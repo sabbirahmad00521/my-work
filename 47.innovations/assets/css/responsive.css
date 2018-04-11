@@ -1,0 +1,43 @@
+/*Large devices (desktops, less than 1200px)*/
+
+@media (max-width: 1199px) {}
+
+/*Medium devices (tablets, less than 992px)*/
+
+@media (max-width: 991px) {
+   .menu ul li a {
+      padding: 5px 15px;
+   }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+
+@media (max-width: 767px) {
+   .menu ul li a {
+      padding: 5px 9px;
+      font-size: 12px;
+   }
+   img.process {
+      max-width: 100% !important;
+      max-height: 100% !important;
+      margin: auto;
+   }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575px) {
+   .contact-link a {
+      position: static;
+   }
+   .menu ul {
+      text-align: center;
+   }
+
+   .menu ul li {
+      display: block;
+   }
+
+
+
+}

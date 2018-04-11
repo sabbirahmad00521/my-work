@@ -1,0 +1,36 @@
+@media all and (max-width:992px) {
+    .switch-online-area .offer .box {
+        width: 90%;
+        margin-right: 0;
+        font-size: 20px;
+        text-align: right;
+    }
+    .sign-up-steps .single-step-box {
+        margin-bottom: 60px !important;
+    }
+}
+
+@media all and (max-width:768px) {
+    .switch-online-area .offer .box {
+        text-align: right;
+        float: left;
+        margin-left: 40px;
+        margin-top: 3px;
+    }
+    .switch-online-area .offer .ball {
+        padding: 20px;
+        padding-right: 35px;
+    }
+    .switch-online-area .offer .ball p {
+        font-size: 44px;
+    }
+    .switch-online-area .offer .ball p span {
+        font-size: 20px;
+    }
+    .switch-online-area ul {
+        margin: 0;
+    }
+    .about-deal ul li {
+        display: block;
+    }
+}

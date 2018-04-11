@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome To My Portfolio</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/masterStyle.css">
+
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+
+    <script type="text/javascript">
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+        $(document).ready(function() {
+            $("#btn").click(function() {
+                $(".innercontainer").slideToggle();
+            });
+
+        });
+
+    </script>
+
+</head>
+
+<body>
+    <div class="maincontainers">
+        <div class="logobox">
+            <img src="images/logo.png">
+        </div>
+        <div class="innercontainer" align="center">
+            <div class="menu">
+                <ul>
+                    <li><a href="mystory.html" class="actrl">my story</a></li>
+                    <li><a href="portfolio.html">portfolio</a></li>
+                    <li><a href="skills.html">skills</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="hamburgerbox">
+            <!-- <input type="button" value="BTN" name="" id="btn"> -->
+            <div class="container" value="BTN" name="" id="btn" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+
+        <div class="wrapper-outer d-flex align-items-center">
+            <div class="all">
+                <div class="wrapper-1000">
+                    <div class="txt-wrapper">
+                        hello<br> i
+                        <br> am
+                        <br> yuvraj
+                        <br> and
+                        <br> i'm
+                        <br> a
+                        <br> graphic <br> designer <br> welcome
+                    </div>
+                </div>
+
+                <div class="btnctrl" style="margin-top: 40px !important">
+                    <button class="btn btn-1 btn-1e">hire me</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

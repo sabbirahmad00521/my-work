@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color: #212529;
+   text-align: left;
+   background-color: #fff;
+}
+
+.container {
+   max-width: 1140px;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+   overflow: auto;
+}
+
+.column-6 {
+   width: 50%;
+   float: left;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+/* Nav
+======*/
+
+.nav {
+   background-color: #343a40;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 999;
+}
+
+.logo a {
+   display: inline-block;
+   margin-right: 1rem;
+   font-size: 1.25rem;
+   font-weight: 400;
+   padding-bottom: 13px;
+}
+
+.nav a {
+   color: #fff;
+   text-decoration: none;
+}
+
+.menu ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-align: right;
+}
+
+.menu ul li {
+   display: inline-block;
+}
+
+.menu ul li a {
+   color: rgba(255, 255, 255, .5);
+   display: block;
+   padding: 16px 5px;
+}
+
+.menu ul li a:hover {
+   color: rgba(255, 255, 255, .75);
+}
+
+.menu ul li a.active {
+   color: #fff;
+}
+
+/* Hero Area
+============*/
+
+.hero-area {
+   background-image: url(images/hero_bg.jpg);
+   background-size: cover;
+   background-position: center;
+   text-align: center;
+   color: #fff;
+   margin-top: 56px;
+}
+
+.hero-area-inner {
+   background: rgba(0, 0, 0, 0.6);
+   padding: 10rem 0;
+}
+
+.hero-area h2 {
+   font-size: 6rem;
+   font-weight: 300;
+   line-height: 1.2;
+}
+
+.hero-area h3 {
+   font-size: 3.5rem;
+   font-weight: 300;
+   line-height: 1.2;
+}
+
+/* About
+========*/
+
+.about-area img {
+   width: 444px;
+   height: 444px;
+   border-radius: 50%;
+   margin: 3rem;
+}
+
+.text-container-wrap {
+   display: table;
+   height: 530px;
+   width: 100%;
+   padding: 2.5rem;
+}
+
+.text-wrap {
+   color: #212529;
+   display: table-cell;
+   width: 100%;
+   height: 100%;
+   vertical-align: middle;
+}
+
+.text-wrap h2 {
+   font-size: 3.5rem;
+   font-weight: 300;
+   line-height: 1.2;
+   margin-bottom: .5rem;
+}
+
+/* Footer
+=========*/
+
+.footer {
+   background-color: #343a40;
+   color: #fff;
+   text-align: center;
+   padding: 50px 0;
+}
+
+
+
+/*BTN
+======*/
+
+.boxet-btn {
+   background-color: #ED3895;
+   color: #fff !important;
+   font-weight: 700;
+   padding: 16px 24px !important;
+   margin-left: 10px;
+   transition: .4s
+}
+
+.boxet-btn:hover {
+   background-color: #DB187C;
+}
+/*Images hover Effect*/
+.bg-img-1 {
+   background-image: url(images/first.jpg);
+}
+
+.bg-img-2 {
+   background-image: url(images/second.jpg);
+   float: left !important;
+}
+
+.bg-img-3 {
+   background-image: url(images/third.jpg);
+}
+
+.bg-img {
+   margin-top: 50px;
+   -webkit-background-size: 450px 450px;
+   height: 450px;
+   width: 450px;
+   background-size: 450px 450px;
+   background-position: center;
+   border-radius: 50%;
+   float: right;
+   overflow: hidden;
+   transition: .5s;
+   position: relative;
+   z-index: 1;
+   cursor: pointer
+}
+
+.bg-img:after {
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+   content: '';
+   background-color: #000;
+   opacity: 0;
+   transition: .5s;
+}
+
+.bg-img:hover {
+   -webkit-background-size: 500px 500px;
+   background-size: 500px 500px;
+}
+
+
+.bg-img:hover:after {
+   opacity: .4;
+}

@@ -1,0 +1,84 @@
+//======|||
+//HEADER|||
+//======|||
+
+header
+   +modelbox(30px,15px,$blue)
+   color: $white 
+   >.container
+      position: relative
+   img
+      height: 38px
+   h4
+      font-weight: 400
+   span.icon
+      float: right
+      font-size: 26px
+      cursor: pointer
+   #search
+      display: none
+      margin-right: 20px
+      
+      //Nav section
+      
+   nav 
+      .menu,.search-area
+         position: absolute
+         left: 0
+         top: 115%
+         background-color: $white
+         width: 100%
+         display: none
+         z-index: 99
+      .container
+         padding: 10px
+         border-bottom: 5px solid $darkgray
+         border-radius: 0 0 5px 5px
+         .single-menu-item
+            margin: 0 10px 20px
+            +border(1px,1px,1px,1px,5px,15px,10px)
+            span
+               float: left
+               +icon(30px,$white,$orange)
+            p
+               margin: 0
+               line-height: 1
+               width: 80%
+               float: right
+               margin-left: 10px
+
+      .menu-bottom-row  
+         p
+            color: $black
+            padding: 10px 0
+            margin: 7px
+         a.boxed-btn
+            width: 80%
+            text-align: center
+            float: right
+            margin-top: 7px
+      .search-area
+         background-color: $blue
+         border-bottom: 5px solid $darkgray
+         border-radius: 0 0 5px 5px
+         border-top: 1px solid  $black
+         top: 110%
+         .container
+            border-bottom: 0
+         h5
+            font-weight: 600
+            position: relative
+         input[type="text"]
+            +inputStyle
+            width: 100%
+            height: 63px
+         .map-marker
+            position: absolute
+            right: 26px
+            top: 57%
+            font-size: 28px
+            z-index: 999
+            color: $black
+         a
+            width: 75%
+            margin-top: 40px

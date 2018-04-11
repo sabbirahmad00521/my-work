@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Pie Chart</title>
+    <script src="../dist/Chart.bundle.js"></script>
+    <script src="utils.js"></script>
+</head>
+
+<body>
+    <div id="canvas-holder" style="width:40%">
+        <canvas id="chart-area" />
+    </div>
+
+    <script>
+var myPieChart = new Chart(ctx,{
+    type: 'pie',
+    data: 'data',
+    options: options
+});
+
+var data = {
+    labels: [
+        "Red",
+        "Blue",
+        "Yellow"
+    ],
+    datasets: [
+        {
+            data: [300, 50, 100],
+            backgroundColor: [
+                "#FF6384",
+                "#36A2EB",
+                "#FFCE56"
+            ],
+            hoverBackgroundColor: [
+                "#FF6384",
+                "#36A2EB",
+                "#FFCE56"
+            ]
+        }]
+};
+    </script>
+</body>
+
+</html>

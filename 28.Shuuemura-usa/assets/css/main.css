@@ -1,0 +1,119 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+form {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover,
+a:active,
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/*Header
+========*/
+
+header {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/*header .col-md-6{padding: 0;}*/
+
+header .top {}
+
+header .top a {
+    padding: 7px 0;
+    display: block;
+}
+
+header .top .left {}
+
+header .top .right ul {
+    float: right;
+}
+
+header .top .right ul i {
+    font-size: 18px;
+}
+
+header .top .right ul a {
+    display: block;
+    padding: 7px;
+}
+
+header .middle {
+    padding: 20px;
+}
+
+header .middle .left {}
+
+header .middle .left.col-md-6 {
+    padding: 0;
+}
+
+header .middle .right p {
+    text-align: right;
+}
+
+header .middle .right {}
+
+header .bottom {}
+
+header .bottom .left {}
+
+header .bottom .right {}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    color: #fff;
+}
+
+header p {
+    float: left;
+}
+
+header img {
+    float: left;
+}

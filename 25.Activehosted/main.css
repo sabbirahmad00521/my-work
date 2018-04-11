@@ -1,0 +1,287 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+form {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-style: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover,
+a:active,
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+body {
+    background-color: #DBD7D7;
+}
+
+
+/*Social icons*/
+
+.social {
+    background-color: #F8F8F8;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 2px 3px 1px rgba(98, 98, 98, 0.5);
+}
+
+.social ul {
+    float: right;
+}
+
+.social ul li {
+    display: inline-block;
+    border-radius: 7px;
+    margin: 0 2px;
+}
+
+.social ul li:nth-child(1) {
+    background-color: #4b709b;
+}
+
+.social ul li:nth-child(1):hover {
+    background-color: #3c608a;
+}
+
+.social ul li:nth-child(2) {
+    background-color: #57cae6;
+}
+
+.social ul li:nth-child(2):hover {
+    background-color: #4cbad5;
+}
+
+.social ul li:nth-child(3) {
+    background-color: #0077b5;
+}
+
+.social ul li:nth-child(3):hover {
+    background-color: #056597;
+}
+
+.social ul li:nth-child(4) {
+    background-color: #4e4e4e;
+}
+
+.social ul li:nth-child(4):hover {
+    background-color: #3d3d3d;
+}
+
+.social ul li a {
+    padding: 12px 28px;
+    display: block;
+    color: #fff;
+    width: 65px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/*Content*/
+
+.wrap {
+    width: 650px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: #fff;
+}
+
+.logo {
+    background-color: #DBD7D7;
+}
+
+.subscribe-notification {
+    background-color: #000;
+    padding: 5px 20px;
+}
+
+.subscribe-notification p {
+    color: #fff;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.subscribe-notification p a {
+    text-decoration: underline;
+    color: #ffbf00;
+    font-weight: normal;
+}
+
+
+/*Article*/
+
+.article {}
+
+.article .content {
+    padding: 15px;
+    text-align: center;
+}
+
+.article .content h4 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.article .content p {
+    text-align: left;
+    line-height: 14px;
+}
+
+.article .content a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 15px;
+    background-color: #FFBF00;
+    border-radius: 5px;
+}
+
+
+/*email notification*/
+
+.email-notification {
+    background-color: #01A592;
+    padding: 20px 20px;
+}
+
+.email-notification p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 13px;
+}
+
+.email-notification p a {
+    text-decoration: underline;
+    color: #000;
+}
+
+hr {
+    width: 90%;
+    margin: 25px auto;
+    border-top: 1px solid #ccc;
+}
+
+.second {}
+
+.second h5 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.second h4 {
+    text-align: center !important;
+    color: #C50404;
+}
+
+.second a {
+    background-color: #01A592 !important;
+    color: #fff;
+}
+
+.third a {
+    background-color: #045FB4 !important;
+    color: #fff;
+}
+
+.follow a {
+    float: left;
+}
+
+.follow h3 a {
+    background-color: #FFBF00;
+    display: block;
+    padding: 30px;
+    text-decoration: underline;
+    color: #000;
+    width: 100%;
+    text-align: center;
+}
+
+
+/*author*/
+
+.author {
+    background-color: #000;
+    text-align: right;
+    color: #fff;
+    line-height: 14px;
+    padding: 20px;
+    padding-top: 580px;
+}
+
+.author p {}
+
+.author a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.send {
+    background-color: #DBD7D7;
+    color: #000;
+    font-size: 11px;
+    text-align: center;
+}
+
+.send a {
+    text-decoration: underline;
+    font-weight: bold;
+    display: block;
+    padding: 7px;
+}
+
+.container-fluid {
+    background-color: #fff;
+    padding: 15px;
+    width: 94%;
+    margin: 40px auto 20px;
+}
+
+
+/*footer*/
+
+footer p {
+    color: #acacac;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 11px;
+    background-color: #F0F0F0;
+}

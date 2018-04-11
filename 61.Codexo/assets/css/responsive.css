@@ -1,0 +1,57 @@
+@media (max-width: 1199px) {
+   p,
+   b,
+   span,
+   .invoice p,
+   .invoice b {
+      font-size: 20px !important;
+   }
+   .badge img {
+      width: 90px;
+   }
+}
+
+@media (max-width: 991px) {
+   p,
+   b,
+   span,
+   .invoice p,
+   .invoice b {
+      font-size: 16px !important;
+   }
+   h1 {
+      font-size: 60px;
+   }
+   h3 {
+      font-size: 1.25rem;
+   }
+   .table h5 {
+      font-size: 20px;
+   }
+   .contact-box i {
+      font-size: 38px;
+   }
+   .contact-box p {
+      padding-left: 45px;
+   }
+   .badge img {
+      top: 164px;
+      width: 45px;
+   }
+   h1 a img {
+      height: 80px;
+   }
+}
+
+@media (max-width: 767px) {
+   h1 a img {
+      margin: 0;
+      padding-left: 0;
+      margin-bottom: 30px;
+   }
+   .info {
+      margin-bottom: 80px;
+   }
+}
+
+@media (max-width: 575px) {}

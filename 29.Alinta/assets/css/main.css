@@ -1,0 +1,262 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+form {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover,
+a:active,
+a:visited,
+a:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*Switch online section
+===================--->*/
+
+.switch-online-area {
+    text-align: center;
+}
+
+.switch-online-area h2 {
+    font-weight: 400;
+    margin-top: 20px;
+    color: #E97917;
+    margin-bottom: 30px;
+}
+
+.switch-online-area h5 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.switch-online-area input {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    margin: 35px 0;
+    border: 3px solid #000000;
+    font-size: 18px;
+}
+
+.switch-online-area input::placeholder {
+    color: #bbb;
+}
+
+.switch-online-area button {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    border: 0;
+    margin: 35px 0;
+    font-size: 24px;
+    background-color: #01C362;
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px #cccc;
+    color: #fff;
+    text-transform: capitalize;
+    transition: .5s;
+    border: 3px solid transparent;
+}
+
+.switch-online-area button:hover {
+    background-color: #fff;
+    border: 3px solid #01C362;
+    ;
+    color: #01C362;
+}
+
+.switch-online-area p.contact {
+    font-size: 22px;
+}
+
+.switch-online-area p.contact a {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+.switch-online-area .offer {}
+
+.switch-online-area .offer .ball {
+    background-color: #E97917;
+    color: #fff;
+    display: table;
+    padding: 25px;
+    padding-right: 40px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.switch-online-area .offer .ball p {
+    text-align: left;
+    font-size: 58px;
+    position: relative;
+}
+
+.switch-online-area .offer .ball p span {
+    font-size: 22px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.switch-online-area .offer .box {
+    background-color: #039DD6;
+    color: #fff;
+    font-size: 24px;
+    padding: 35px;
+    width: 75%;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-right: 60px;
+}
+
+.switch-online-area .offer .box p {}
+
+.switch-online-area p.paragraph {
+    font-size: 19px;
+    text-align: left;
+}
+
+.switch-online-area .col-md-6 {
+    padding: 0;
+}
+
+.switch-online-area ul {
+    text-align: left;
+    margin-top: 30px;
+    padding: 0;
+    margin-bottom: 80px;
+}
+
+.switch-online-area ul li {}
+
+.switch-online-area ul li p {
+    font-size: 20px;
+}
+
+.switch-online-area ul li p:before {
+    content: url(../images/home-page/right-arrow.png);
+    margin-right: 10px;
+}
+
+
+/*Sign up steps
+============-->*/
+
+.sign-up-steps {
+    background-color: #049DD7;
+    padding: 40px 0;
+}
+
+.sign-up-steps .single-step-box {
+    padding: 35px 15px;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    height: 250px;
+}
+
+.sign-up-steps h2.head {
+    font-weight: 400;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 38px;
+    margin-bottom: 60px;
+}
+
+.sign-up-steps .single-step-box p {
+    display: table;
+    font-size: 42px;
+    color: #fff;
+    background-color: #E97917;
+    color: #fff;
+    display: table;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    line-height: 0;
+    position: absolute;
+    padding-top: 35px;
+    top: -35px;
+    left: calc(50% - 35px);
+}
+
+.sign-up-steps .single-step-box h2 {
+    font-weight: 400;
+    margin-top: 20px;
+    color: #E97917;
+    margin-bottom: 30px;
+}
+
+.sign-up-steps img {
+    display: block;
+    margin: auto;
+}
+
+
+/*About Fair Deal
+==============--->>*/
+
+.about-deal {
+    background-color: #C2C2C2;
+    padding: 10px;
+}
+
+.about-deal p {
+    margin-top: 60px;
+}
+
+.about-deal hr {
+    border: 0;
+    border: 1px solid white;
+}
+
+.about-deal ul {
+    text-align: center;
+}
+
+.about-deal ul li {
+    display: inline-block;
+    margin: 0px 25px;
+    font-weight: 500;
+}

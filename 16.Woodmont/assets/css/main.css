@@ -1,0 +1,2181 @@
+/*================================================*/
+
+
+/*--------------->>> CSS STYLES <<<---------------*/
+
+
+/*================================================*/
+
+
+/***** About Theme *****
+------------------------------
+    Woodmont
+    Author : author name here
+    Copyright 2017
+*/
+
+
+/***** Table of Contents *****
+------------------------------
+    1.0 Body and Core Css
+        1.1 Body Normalize
+        1.2 Typography
+        1.3 Buttons
+
+     HOME PAGE
+    -----------
+
+    2. Login button / .client-button
+    3. Header / header
+        2.1 LOGO / .logo
+        2.2 Navbar / nav
+        2.3 Search box / .search
+        2.4 Responsive menu / .responsive-menu
+    4. Banner / .banner-area
+    5. Learn more about us area/ .learn-more-about-us
+    6. Overview about our service / .overview
+    7. Featured / .featured
+    8. Contact Us / .contact-us-area
+    9. footer / footer
+
+     Why Choose us PAGE from About 
+    -------------------------------
+
+    10. Why Choose US / .why
+        10.1  Banner / .banner-area
+        10.2  OUR EXPERTISE / .our-expertise
+        10.3  OUR CLIENTS / .our-clients
+        10.4  Get in Touch / .get-in-touch
+
+     Our Team
+    ----------
+
+    11. Our team / .our-team
+        11.1 Banner / .banner-area
+        11.2 Short description about our team / .description-about-team
+        11.3 according / .panel
+        11.3 contact us section / .our-team-page .contact 
+
+    Our History
+    ----------
+
+    12. Our History 
+        12.1 Banner /.our-history-page .banner-area
+        12.1 Our History content/.our-history-page .our-history
+
+    Our Solution
+    -------------
+
+    13. Our solution page /  .our-solution-page
+        13.1 Content area /.our-solution-page .content 
+        13.2 Banner /.our-solution-page .banner-area
+
+    Wealth Management
+    -----------------
+
+    14. Wealth Management page /  .wealth-management-page
+        14.1 Banner /.wealth-management-page .banner-area
+        14.2 Content  /.wealth-content
+
+
+    Invertment Management 
+    ----------------------
+
+    15.  Invertment Management  page /  .invertment-management-page
+        15.1 Banner /.wealth-management-page .banner-area
+        15.2 Content  /.invertment-content
+
+    Advisory & Consulting
+    ----------------------
+
+    16.  Advisory & Consulting  page /  .advisory-consulting-page
+        16.1 Banner /.advisory-consulting-page .banner-area
+        16.2 Content  /.advisory-content
+
+
+    Client Experience
+    ------------------
+
+    17.  Client Experience  page /  .client-experience-page 
+        17.1 Banner /.client-experience-page  .banner-area
+        17.2 Content  /.client-experience-content
+        17.3 philosophy of client  /.philosophy
+
+
+    Individuals Page
+    ------------------
+
+    18.  Individuals Page  page /  .individuals-page
+        18.1 Banner /.individuals-page  .banner-area
+        18.2 Content  /.individuals-content
+        18.3 case  /.individuals-page .case
+
+    Business Owners 
+    ------------------
+
+    19.  Business Owners   page /  .business-owners-page
+        19.1 Banner /.business-owners-page  .banner-area
+        19.2 Content  /.business-centent
+        19.3 case  /.business-owners-page .case
+        19.4 Retirement plan  /.retirement-plan
+
+
+    families Page 
+    ------------------
+
+    20.  families Page page /  families-page 
+        20.1 Banner /.families-page .banner-area
+        20.2 Content  /.families-content 
+        20.3 case  /.families-page .case
+
+
+    institutions Page
+    ------------------
+
+    21.  institutions Page /  .institutions-page
+        21.1 Banner /.institutions-page .banner-area
+        21.2 Content  /.institutions-content 
+        21.3 case  /.institutions-page .case
+
+
+    blog Page
+    ---------
+
+    22. blog Page /  .blog
+        22.1 post / .blog .post
+        22.2 more article  /.more-article
+        22.3 page number  /.page-number
+
+
+    Quarterly Commentary
+    ------------------
+
+    23.  Quarterly Commentary /   .quarterly-commentary-page
+        23.1 Banner / .quarterly-commentary-page .banner-area
+        23.2 Content  / .quarterly-commentary-content 
+
+
+    recent press
+    ------------------
+
+    24. recent press/  .recent-press-page
+        24.1 Banner /.recent-press-page .banner-area
+        24.2 Recent Press post section   /.recent-press-content 
+
+
+    Contact Page
+    ------------------
+
+    25. Contact Page/  .contact-page
+        25.1 Banner / .contact-pagee .banner-area
+        25.2 Contact information area / .contact-page .contact
+        25.3 Contact form area / .contact-form
+
+*/
+
+
+/*Body Normalize
+-------------------*/
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+
+/*Typography
+-----------------*/
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-family: Montserrat;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+a:hover,
+a:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat;
+}
+
+p,
+form {
+    font-family: Montserrat;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 1.4;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+
+h4 {
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Montserrat;
+    color: #2d2e33;
+}
+
+p {
+    font-family: Pt Serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.625;
+    color: #6c6d74;
+}
+
+
+/*Buttons
+----------*/
+
+.underline-animation {
+    display: inline-block;
+    color: #2D2E33;
+    text-decoration: none;
+    font-family: Montserrat;
+    letter-spacing: 2px;
+    font-size: 11px;
+}
+
+.underline-animation::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #2D2E33;
+    -webkit-transition: width .5s;
+    transition: width .5s;
+}
+
+.underline-animation:hover::after {
+    width: 100%;
+}
+
+
+/*=======================================*/
+
+
+/* ---------->>  HOME PAGE  <<-----------*/
+
+
+/*=======================================*/
+
+
+/*Client Button area style start from here
+-----------------------------------------*/
+
+.client-button {
+    background-color: #031534;
+    text-align: right;
+    padding: 10px 0px;
+}
+
+.client-button a {
+    background-color: #fff;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    color: #333;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 38px;
+    display: inline;
+    -webkit-transition: .4s;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.client-button a:hover {
+    background-color: #ddd;
+}
+
+.client-button .modal {
+    text-align: left;
+}
+
+.modal-header h2 {
+    font-size: 28px;
+    line-height: 1.4;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.modal-body p {
+    font-family: Pt Serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.625;
+    -webkit-text-size-adjust: 100%;
+    color: #6c6d74;
+    padding: 25px 0;
+}
+
+.pop-btn {}
+
+
+/*Header area style start from here
+-----------------------------------*/
+
+header {
+    background: #fff;
+    margin: 0;
+}
+
+
+/* LOGO */
+
+header .logo {
+    float: left;
+    margin-top: 20px;
+}
+
+header .logo a {}
+
+
+/* Navbar */
+
+header nav {}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+header nav ul li a {
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #b4b5ba;
+    padding: 32px 15px;
+    display: block;
+}
+
+header nav ul li:hover> a,
+header .menu ul li.active > a,
+header .menu ul ul li .active a
+{
+    color: #2d2e33;
+}
+
+header nav ul li a:focus,
+header nav ul li a:active,
+header nav ul li a:visited {
+    color: #b4b5ba;
+}
+
+
+/*submenu*/
+
+header nav ul ul {
+    position: absolute;
+    display: none;
+    z-index: 9999;
+    top: 100%;
+    left: -20%;
+    background: #fff;
+    padding: 10px 15px 10px 5px;
+    color: #6c6d74;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.14);
+}
+
+header nav ul ul li {
+    display: inline;
+}
+
+header nav ul ul li a {
+    white-space: nowrap;
+    padding: 10px 35px 10px 15px;
+    display: block;
+    color: #b4b5ba;
+}
+
+header nav ul ul li:hover a {
+    color: #2d2e33;
+}
+
+.fixed-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    z-index: 999;
+}
+
+
+/*Search box*/
+
+.search-box {
+    float: right;
+}
+
+.search-box input {
+    margin: 30px 0px 0;
+    padding: 0px 6px 12px 40px;
+    background-color: #fff;
+    color: #b4b5ba;
+    border: 0;
+    border-bottom: 1px solid #e5e5e7;
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.search-box input[placeholder="Search"] {
+    background: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20viewbox%3D%220%200%2020%2020%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Ccircle%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%221.1%22%20cx%3D%229%22%20cy%3D%229%22%20r%3D%227%22%3E%3C%2Fcircle%3E%0A%20%20%20%20%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-width%3D%221.1%22%20d%3D%22M14%2C14%20L18%2C18%20L14%2C14%20Z%22%3E%3C%2Fpath%3E%0A%3C%2Fsvg%3E) no-repeat 11px 0px;
+    opacity: 1;
+}
+
+.search-box input:focus {
+    border-bottom: 1px solid #2d2e33;
+}
+
+.search-box input::-webkit-input-placeholder {
+    color: #b4b5ba;
+    opacity: 1;
+}
+
+.search-box input::-moz-placeholder {
+    color: #b4b5ba;
+    opacity: 1;
+}
+
+.search-box input:-ms-input-placeholder {
+    color: #b4b5ba;
+    opacity: 1;
+}
+
+.search-box input::placeholder {
+    color: #b4b5ba;
+    opacity: 1;
+}
+
+
+/*Responsive menu*/
+
+.responsive-menu {
+    display: none;
+}
+
+.responsive-menu ul li {
+    display: inline;
+}
+
+.responsive-menu ul ul {
+    background: transparent;
+    position: relative;
+    display: none;
+    padding: 0px 15px 0px 15px;
+    margin: 0;
+}
+
+.menu-btn {
+    padding: 20px 25px 20px 0;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    border: 0px;
+    font-size: 22px;
+    float: left;
+}
+
+.responsive-menu .logo {
+    display: none;
+}
+
+.responsive-menu .search-box {
+    float: left;
+    margin-left: 20px;
+    padding: 50% 10% 0;
+    display: none;
+}
+
+.responsive-menu .search-box input {
+    width: 100%;
+}
+
+
+/*Banner area structure Start from here
+---------------------------------------*/
+
+.banner-area {
+    background: url(../img/home/Slide.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    color: #fff;
+}
+
+.banner-area h1 {
+    margin: 150px 0 20px 0;
+    font-family: Playfair Display;
+    font-size: 48px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.banner-area p {
+    font-family: Pt Serif;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 155px;
+    line-height: 1.625;
+    color: #fff;
+}
+
+
+/*Learn more about us  area style Start from here
+-------------------------------------------------*/
+
+.learn-more-about-us {
+    padding: 140px 0;
+    text-align: center;
+}
+
+.learn-more-about-us h2 {
+    font-size: 36px;
+    line-height: 1.3;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    text-transform: none;
+    margin-bottom: 40px;
+}
+
+
+/*Overview section style Start from here*/
+
+.heading-border {
+    height: 0;
+    overflow: visible;
+    margin: 0 0 20px 0;
+    border: 0;
+    border-top: 1px solid #e5e5e7;
+}
+
+
+/*Overview section style end here
+---------------------------------*/
+
+.overview {
+    padding: 140px 0;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.overview .container {
+    width: 67%;
+}
+
+.overview h3 {}
+
+.overview h3 {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e7;
+    line-height: 0;
+    margin: 0px 0 10px;
+    font-size: 16px;
+    color: #2d2e33;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+.overview h3 span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.overview-box {}
+
+.overview-box img {}
+
+.overview-box h2 {
+    font-size: 28px;
+    line-height: 1.4;
+    color: #2d2e33;
+    margin-top: 40px;
+    font-family: Playfair Display;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+
+/*Contact Us section style Start from here
+------------------------------------------*/
+
+.contact-us-area {
+    text-align: center;
+    padding: 140px 0;
+    background: #F7F7F7;
+}
+
+.contact-us-area h2 {
+    font-size: 42px;
+    line-height: 1.2;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+
+.contact-us-area b {
+    font-family: Pt Serif;
+    font-size: 16px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    color: #6C6D74;
+}
+
+.contact-us-area p {
+    font-family: Pt Serif;
+    font-size: 16px;
+    color: #6C6D74;
+    line-height: 1.625;
+}
+
+
+/*Footer area section style Start from here
+------------------------------------------*/
+
+footer {
+    padding: 70px 0 70px;
+}
+
+.footer-middle-side {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-middle-side a {
+    color: #2D2E33;
+    font-size: 11px;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.footer-right-side ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    margin-top: 10px;
+}
+
+.footer-right-side ul li {
+    display: inline-block;
+}
+
+.footer-right-side ul li a {
+    font-size: 18px;
+    color: #b4b5ba;
+    padding: 5px 6px;
+}
+
+.footer-right-side ul li:hover> a {
+    color: #6c6d74;
+}
+
+
+/*================================================*/
+
+
+/* ---------->>  Why choose us Page  <<-----------*/
+
+
+/*================================================*/
+
+
+/*Banner area style Start from here
+---------------------------------------*/
+
+.why .banner-area {
+    background: url(../img/about/why-choose-us/banner.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    color: #000;
+}
+
+.why .banner-area h1 {
+    margin: 150px 0 20px 0;
+    font-size: 42px;
+    line-height: 1.2;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    text-transform: capitalize;
+}
+
+.why .banner-area p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    margin-bottom: 155px;
+    line-height: 1.625;
+    width: 600px;
+    font-style: normal;
+}
+
+
+/*OUR EXPERTISE area style Start from here
+---------------------------------------*/
+
+.our-expertise {
+    padding: 140px 0;
+}
+
+.our-expertise h2 {
+    font-size: 11px;
+    line-height: 1.4;
+    color: #2d2e33;
+    font-family: Montserrat;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.our-expertise h2::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    height: 9px;
+    margin-right: 10px;
+    border-left: 5px solid #e5e5e7;
+}
+
+.our-expertise p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    line-height: 1.625;
+    font-style: normal;
+}
+
+.our-expertise hr {
+    margin: 0;
+    padding: 0;
+}
+
+.our-expertise .row {
+    margin: 37px 0;
+}
+
+.our-expertise .row h3 {
+    font-size: 36px;
+}
+
+
+/*OUR CLIENTS area style Start from here
+---------------------------------------*/
+
+.our-clients {
+    padding: 110px 0;
+}
+
+.our-clients h2 {
+    font-size: 11px;
+    line-height: 1.4;
+    color: #2d2e33;
+    font-family: Montserrat;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.our-clients h2::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    height: 9px;
+    margin-right: 10px;
+    border-left: 5px solid #e5e5e7;
+}
+
+.our-clients .row {
+    margin: 50px 0;
+}
+
+.our-clients .row h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.our-clients .row p {
+    font-family: Pt Serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.625;
+    color: #6c6d74;
+}
+
+
+/*Get in Touch section style Start from here
+--------------------------------------------*/
+
+.get-in-touch {
+    text-align: center;
+}
+
+.get-in-touch .col-md-6 {
+    padding: 70px 0 !important;
+}
+
+.get-in-touch h3 {
+    color: #fff;
+}
+
+.get-in-touch p {
+    color: #C0CDD5;
+    margin: 20px 0;
+    font-family: Pt Serif;
+    font-size: 16px;
+}
+
+.get-in-touch a {
+    color: #C0CDD5;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, .1);
+    display: inline-block;
+    -webkit-transition: .4s;
+    transition: .4s;
+    font-size: 11px;
+    text-decoration: none;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.get-in-touch a:hover {
+    background: rgba(255, 255, 255, 0);
+}
+
+.get-in-touch .meet {
+    background: #53788E;
+}
+
+.get-in-touch .contact {
+    background: #012647;
+}
+
+
+/*================================================*/
+
+
+/* ------------->>  Our team Page  <<-------------*/
+
+
+/*================================================*/
+
+
+/*Banner area style Start from here
+---------------------------------------*/
+
+.our-team-page .banner-area {
+    background: url(../img/about/our-team/slide.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    color: #fff;
+    margin-top: 55px;
+}
+
+.our-team-page .banner-area h1 {
+    margin: 85px 0 20px 0;
+    font-size: 42px;
+    line-height: 1.2;
+    width: 50%;
+    color: #fff;
+    font-family: Playfair Display;
+    text-transform: capitalize;
+}
+
+.our-team-page .banner-area p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #BDBBB8;
+    font-family: Playfair Display;
+    margin-bottom: 80px;
+    line-height: 1.625;
+    width: 600px;
+    font-style: normal;
+}
+
+
+/*Short description about our team style Start from here
+---------------------------------------------------------*/
+
+.description-about-team {
+    padding-bottom: 170px;
+}
+
+.description-about-team p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    width: 72%;
+    margin: auto;
+    padding-top: 20px;
+    border-top: 1px solid #E5E5E7;
+    margin-top: 55px;
+}
+
+.description-about-team p:first-of-type::first-letter {
+    display: block;
+    margin-right: 10px;
+    float: left;
+    font-size: 96px;
+    line-height: 1;
+    color: #6c6d74;
+    margin-bottom: -2px;
+}
+
+
+/*Short description about our team style Start from here
+---------------------------------------------------------*/
+
+.our-team {
+    padding: 70px 0;
+}
+
+.our-team h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/*according style start*/
+
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+}
+
+.panel-default> .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #FAFAFA;
+    border-color: #EEEEEE;
+}
+
+.panel-title> a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+
+.panel-default> .panel-heading+ .panel-collapse> .panel-body {
+    border-top-color: #EEEEEE;
+}
+
+
+/*according style end*/
+
+.our-team h1::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: calc(-0.1 * 1em);
+    vertical-align: middle;
+    height: .9em;
+    margin-right: 10px;
+    border-left: 5px solid #e5e5e7;
+}
+
+.our-team .panel-heading h4 a {
+    color: #2d2e33;
+    font-family: Playfair Display;
+    font-weight: normal;
+    text-transform: none;
+    font-size: 28px;
+    line-height: 1.4;
+    letter-spacing: 0;
+}
+
+.our-team .panel-heading h4 a i {
+    font-size: 20px;
+}
+
+.our-team .panel-body span {
+    font-size: 11px;
+    line-height: 1.4;
+    color: #2d2e33;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.our-team .panel-body p {
+    font-family: Pt Serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.625;
+    color: #6c6d74;
+}
+
+.our-team .panel-body img {
+    float: left;
+    margin-right: 20px;
+}
+
+.our-team hr {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+
+/*contact us section structure start From here
+-----------------------------------------------*/
+
+.our-team-page .contact {
+    margin-bottom: 40px;
+}
+
+.our-team-page .contact h3 {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #2d2e33;
+    font-family: Montserrat;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 80px;
+}
+
+.our-team-page .contact p,
+.our-team-page .contact b {
+    font-family: Pt Serif;
+    color: #6C6D74;
+    font-size: 16px;
+    line-height: 1.625;
+}
+
+.our-team-page .contact .right p,
+.our-team-page .contact .right b {
+    line-height: 2.200;
+}
+
+
+/*===================================================*/
+
+
+/* ------------->>  Our History Page  <<-------------*/
+
+
+/*===================================================*/
+
+.our-history-page .banner-area {
+    background: url(../img/about/our-history/slide.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+
+/*Our History style Start from here
+-----------------------------------*/
+
+.our-history-page .our-history h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+.our-history-page .our-history p {
+    font-family: Pt Serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.625;
+    color: #6c6d74;
+    margin-bottom: 20px;
+}
+
+
+/*===================================================*/
+
+
+/*------------->>  Our Solution Page  <<-------------*/
+
+
+/*===================================================*/
+
+.our-solution-page {
+    padding-top: 140px;
+}
+
+
+/*Content area style Start from here
+------------------------------------*/
+
+.our-solution-page .content {
+    margin-bottom: 140px;
+}
+
+.our-solution-page .content h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 70px;
+}
+
+.our-solution-page .content .col-md-4 {
+    padding-right: 100px;
+    border-right: 1px solid #e5e5e7;
+}
+
+.our-solution-page .content .col-md-4 h2 {
+    font-size: 42px;
+    line-height: 1.2;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+
+.our-solution-page .content .col-md-4 p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.our-solution-page .content .col-md-8 {
+    padding-left: 80px;
+}
+
+.our-solution-page .content .col-md-8 p {
+    font-family: Pt Serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.625;
+    color: #6c6d74;
+    margin-bottom: 20px;
+}
+
+
+/*Banner area style Start from here
+-----------------------------------*/
+
+.our-solution-page .banner-area {
+    background: url(../img/services/our-solution/cover.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.our-solution-page .banner-area h3 {
+    width: 450px;
+    font-size: 36px;
+    color: #fff;
+}
+
+
+/*=========================================================*/
+
+
+/* ------------->>  Wealth Management Page  <<-------------*/
+
+
+/*=========================================================*/
+
+
+/*Banner area style Start from here
+-----------------------------------*/
+
+.wealth-management-page .banner-area {
+    background: url(../img/services/wealth-management/cover.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+
+/*Wealth area area structure Start from here
+---------------------------------------------*/
+
+.wealth-content {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.wealth-content h1 {}
+
+.wealth-content p {
+    padding-bottom: 100px;
+    border-bottom: 1px solid #e5e5e7;
+}
+
+
+/*=========================================================*/
+
+
+/* ----------->>  Invertment Management Page  <<-----------*/
+
+
+/*=========================================================*/
+
+.invertment-management-page .invertment-content {
+    margin: 70px 0 100px;
+}
+
+
+/*Banner area style Start from here
+-----------------------------------*/
+
+.invertment-management-page .banner-area {
+    background: url(../img/services/investment-management/cover.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+/*Content of this page style Start from here
+---------------------------------------------*/
+
+.invertment-content h4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.invertment-content h4.second {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.invertment-content p {
+    font-family: Pt Serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.625;
+    color: #6c6d74;
+}
+
+.invertment-content span.quotes {
+    margin-left: 30px;
+    display: block;
+}
+
+
+/*=========================================================*/
+
+
+/* ----------->>  Advisory & Consulting Page  <<-----------*/
+
+
+/*=========================================================*/
+
+
+/*Banner area style Start from here
+-----------------------------------*/
+
+.advisory-consulting-page .banner-area {
+    background: url(../img/services/investment-management/cover.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+/*Content of this page style Start from here
+---------------------------------------------*/
+
+.advisory-consulting-page .advisory-content h1 {
+    margin-top: 70px;
+}
+
+.advisory-consulting-page .advisory-content h4 {
+    margin: 40px 0 20px;
+}
+
+.advisory-consulting-page .advisory-content p {
+    margin: 20px 0;
+}
+
+
+/*=========================================================*/
+
+
+/* ----------->>  Client Experience Page  <<-----------*/
+
+
+/*=========================================================*/
+
+
+/*Banner area style Start from here
+-----------------------------------*/
+
+.client-experience-page .banner-area {
+    background: url(../img/client/client-expirence/cover.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+
+/*Client Expirence style Start from here
+---------------------------------------------*/
+
+.client-experience-page .client-experience-content {
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.client-experience-page .client-experience-content h1 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 70px;
+}
+
+.client-experience-page .client-experience-content .col-md-4 {
+    padding-right: 70px;
+    border-right: 1px solid #e5e5e7;
+}
+
+.client-experience-page .client-experience-content .col-md-4 p {
+    font-size: 28px;
+    line-height: 1.5;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.client-experience-page .client-experience-content .col-md-8 {
+    padding-left: 50px;
+}
+
+.client-experience-page .client-experience-content .col-md-8 p {
+    font-family: Pt Serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.625;
+    color: #6c6d74;
+    margin-bottom: 20px;
+}
+
+
+/*philosophy of client style Start from here
+--------------------------------------------*/
+
+.client-experience-page .philosophy {
+    text-align: center;
+    padding: 140px 0;
+    width: 90%;
+    margin: auto;
+}
+
+.client-experience-page .philosophy h4 {
+    font-size: 16px;
+}
+
+.client-experience-page .philosophy h3 {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+
+/*=========================================================*/
+
+
+/* ---------------->>  Individuals Page  <<----------------*/
+
+
+/*=========================================================*/
+
+
+/*Banner area style Start from here
+-----------------------------------*/
+
+.individuals-page .banner-area {
+    background: url(../img/client/individuals/cover.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+/*Individuals style Start from here
+---------------------------------------------*/
+
+.individuals-page .individuals-content h1 {
+    margin-top: 70px;
+}
+
+.individuals-page .individuals-content p {
+    margin: 20px 0;
+}
+
+.individuals-page ul {
+    font-family: Pt Serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.625;
+    color: #6c6d74;
+}
+
+
+/*case style Start from here
+---------------------------------------------*/
+
+.individuals-page .case h4 {
+    margin: 40px 0 20px;
+}
+
+.individuals-page .case h3 a {
+    font-size: 28px;
+    line-height: 1.4;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    text-transform: capitalize;
+}
+
+
+/*=========================================================*/
+
+
+/* ---------------->>  Business Owners Page  <<----------------*/
+
+
+/*=========================================================*/
+
+
+/*Banner area style Start from here
+-----------------------------------*/
+
+.business-owners-page .banner-area {
+    background: url(../img/client/business-owners/cover.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+/*Individuals style Start from here
+---------------------------------------------*/
+
+.business-owners-page .business-content h1 {
+    margin-top: 70px;
+}
+
+.business-owners-page .business-content p {
+    margin: 20px 0;
+}
+
+
+/*case style Start from here
+---------------------------------------------*/
+
+.business-owners-page .case h4 {
+    margin: 40px 0 20px;
+}
+
+.business-owners-page .case h3 a {
+    font-size: 28px;
+    line-height: 1.4;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    text-transform: capitalize;
+}
+
+
+/*retirement plan  Style Start from here
+----------------------------------------*/
+
+.retirement-plan {
+    text-align: center;
+    background: #242427;
+}
+
+.retirement-plan {
+    padding: 70px 0 !important;
+}
+
+.retirement-plan h3 {
+    color: #fff;
+}
+
+.retirement-plan p {
+    color: #BEBEBF;
+    margin: 20px 0;
+    font-family: Pt Serif;
+    font-size: 16px;
+}
+
+.retirement-plan a {
+    color: #BEBEBF;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, .1);
+    display: inline-block;
+    -webkit-transition: .4s;
+    transition: .4s;
+    font-size: 11px;
+    text-decoration: none;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.retirement-plan a:hover {
+    background: rgba(255, 255, 255, 0);
+}
+
+
+/*=========================================================*/
+
+
+/* ------------------>>  families Page  <<------------------*/
+
+
+/*=========================================================*/
+
+
+/*Banner area style Start from here
+-----------------------------------*/
+
+.families-page .banner-area {
+    background: url(../img/client/families/cover.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+/*Individuals style Start from here
+---------------------------------------------*/
+
+.families-page .families-content h1 {
+    margin-top: 70px;
+}
+
+.families-page .families-content p {
+    margin: 20px 0;
+}
+
+
+/*case style Start from here
+---------------------------------------------*/
+
+.families-page .case h4 {
+    margin: 40px 0 20px;
+}
+
+.families-page .case h3 a {
+    font-size: 28px;
+    line-height: 1.4;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    text-transform: capitalize;
+}
+
+
+/*=========================================================*/
+
+
+/* ------------------>>  institutions Page  <<------------------*/
+
+
+/*=========================================================*/
+
+
+/*Banner area style Start from here
+-----------------------------------*/
+
+.institutions-page .banner-area {
+    background: url(../img/client/institutions/cover.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+/*institutions style Start from here
+---------------------------------------------*/
+
+.institutions-page .institutions-content h1 {
+    margin-top: 70px;
+}
+
+.institutions-page .institutions-content h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.institutions-page .institutions-content p {
+    margin: 20px 0;
+}
+
+.institutions-page .institutions-content p i {
+    color: #000;
+}
+
+.institutions-page .institutions-content ul {
+    font-family: Pt Serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.625;
+    color: #6c6d74;
+}
+
+.institutions-page .institutions-content h4 {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/*case style Start from here
+---------------------------------------------*/
+
+.institutions-page .case h4 {
+    margin: 40px 0 20px;
+}
+
+.institutions-page .case h3 a {
+    font-size: 28px;
+    line-height: 1.4;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    text-transform: capitalize;
+}
+
+
+/*=======================================================*/
+
+
+/* ------------------>>  blog Page  <<------------------*/
+
+
+/*=======================================================*/
+
+.blog {
+    /*   padding-top: 70px;*/
+}
+
+.blog .post {
+    text-align: center;
+    padding: 70px 0 20px;
+}
+
+.blog .post .picture {}
+
+.blog .post .picture img {
+    display: block;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+.blog .post .content {
+    width: 67%;
+    margin: auto;
+}
+
+.blog .post .content span.writter {
+    font-size: 11px;
+    line-height: 1.4;
+    color: #b4b5ba;
+    font-family: Montserrat;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+
+.blog .post .content p {
+    margin: 40px 0;
+    text-align: left;
+}
+
+.blog .post .content p.italic {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    font-weight: normal;
+    text-transform: none;
+    font-style: italic;
+    text-align: center;
+}
+
+.blog .post .content p.lg-font-size {
+    font-size: 28px;
+    line-height: 1.4;
+    color: #2d2e33;
+    font-family: Playfair Display;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.blog .post .content p.para-large {
+    font-family: Pt Serif;
+    font-size: 20px;
+    line-height: 1.625;
+    color: #6c6d74;
+}
+
+.blog .post .content hr {
+    margin: 40px 0;
+}
+
+.blog .post .content span.post-date {
+    font-size: 11px;
+    line-height: 1.4;
+    color: #b4b5ba;
+    font-family: Montserrat;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    float: right;
+}
+
+.more-article {
+    text-align: center;
+}
+
+.more-article h3 {
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.more-article a {
+    text-transform: capitalize;
+    font-family: Pt Serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2;
+}
+
+.more-article a:hover {
+    text-decoration: underline;
+}
+
+.page-number {}
+
+.page-number ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.page-number ul li {
+    display: inline-block;
+}
+
+.page-number ul li a {
+    display: block;
+    color: #6c6d74;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 11px;
+    font-family: Montserrat;
+    border-bottom: 1px solid transparent;
+    -webkit-transition: .7s;
+    transition: .7s
+}
+
+.page-number ul li a:hover,
+.page-number ul li.active a {
+    border-bottom: 1px solid black;
+    color: #000;
+}
+
+
+/*=======================================================*/
+
+
+/* ------------------>>  Quarterly Commentary Page  <<------------------*/
+
+
+/*=======================================================*/
+
+
+/*Banner area style Start from here
+-----------------------------------*/
+
+.quarterly-commentary-page .banner-area {
+    background: url(../img/resource/quarterly-commentary/cover.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.quarterly-commentary-page .banner-area h1 {
+    margin: 140px 0;
+    font-size: 42px;
+    line-height: 1.2;
+    width: 50%;
+    color: #fff;
+    font-family: Playfair Display;
+    text-transform: capitalize;
+}
+
+
+/*Quarterly Commentary content section style start here
+------------------------------------------------------*/
+
+.quarterly-commentary-content h1 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.quarterly-commentary-content .row {
+    margin-bottom: 70px;
+}
+
+.quarterly-commentary-content .row:nth-child(3) {
+    margin-bottom: 140px;
+}
+
+.quarterly-commentary-content .row .col-md-4 {
+    padding: 0px 50px;
+}
+
+.quarterly-commentary-content .row .mid {
+    border-left: 1px solid #E5E5E7;
+    border-right: 1px solid #E5E5E7;
+}
+
+.quarterly-commentary-content p {
+    color: #B4B5BA;
+    margin-top: 40px;
+}
+
+
+/*=======================================================*/
+
+
+/* ------------------>>  Recent Press Page  <<------------------*/
+
+
+/*=======================================================*/
+
+
+/*Banner area style Start from here
+-----------------------------------*/
+
+.recent-press-page .banner-area {
+    background: url(../img/resource/quarterly-commentary/cover.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.recent-press-page .banner-area h1 {
+    margin: 140px 0;
+    font-size: 42px;
+    line-height: 1.2;
+    width: 50%;
+    color: #fff;
+    font-family: Playfair Display;
+    text-transform: capitalize;
+}
+
+
+/*Recent Press post section style start here
+------------------------------------------------------*/
+
+.recent-press-content h1 {
+    margin-top: 70px;
+}
+
+.recent-press-content h3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.recent-press-content .col-md-4 h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.recent-press-content .row .mid {
+    border-left: 1px solid #E5E5E7;
+    border-right: 1px solid #E5E5E7;
+}
+
+.recent-press-content .row .left {
+    border-left: 1px solid #E5E5E7;
+}
+
+.recent-press-content .row .right {
+    border-right: 1px solid #E5E5E7;
+}
+
+.recent-press-content .row .col-md-4 {
+    padding: 0px 30px;
+    margin-bottom: 40px;
+}
+
+
+/*
+.recent-press-content .row:nth-child(4) {
+    margin-bottom: 70px;
+}
+*/
+
+.recent-press-content .row .col-md-4 a {
+    margin: 20px 0;
+}
+
+.read-more-btn {
+    background: #f7f7f7;
+    color: #6c6d74;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    font-size: 11px;
+    text-decoration: none;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: table;
+}
+
+.read-more-btn:hover {
+    background-color: transparent;
+    color: #2d2e33;
+    border-color: #e5e5e7;
+    text-decoration: none;
+}
+
+
+/*=======================================================*/
+
+
+/* ------------------>>  Contact Page  <<------------------*/
+
+
+/*=======================================================*/
+
+
+/*Banner area style Start from here
+-----------------------------------*/
+
+.contact-page .banner-area {
+    background: url(../img/contact/cover.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    padding: 140px 0;
+}
+
+.contact-page .banner-area h1 {
+    margin: 140px 0;
+    font-size: 42px;
+    line-height: 1.2;
+    width: 50%;
+    color: #fff;
+    font-family: Playfair Display;
+    text-transform: capitalize;
+}
+
+
+/*Contact information area start here
+-------------------------------------*/
+
+.contact-page .contact h3 {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.contact-page .contact img {
+    float: left;
+    font-family: Pt Serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.625;
+    color: #6c6d74;
+    margin-top: 10px;
+}
+
+.contact-page .contact a {
+    font-family: Pt Serif;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 5px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.contact-page .contact a:hover {
+    text-decoration: underline;
+}
+
+.contact-page .contact hr {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+/*Contact from start her
+-------------------------*/
+
+.contact-form h1 {
+    font-size: 38px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form select {
+    border: 0;
+    /*    border-top: 0px solid #ECECEC;*/
+    border-bottom: 1px solid #ECECEC;
+    border-radius: 0;
+    padding: 5px 0;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form select:focus {
+    border-bottom: 1px solid #000;
+}
+
+.contact-form input[type="radio"] {
+    margin-bottom: 10px;
+}
+
+.contact-form .row {
+    margin: 30px 0;
+}
+
+.contact-form .row b {
+    float: right;
+    font-family: Pt Serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #6C6D74;
+    line-height: 1.625;
+}
+
+.contact-form p {
+    margin-bottom: 70px;
+}
+
+.contact-form .row label {
+    font-family: Pt Serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.625;
+    color: #6C6D74;
+}
+
+.blue-btn {
+    background-color: #0074cc;
+    background-image: -webkit-linear-gradient(top, #0088cc, #0055cc);
+    background-image: linear-gradient(top, #0088cc, #0055cc);
+    display: inline-block;
+    padding: 4px 10px 4px;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+}
+
+.blue-btn:hover {
+    background: #0062CC;
+}
+
+.red-btn {
+    background-color: #0074cc;
+    background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
+    background-image: linear-gradient(top, #ee5f5b, #bd362f);
+    display: inline-block;
+    padding: 4px 10px 4px;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+}
+
+.red-btn:hover {
+    background: #CB423C;
+}

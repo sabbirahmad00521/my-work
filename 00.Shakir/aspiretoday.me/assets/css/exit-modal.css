@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+.red {
+  color: rgb(204,0,0);
+}
+#ContinueModal, #DollarModal {
+  padding: 20px;
+  font-family: 'Lato', sans-serif; 
+}
+#DollarModal .modal-content {
+  border-radius: 0;
+  border: 5px solid #ffffcf;
+  padding: 0 10px 0 0 ;
+}
+#DollarModal .modal-footer {
+  padding: 0;
+}
+#DollarModal h1 {
+  font-size: 30px !important;
+  margin: 0 !important;
+  padding: 5px 0 0 0 !important; 
+  font-weight: 800;
+  text-align: center;
+}
+#DollarModal h3 {
+    margin: 0;
+    padding: 15px 0 15px 0; 
+    font-weight: 400;
+    background: transparent;
+}
+#DollarModal .dollar-bill img { 
+  max-width: 520px;
+  margin: 0 15px;
+}
+#DollarModal .modal-footer a {
+  font-weight: bold;
+  font-size: 1.8em;
+  width: 44%;
+  margin: 4% 3% 1% 3%;
+  display: inline-block;
+  float: left;
+}
+#DollarModal .modal-header {
+  border: 0;
+  padding: 0;
+}
+#DollarModal .modal-footer {
+  border: 0;
+} 
+#DollarModal ul {
+  padding: 0 40px;
+}
+#DollarModal .close {
+    -webkit-appearance: none;
+    padding: 0px 8px 5px;
+    cursor: pointer;
+    font-size: 28px;
+    border: 0;
+    background: black;
+    opacity: 1;
+    color: #fff;
+    top: -10px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: -10px;
+    display: inline-block;
+    z-index: 150;
+    border: 3px solid rgba(109, 109, 109, 0.53);
+}
+#DollarModal .close:hover {
+  opacity: 1;
+  background: red;
+} 
+#DollarModal h4 { 
+  font-weight: bold;
+  padding: 15px 0 0 0;
+}
+
+ @media (max-width: 760px) {
+
+  #DollarModal  { 
+    padding: 0 !important; 
+    text-align: center !important;
+  }
+  #DollarModal .modal-content{
+    padding: 0 20px 0 0 !important;
+  }
+  #DollarModal .dollar-bill { 
+    margin-bottom: 10px; 
+  }
+  #DollarModal img {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    left: -5px;
+  }
+  #DollarModal .modal-footer a {
+    width: 100%; 
+    display: inline-block;
+    float: left;
+  }
+  #DollarModal h1 { font-size: 26px !important; }
+  #DollarModal h3 { font-size: 22px !important; padding: 10px 0 20px 0; }
+
+  #ContinueModal {
+    padding: 0 !important;
+  }
+  #ContinueModal .modal-body{ 
+    padding: 0 ; 
+  }
+  #ContinueModal .modal-content {
+    border-radius: 2px !important;
+    border: 5px solid #ffffcf !important;
+  }
+  #ContinueModal .modal-footer {
+    padding: 0 15px 15px 15px !important;
+  }
+  #ContinueModal .modal-footer a {
+    font-size: 1.3em;
+  }
+  #ContinueModal h2 {
+    font-size: 2.2em !important;
+    text-align: left !important;
+    padding: 0 30px !important;
+  }
+  #ContinueModal ul li {
+    font-size: 1.2em !important;
+  }
+  #ContinueModal ul {
+    margin: 0 !important; 
+  }
+}
+ 
+#ContinueModal h2 {
+  font-weight: 900;
+  font-size: 2.4em;
+  text-align: center;
+}
+#ContinueModal ul {
+  padding: 0 50px;  
+}
+#ContinueModal ul li {
+  font-weight: 600;
+  font-size: 1.3em;
+  padding-bottom: 10px;
+}
+#ContinueModal a {
+  font-size: 2em; 
+  width: 100%;
+  padding: 15px 0;
+}
+#ContinueModal .modal-footer {
+  border: 0;
+}
+#ContinueModal .modal-content { 
+  border-radius: 2px;
+  border: 5px solid #ffffcf !important;
+}

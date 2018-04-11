@@ -1,0 +1,86 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+form {
+   border: 0;
+   margin: 0;
+   padding: 0;
+}
+
+ul {
+   list-style: none;
+}
+
+:focus {
+   outline: none;
+   background-color: transparent;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+
+a {
+   text-decoration: none;
+   color: #000;
+}
+
+a:hover,
+a:active,
+a:visited,
+a:focus {
+   color: #000;
+   text-decoration: none;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+html,
+body {
+   font-family: roboto;
+}
+
+.full-page {}
+
+.content {
+   width: 100%;
+   direction: rtl;
+   padding-top: 45%;
+}
+
+.content-inner {
+   display: table-cell;
+   vertical-align: middle;
+}
+
+.content h1 {
+   font-size: 32px;
+   width: 75%;
+}
+
+.content p,
+span {
+   font-size: 24px;
+   opacity: .5;
+   width: 75%;
+}
+
+.mobile-slider {
+   margin-top: 50px;
+}
+
+.single-item {}
+
+.single-item img {}
+

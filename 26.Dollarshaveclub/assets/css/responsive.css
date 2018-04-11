@@ -1,0 +1,347 @@
+@media all and (max-width:1270px) {
+   .dd {
+      display: none;
+   }
+   .custom-col {
+      max-width: 23% !important
+   }
+   .container-custom {
+      max-width: 95% !important;
+   }
+}
+
+@media all and (max-width:1200px) {
+   .kit-features .col-md-4 .price-section .doller-sign {
+      left: -6px;
+   }
+   .kit-features.more-details .doller-sign {
+      left: 36px !important;
+   }
+   .review-page-change .fa-angle-left {
+      left: 310px !important;
+   }
+   .review-page-change .fa-angle-right {
+      right: 310px !important;
+   }
+}
+
+@media all and (max-width:1130px) {
+   header .container-fluid a {
+      font-size: 12px;
+   }
+   .logo {
+      margin-top: 10px;
+   }
+}
+
+@media all and (max-width:1030px) {
+   .menu-left {
+      text-align: left !important;
+   }
+   .menu-right {
+      text-align: right !important;
+   }
+   .fade-effect {
+      display: none;
+   }
+   .nav-fixed ul li a {
+      padding: 10px;
+      display: block;
+      margin-top: 8px;
+   }
+   .logo {
+      margin-top: 0px;
+   }
+}
+
+@media all and (max-width:992px) {
+   .home-page header nav ul li a {
+      padding: 40px 10px;
+   }
+   .video-container {
+      padding: 15px;
+      width: 100%;
+      margin-left: 12px;
+      margin-bottom: 40px;
+      margin-top: 50px;
+   }
+   .video-container iframe {
+      height: 400px;
+      display: block;
+      position: relative;
+      width: 100%;
+   }
+   .home-page .banner .col-md-6 {
+      width: 100%;
+   }
+   .kit-features img.product-image {
+      height: auto;
+      float: none;
+      display: block;
+      margin: auto;
+   }
+   .kit-features .col-md-4 .price-section .doller-sign {
+      left: 167px;
+   }
+   .kit-features.more-details .doller-sign {
+      left: 37% !important;
+   }
+   .kit-features .right {
+      border-left: 0 !important;
+      margin-top: 20px;
+   }
+   .gift-section-1 .kit-box {
+      position: static;
+   }
+   .gift-section-1 {
+      text-align: center;
+   }
+   .gift-section-1 p {
+      width: 100%;
+   }
+   .pack-price {
+      text-align: center !important;
+   }
+   .pack-price .pack-name h5,
+   .pack-price .pack-name h6,
+   .pack-price .pack-name h2 {
+      text-align: center;
+   }
+   #layerslider {
+      height: 370px !important;
+   }
+   .quality-ball {
+      display: none;
+   }
+   .review-page-change .fa-angle-left {
+      left: 200px !important;
+   }
+   .review-page-change .fa-angle-right {
+      right: 200px !important;
+   }
+   .review-bar select {
+      width: 100%;
+      float: right;
+   }
+   .review-bar {
+      text-align: center;
+   }
+   .review-bar p {
+      text-align: center;
+      float: none;
+      margin-top: 30px;
+   }
+}
+
+@media all and (max-width:930px) {
+   .nav-fixed ul li a {
+      padding: 10px;
+      display: block;
+      margin-top: 17px;
+   }
+   .logo {
+      padding: 0px;
+   }
+   .home-page .logo {
+      margin-top: 0;
+   }
+   .home-page .logo img {
+      margin-top: 10px;
+   }
+   .custom-col {
+      max-width: 95% !important;
+      margin: 10px auto;
+   }
+   .container-custom .ccc {
+      display: table;
+      width: 232px;
+      text-align: center;
+      padding: 25px;
+   }
+}
+
+@media all and (max-width:830px) {
+   .nav-fixed ul li a {
+      padding: 5px;
+      display: block;
+      margin-top: 15px;
+   }
+   .logo {
+      padding: 0px;
+   }
+}
+
+@media all and (max-width:730px) {
+   .kit-features .col-md-4 .price-section .doller-sign {
+      left: 40%;
+   }
+   .review-page-change .fa-angle-left {
+      left: 175px !important;
+   }
+   .review-page-change .fa-angle-right {
+      right: 175px !important;
+   }
+}
+
+@media all and (max-width:630px) {
+   .nav-fixed ul li a {
+      padding: 5px;
+      display: block;
+      margin-top: 5px;
+   }
+   .nav-fixed .logo a img {
+      padding: 5px;
+   }
+   .pushy-open-left .pushy,
+   .pushy-open-right .pushy {
+      width: 275px;
+   }
+   .home-page .logo img {
+      margin-top: 30px;
+   }
+   .site-slogan h1 {
+      line-height: 35px !important;
+   }
+   .site-slogan h1 span {
+      font-size: 32px !important;
+   }
+   header nav .left-side {
+      margin-left: 0px;
+   }
+   .kit-features .col-md-4 .price-section .doller-sign {
+      left: 36%;
+   }
+   .thumbnail-bar {
+      display: none;
+   }
+   .review-page-change .fa-angle-left {
+      left: 130px !important;
+   }
+   .review-page-change .fa-angle-right {
+      right: 130px !important;
+   }
+}
+
+@media all and (max-width:540px) {
+   .kit-features.more-details .doller-sign {
+      left: 32% !important;
+   }
+   .gift-section-1 {
+      padding: 20px;
+   }
+   .review-page-change .fa-angle-left {
+      left: 100px !important;
+   }
+   .review-page-change .fa-angle-right {
+      right: 100px !important;
+   }
+   #layerslider {
+      height: 700px !important;
+   }
+   #layerslider .ls-slide .ls-l {
+      display: block !important;
+      width: 100% !important;
+      position: static !important;
+      text-align: center !important;
+   }
+   #layerslider .ls-slide h2,
+   #layerslider .ls-slide h6 {
+      text-align: center !important;
+   }
+   .count-slide {
+      margin-top: 30px;
+   }
+   .image-of-slide {
+      height: 400px !important;
+   }
+   #layerslider a.learn {
+      display: block !important;
+      margin: auto !important;
+      text-align: center !important;
+   }
+   .slide-right a h2 {
+      display: block;
+   }
+   .custom-col {
+      float: none !important;
+   }
+   .container-custom .ccc {
+      width: 100%;
+   }
+}
+
+@media all and (max-width:430px) {
+   header nav .left-side {
+      margin-left: 0px;
+   }
+   header nav {
+      padding: 10px 0;
+   }
+   .nav-fixed ul li a {
+      padding: 5px;
+      display: block;
+      margin-top: 0px;
+   }
+   .nav-fixed .logo a img {
+      padding: 0px;
+   }
+   footer .col-xs-4 {
+      width: 100%;
+      text-align: center;
+   }
+   footer .col-xs-6 {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+   }
+   .accepted-payments img {
+      display: block;
+      margin: auto;
+      float: none;
+      display: inline-block;
+   }
+   footer .social-icons {
+      text-align: center;
+   }
+   footer .footer-bottom img {
+      float: none;
+      margin-right: 0px;
+      display: block;
+      margin: auto;
+      margin-top: 10px;
+   }
+   footer .footer-bottom {
+      text-align: center;
+   }
+   .home-page header nav ul li a {
+      padding: 0;
+   }
+   .home-page .logo img {
+      margin-top: 0px;
+   }
+   .home-page header nav {
+      padding: 20px 0;
+   }
+   .kit-features .col-md-4 .price-section .doller-sign {
+      left: 30%;
+   }
+   .kit-features.more-details .doller-sign {
+      left: 29% !important;
+   }
+   .review-page-change p {
+      border-bottom: 0;
+   }
+   .review-page-change .fa-angle-left {
+      left: 30px !important;
+   }
+   .review-page-change .fa-angle-right {
+      right: 30px !important;
+   }
+   .review-page-change p span {
+      padding: 0 10px;
+   }
+}
+
+@media all and (max-width:1130px) {}
+
+@media all and (max-width:1130px) {}

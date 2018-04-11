@@ -1,0 +1,58 @@
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {
+    .service-image {
+        margin: 70px auto;
+        border-radius: 8px !important;
+    }
+    .service h2 {
+        text-align: center;
+    }
+    .email h4 {
+        text-align: center !important;
+        margin-bottom: 30px;
+        font-size: 20px;
+        display: block;
+    }
+    .service-image {
+        height: auto;
+    }
+    .heroarea {
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 767px) {
+    .email a.contact-btn {
+        text-align: center;
+        display: block;
+    }
+}
+
+@media (max-width: 575px) {
+    nav a img {
+        display: block;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    nav a.contact-btn {
+        text-align: center;
+        display: block;
+    }
+
+    .single-service-box img {
+        position: absolute;
+        left: 0px;
+    }
+
+    .single-service-box h6 {
+        padding-left: 120px;
+    }
+
+    .single-service-box p {
+        padding-left: 120px;
+    }
+
+
+}
