@@ -1,0 +1,15 @@
+@media all and (max-width: 1130px) {
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: 0;
+        right: 0;
+        z-index: 99999;margin: auto;text-align: center;
+        padding: 5px 0;background-color: #F2EFE8;
+    }
+    nav ul li {
+        display: inline-block;
+        margin: 0px 10px;
+    }
+}
