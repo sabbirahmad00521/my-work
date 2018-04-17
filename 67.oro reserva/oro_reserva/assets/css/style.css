@@ -1,0 +1,185 @@
+/* Common Styles
+================*/
+
+@import url('https://fonts.googleapis.com/css?family=Jura:300,400,500,600,700');
+
+body {
+   font-family: 'Jura', sans-serif;
+   font-size: 18px;
+   background-image: url(../img/cc2551_72e5b537b0d2e25990649c0f05942fff.jpg);
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;background-color: #000;
+   color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0 0 15px;
+   font-weight: 700;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:hover,
+a:visited {
+   text-decoration: none;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+
+
+input:focus,
+textarea:focus,
+button:focus {
+   outline: 0 solid;
+}
+
+header .container{
+   background-color: rgba(0, 0, 0, .5);
+   padding: 30px;
+   color: #fff;
+}
+
+header h1,
+header h3,
+header h4,
+header h4 {
+   margin-bottom: 0;
+}
+
+nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-align: center;
+}
+
+nav > ul > li {
+   display: inline-block;
+   position: relative;
+   margin-left: -4px;
+}
+
+nav > ul > li > a {
+   display: block;
+   color: #fff !important;
+   background: rgb(135, 135, 135);
+   background: -moz-linear-gradient(top, rgba(135, 135, 135, 0.95) 50%, rgba(97, 97, 97, 0.95) 50%);
+   background: -webkit-linear-gradient(top, rgba(135, 135, 135, 0.95) 50%, rgba(97, 97, 97, 0.95) 50%);
+   background: linear-gradient(to bottom, rgba(135, 135, 135, 0.95) 50%, rgba(97, 97, 97, 0.95) 50%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#878787', endColorstr='#616161', GradientType=0);
+   text-align: center;
+   text-transform: uppercase;
+   padding: 3px 18px;
+   border-right: 1px solid #fff;
+}
+
+nav > ul > li:nth-last-child(1) a {
+   border-right: none;
+}
+
+nav ul li a:hover {
+   background: rgb(135, 135, 135);
+   background: -moz-linear-gradient(top, rgba(135, 135, 135, 1) 50%, rgba(97, 97, 97, 1) 50%);
+   background: -webkit-linear-gradient(top, rgba(135, 135, 135, 1) 50%, rgba(97, 97, 97, 1) 50%);
+   background: linear-gradient(to bottom, rgba(135, 135, 135, 1) 50%, rgba(97, 97, 97, 1) 50%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#878787', endColorstr='#616161', GradientType=0);
+}
+
+nav ul li:hover ul {
+   opacity: 1;
+   visibility: visible;
+}
+
+nav ul li > ul {
+   position: absolute;
+   left: 0;
+   top: 100%;
+   white-space: nowrap;
+   border-radius: 7px;
+   opacity: 0;
+   visibility: hidden;
+   transition: .5s;z-index: 999;
+}
+
+nav ul ul li {
+   display: block;
+}
+
+nav ul ul a {
+   background-color: #2D2D2D !important;
+   display: block;
+   color: #fff !important;
+   text-align: center;
+   padding: 3px 18px;
+   text-transform: uppercase;
+}
+
+nav li.active a {
+   color: #EEA42F !important;
+   background: rgb(86, 86, 86);
+   background: -moz-linear-gradient(top, rgba(86, 86, 86, 1) 50%, rgba(43, 43, 43, 1) 50%);
+   background: -webkit-linear-gradient(top, rgba(86, 86, 86, 1) 50%, rgba(43, 43, 43, 1) 50%);
+   background: linear-gradient(to bottom, rgba(86, 86, 86, 1) 50%, rgba(43, 43, 43, 1) 50%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#565656', endColorstr='#2b2b2b', GradientType=0);
+}
+
+
+.content{
+   margin-top: 80px;color: #fff;
+}
+.content h3{
+   background-color: rgba(255,255,255,.06);padding-top: 15px;padding-bottom: 100px;padding-left: 15px;padding-right: 15px;font-weight: 400;
+}
+
+.boxed-btn{
+   background-color: #D9D9D9;padding: 12px 70px;border-radius: 6px;margin-top: 15px;display: table;
+}
+
+
+.content h4 span{
+   color: #A6C82A;display: inline-block;margin-left: 40px;
+}
+.content h4{
+   font-size: 28px;margin-bottom: 0;
+}
+.content h2{
+   color: #A6C82A;font-size: 40px;margin-bottom: 0;margin-top: 30px;
+}
+.content h1{font-size: 60px;font-weight: 400;line-height: 66px;}
+
+
+footer p{font-size: 12px;color: #fff;}
+
+footer .container> .row{
+    background-color: rgba(0,0,0,.4);margin-bottom: 40px;
+}
+footer a:hover{
+ color: #aaa;text-decoration: none;
+}
+footer p a{color: #fff;}
+footer a.social-icon{
+       color: #333;
+    font-size: 14px;
+    background-color: #ddd;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 25px;
+    margin-right: 5px;
+}

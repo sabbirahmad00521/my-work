@@ -1,0 +1,16 @@
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {
+   nav li {
+      display: block !important;
+   }
+   nav li ul {
+      opacity: 1 !important;
+      position: static !important;
+      visibility: visible !important;
+   }
+}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 575px) {}
