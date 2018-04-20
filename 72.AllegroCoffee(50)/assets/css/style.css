@@ -1,0 +1,330 @@
+/* Common Styles
+================*/
+
+@font-face {
+   font-family: 'Graphik';
+   src: url('../webfonts/Graphik-Thin.woff2') format('woff2'),
+   url('../webfonts/Graphik-Thin.woff') format('woff');
+   font-weight: 100;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Graphik';
+   src: url('../webfonts/Graphik-ThinItalic.woff2') format('woff2'),
+   url('../webfonts/Graphik-ThinItalic.woff') format('woff');
+   font-weight: 100;
+   font-style: italic;
+}
+
+@font-face {
+   font-family: 'Graphik';
+   src: url('../webfonts/Graphik-Light.woff2') format('woff2'),
+   url('../webfonts/Graphik-Light.woff') format('woff');
+   font-weight: 200;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Graphik';
+   src: url('../webfonts/Graphik-LightItalic.woff2') format('woff2'),
+   url('../webfonts/Graphik-LightItalic.woff') format('woff');
+   font-weight: 200;
+   font-style: italic;
+}
+
+
+@font-face {
+   font-family: 'Graphik';
+   src: url('../webfonts/Graphik-Regular.woff2') format('woff2'),
+   url('../webfonts/Graphik-Regular.woff') format('woff');
+   font-weight: 300;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Graphik';
+   src: url('../webfonts/Graphik-RegularItalic.woff2') format('woff2'),
+   url('../webfonts/Graphik-RegularItalic.woff') format('woff');
+   font-weight: 300;
+   font-style: italic;
+}
+
+@font-face {
+   font-family: 'Graphik';
+   src: url('../webfonts/Graphik-Medium.woff2') format('woff2'),
+   url('../webfonts/Graphik-Medium.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Graphik';
+   src: url('../webfonts/Graphik-MediumItalic.woff2') format('woff2'),
+   url('../webfonts/Graphik-MediumItalic.woff') format('woff');
+   font-weight: 500;
+   font-style: italic;
+}
+
+
+@font-face {
+   font-family: 'Graphik';
+   src: url('../webfonts/Graphik-Semibold.woff2') format('woff2'),
+   url('../webfonts/Graphik-Semibold.woff') format('woff');
+   font-weight: 700;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Graphik';
+   src: url('../webfonts/Graphik-SemiboldItalic.woff2') format('woff2'),
+   url('../webfonts/Graphik-SemiboldItalic.woff') format('woff');
+   font-weight: 700;
+   font-style: italic;
+}
+
+@font-face {
+   font-family: 'Graphik';
+   src: url('../webfonts/Graphik-Super.woff2') format('woff2'),
+   url('../webfonts/Graphik-Super.woff') format('woff');
+   font-weight: 900;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Graphik';
+   src: url('../webfonts/Graphik-SuperItalic.woff2') format('woff2'),
+   url('../webfonts/Graphik-SuperItalic.woff') format('woff');
+   font-weight: 900;
+   font-style: italic;
+}
+
+body {
+   font-family: 'Graphik', sans-serif;
+   font-size: 16px;
+   background-color: #fff;
+   color: #626262;
+   font-weight: 300;
+}
+
+body,
+html {
+   height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0 0 15px;
+   font-weight: 200;
+}
+
+a,
+a:focus,
+a:active,
+a:visited {
+   text-decoration: none;
+   color: #626262;transition: .3s
+}
+a:hover{color: #000;text-decoration: none;}
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+
+
+input:focus,
+textarea:focus,
+button:focus {
+   outline: 0 solid;
+}
+
+/*MENU*/
+
+nav {
+   position: absolute;
+   height: 100%;
+   left: 0;
+   top: 0;
+   background-color: #fff;z-index: 999;
+}
+
+nav p {
+   text-align: center;
+   margin: auto;
+   display: block;
+   padding: 45vh 10px;
+   cursor: pointer;z-index: 9999;
+}
+
+nav i {
+   width: 100%;
+}
+
+.offcanvas-menu-overlay {
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   content: '';
+   background: #000;
+   z-index: 3;
+   opacity: 0;
+   visibility: hidden;
+   transition: .4s;
+}
+
+.offcanvas-menu-overlay.active {
+   opacity: .1;
+   visibility: visible;
+}
+
+.offcanvas-menu {
+   position: fixed;
+   top: 0;
+   left: 0%;
+   height: 100%;
+   width: auto;
+   z-index: 9999;
+   background: #fff;
+   padding: 20px 0 0;
+   transition: .3s;
+   overflow-y: scroll;
+   border-left: 1px solid #ddd;
+   opacity: 0;
+   visibility: hidden;
+}
+
+.offcanvas-menu.active {
+   left: 5.8%;
+   opacity: 1;
+   visibility: visible;
+}
+
+.offcanvas-menu img {
+   height: 50px;
+   margin-left: 50px;
+}
+
+.offcanvas-menu ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   margin-bottom: 30px;
+}
+
+.offcanvas-menu ul li:nth-child(1) {
+   border-bottom: 1px solid #F0F0F0;
+   margin-bottom: 5px;
+   padding-bottom: 5px;
+}
+
+.offcanvas-menu li a {
+   margin: 0 30px;
+   margin-left: 50px;
+   transition: .2s
+}
+
+/*Hero Area*/
+
+.hero-section {
+   height: 100%;
+}
+
+.hero-section .section-top {
+   height: 30%;
+   background-color: #F0F0F0;
+}
+
+.hero-section .section-bottom {
+   height: 70%;
+   background-color: #E8E8E8;
+}
+
+
+.hero-section p {
+   font-weight: 300;
+   margin-bottom: 40px;
+}
+
+.hero-section ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   margin-bottom: 20px;
+}
+
+.hero-section ul li {
+   display: inline-block;
+}
+
+.hero-section ul li a {
+   display: block;
+   padding-right: 80px;
+}
+
+.hero-section span {
+   font-size: 12px;
+   font-weight: 400;
+}
+
+
+/*Section Default*/
+
+.section {
+   position: relative;
+   padding: 70px 0;
+   background-color: #fff;
+}
+
+.section:nth-child(even) {
+   background-color: #E8E8E8;
+}
+
+.section h1 {
+   margin-bottom: 40px;
+}
+
+.section ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.section li p {
+   margin-bottom: 0px;
+}
+
+.side-title {
+   position: absolute;
+   left: 0;
+   top: 0;
+   background-color: transparent;
+   height: 100%;
+   border-right: 1px solid #F5F5F5;z-index: 999;
+}
+
+.section li b {
+   font-weight: 700;
+}
+
+.side-title p {
+   text-align: center;
+   margin: auto;
+   display: block;
+   padding: 0 11.5px;
+}
+.section:nth-child(even) .side-title{
+   border-right: 1px solid #DFDFDF;
+}
+.side-title span {
+   width: 100%;
+   display: block;
+}
+
+.sub-title {
+   font-weight: 200;
+}
