@@ -1,0 +1,124 @@
+/* Common Styles
+================*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800,900');
+
+
+body {
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   background-color: #fff;
+   color: #333;
+   padding-top: 30px;
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-image: url(../img/ws_Retro_Green_1280x1024.jpg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0 0 15px;
+   font-weight: 700;
+}
+
+
+h5 {
+   font-size: 30px;
+   position: relative;
+   padding-top: 5px;
+}
+
+h5:after {
+   position: absolute;
+   left: 0;
+   top: -5px;
+   height: 4px;
+   width: 50px;
+   content: '';
+   background-color: #BE4528;
+}
+
+.leaf-bg {
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   position: relative;
+   text-align: center;
+   text-transform: uppercase;
+   z-index: 1;
+   overflow: hidden;
+   float: left;
+}
+
+.leaf-bg:after {
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 100%;
+   content: '';
+   background-color: #F7DF41;
+   z-index: -1;
+   opacity: .5;
+   opacity: 0;
+   visibility: 0;
+   transition: .5s;
+}
+
+.leaf-bg h2 {
+   width: 100%;
+   font-size: 24px;
+   opacity: 0;
+   visibility: hidden;
+   transition: .5s;
+}
+
+.leaf-bg:hover h2 {
+   opacity: 1;
+   visibility: visible;
+}
+
+.leaf-bg:hover:after {
+   opacity: .8;
+   visibility: visible;
+}
+
+.leaf-1 {
+   background-image: url(../img/as-1.jpg);
+   width: 50%;
+   height: 250px;
+   border-radius: 0 90px;
+   margin-right: 2%;
+}
+
+.leaf-2 {
+   background-image: url(../img/as-2.jpg);
+   width: 45%;
+   height: 220px;
+   margin-top: 30px;
+   border-radius: 90px 0;
+   position: relative;
+}
+
+.leaf-3 {
+   background-image: url(../img/as-2.jpg);
+   width: 45%;
+   height: 220px;
+   border-radius: 90px 0;
+   margin-left: 5%;
+}
+
+.leaf-4 {
+   background-image: url(../img/as-1.jpg);
+   width: 48%;
+   height: 250px;
+   border-radius: 0 90px;
+   margin-left: 2%;
+}

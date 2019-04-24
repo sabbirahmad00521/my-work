@@ -1,0 +1,17 @@
+@media (max-width: 1260px) {
+    .messenger-header form button {
+
+        position: absolute;
+        right: 0;
+        top: -2px;
+        z-index: 999;
+    }
+}
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 575px) {}

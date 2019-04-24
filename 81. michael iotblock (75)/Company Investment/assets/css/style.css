@@ -1,0 +1,201 @@
+/* Common Styles
+================*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:300,400,600,700,800,900|Roboto:300,400,500,700,900');
+
+@font-face {
+    font-family: "font name";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../webfonts/.WOFF") format("woff");
+}
+
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+ul.inline-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.inline-list li {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+ul.inline-list li a {
+    display: block;
+    transition: 0.6s;
+    padding: 10px 20px;
+}
+
+
+/* Owl Carowsel
+===============*/
+
+.hero-area {
+    height: 600px;
+    background-image: url(../img/hero-area.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.hero-area h1 {
+    margin-top: -30px;
+}
+
+.hero-area img {
+    height: 80px;
+}
+
+.hero-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background-color: #000;
+    z-index: -1;
+    opacity: .7;
+}
+
+.hero-area span:before {
+    position: absolute;
+    left: -6.8%;
+    bottom: 0;
+    z-index: 99;
+    width: 55%;
+    height: 60px;
+    content: '';
+    background-color: #fff;
+    transform: skew(40deg);
+}
+
+.hero-area span:after {
+    position: absolute;
+    right: -6.8%;
+    bottom: 0;
+    z-index: 99;
+    width: 55%;
+    height: 60px;
+    content: '';
+    background-color: #fff;
+    transform: skew(-40deg);
+}
+
+
+.content {
+    color: #D99A08;
+    text-align: center;
+}
+
+.content-text {
+    padding: 90px 25px 90px;
+}
+
+.investments {
+    padding: 60px;
+    padding-bottom: 80px;
+    box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.37);
+}
+
+.investments h6 {
+    margin-bottom: 50px;
+}
+
+.investments a {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.investments img {
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+
+
+footer {
+    height: 150px;
+    background-image: url(../img/hero-area.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    color: #fff;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer a {
+    color: #fff;
+    font-weight: 600;
+}
+
+footer:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background-color: #000;
+    z-index: -1;
+    opacity: .5;
+}

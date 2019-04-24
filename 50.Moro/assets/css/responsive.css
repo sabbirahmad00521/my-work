@@ -65,11 +65,10 @@
 }
 
 @media (max-width: 575px) {
-    .social-icon {
-        text-align: center;
-    }
-    .social-icon a {
-        width: 100%;
-        display: block;
-    }
+    .contact .social-icon a {
+    display: inline-block;
+    font-size: 38px;
+    color: #fff;
+    padding-right: 28px;
+}
 }

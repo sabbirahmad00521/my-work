@@ -1,0 +1,30 @@
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {
+    input,
+    button {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 575px) {
+    p,
+    label,
+    h6 {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    footer {
+        margin-top: 30px;
+    }
+    a.bordered-btn {
+        display: none;
+    }
+    a.bordered-btn {
+        display: none;
+    }
+}

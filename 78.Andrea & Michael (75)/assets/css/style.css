@@ -1,0 +1,301 @@
+/* Common Styles
+================*/
+
+@font-face {
+   font-family: "Cormorant Garamond";
+   font-style: italic;
+   font-weight: 400;
+   src: url("https://fonts.gstatic.com/s/cormorantgaramond/v5/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtImSo.woff2") format("woff2");
+}
+
+
+@font-face {
+   font-family: "Cormorant Garamond";
+   font-style: normal;
+   font-weight: 400;
+   src: url("https://fonts.gstatic.com/s/cormorantgaramond/v5/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtK.woff2") format("woff2");
+}
+
+
+@font-face {
+   font-family: "Pinyon Script";
+   font-style: normal;
+   font-weight: 400;
+   src: url("https://fonts.gstatic.com/s/pinyonscript/v7/6xKpdSJbL9-e9LuoeQiDRQR8WOXaOg.woff2") format("woff2");
+}
+
+
+@font-face {
+   font-family: "ProximaNova";
+   font-style: normal;
+   font-weight: 400;
+   src: url("../webfonts/ProximaNova-Regular.bf9f5d50.WOFF") format("woff");
+}
+
+
+
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   background-color: #F1DEDA;
+   color: #494949;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0 0 15px;
+   font-weight: 700;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:hover,
+a:visited {
+   text-decoration: none;
+   color: #494949;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+
+
+input:focus,
+textarea:focus,
+button:focus {
+   outline: 0 solid;
+}
+
+header {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   z-index: 99;
+   background-color: #F1DEDA;
+}
+
+header span {
+   font-size: 12px;
+   line-height: 14px;
+   font-weight: 300;
+   font-family: "Cormorant Garamond";
+   letter-spacing: 1px;
+   margin-right: 20px;
+   margin-top: 20px;
+   display: inline-block;
+   transition: .6s
+}
+
+header h1 {
+   margin-bottom: 5px;
+}
+
+header h1 > a {
+   font-family: "Cormorant Garamond";
+   font-size: 42px;
+   line-height: 50px;
+   font-weight: 300;
+   display: block;
+   letter-spacing: 5px;
+   transition: .6s
+}
+
+header .col > a {
+   font-family: "Cormorant Garamond";
+   font-size: 14px;
+   text-transform: uppercase;
+   line-height: 20px;
+   text-decoration: underline;
+}
+
+.body {
+   background-color: #fff;
+   position: relative;
+   padding: 80px 0;
+   margin-top: 130px;
+}
+
+.corner-top-left {
+   position: absolute;
+   top: 0;
+   left: 0;
+   transform: rotate(90deg)
+}
+
+.corner-top-right {
+   position: absolute;
+   top: 0;
+   right: 0;
+   transform: rotate(180deg)
+}
+
+.corner-bottom-left {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   transform: rotate(360deg)
+}
+
+.corner-bottom-right {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   transform: rotate(270deg)
+}
+
+.names {
+   margin-bottom: 100px;
+}
+
+.names h2 {
+   font-family: 'Pinyon Script', cursive;
+   font-size: 50px;
+   letter-spacing: 0;
+   font-weight: 300;
+   margin-bottom: 0;
+}
+
+.names h3 {
+   font-family: "Cormorant Garamond";
+   font-size: 28px;
+   font-weight: 300;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+}
+
+.names h4 {
+   font-family: "Cormorant Garamond";
+   font-size: 42px;
+   letter-spacing: 0;
+   font-weight: 300;
+   font-style: italic;
+}
+
+.date {}
+
+.date p {
+   font-family: "Cormorant Garamond";
+   font-size: 14px;
+   line-height: 14px;
+   font-weight: 300;
+   border-top: 2px solid #F1DEDA;
+   border-bottom: 2px solid #F1DEDA;
+   text-align: center;
+   letter-spacing: 3px;
+   padding: 8px 0;
+
+}
+
+.date .col-lg-12 p {
+   border: 0;
+   letter-spacing: 5px;
+   margin-top: 10px;
+}
+
+.date h2 {
+   font-family: "Cormorant Garamond";
+   font-size: 128px;
+   line-height: 128px;
+   font-weight: 300;
+   margin-top: -30px;
+}
+
+.blank-border {
+   border-top: 2px solid #F1DEDA;
+   border-bottom: 2px solid #F1DEDA;
+   width: 85%;
+   margin: 60px auto
+}
+
+.blank-padding {
+   padding: 40px;
+
+}
+
+.am p {
+   font-size: 72px;
+   font-family: "Cormorant Garamond";
+   margin-bottom: 0;
+   line-height: 72px;
+
+}
+
+.am .col:nth-child(1) {
+   position: relative;
+}
+
+.am .col:nth-child(1):after {
+   position: absolute;
+   right: 0;
+   top: 0;
+   height: 100%;
+   width: 2px;
+   background-color: #F1DEDA;
+   content: '';
+   z-index: 3;
+}
+
+footer {
+   margin-top: 40px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   border-top: 2px solid #555;
+}
+
+footer img {
+   height: 40px;
+   width: 70px;
+}
+
+footer ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+footer li {
+   display: inline-block;
+}
+
+footer a:hover {
+   text-decoration: underline;
+}
+
+footer a,
+footer p {
+   font-size: 12px;
+   font-family: "ProximaNova";
+   margin-right: 25px;
+}
+
+footer p a {
+   margin-right: 0;
+}
+
+footer p a:hover {
+   color: #01B4C0;
+}
+
+
+footer h6 {
+   font-family: "Pinyon Script";
+   font-size: 21px;
+   line-height: 30px;
+   font-weight: 300;
+}

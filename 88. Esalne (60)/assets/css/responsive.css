@@ -1,0 +1,68 @@
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 575px) {}
+
+@media (max-width: 525px) {
+    footer h5:after,
+    footer h5:before {
+        width: 34%;
+    }
+    .content h1 {
+        font-size: 25px;
+    }
+    .content h5 {
+        font-size: 17px;
+    }
+    .page-1-content h2 {
+        font-size: 32px;
+    }
+    .page-1-content h2 {
+        font-size: 18px;
+    }
+    .contact-section h4 {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .contact-section p {
+        font-size: 12px;
+    }
+    .contact-box h3 {
+        font-size: 23px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+    .contact-box {
+        margin-bottom: 0;
+    }
+    .card.content h1 {
+        font-size: 24px;
+    }
+    .card h4 {
+        font-size: 20px;
+    }
+    .card h2 {
+        font-size: 30px;
+    }
+    .col-12.d-flex.justify-content-between.payment-box {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 460px) {
+    .contact-box h3.mt-4 img {
+        height: 35px;
+    }
+}
+
+@media (max-width: 425px) {
+    footer h5:after,
+    footer h5:before {
+        width: 30%;
+    }
+
+}

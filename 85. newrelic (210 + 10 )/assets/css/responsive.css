@@ -1,0 +1,133 @@
+@media (max-width: 1199px) {
+
+    nav h1 img {
+        margin: auto;
+        height: 40px;
+    }
+    .sign {
+        left: 46px;
+    }
+    .usd {
+        right: 36px;
+        bottom: 23px;
+    }
+    .month .sign {
+        left: 19px;
+    }
+    .month .usd {
+        right: 4px;
+    }
+    .plugin-hero-image {
+        right: -150px;
+        top: 50px;
+        height: 450px !important;
+        width: 600px;
+    }
+}
+
+@media (max-width: 991px) {
+    nav ul {
+        text-align: center;
+    }
+    nav .text-right {
+        text-align: center !important;
+        padding-bottom: 20px;
+    }
+    .chart .image {
+        position: static;
+        height: auto;
+    }
+    .chart .image img {
+        height: auto;
+        margin-bottom: 80px;
+    }
+    .chart {
+        margin-top: 180px;
+        margin-bottom: 80px;
+    }
+    .chart-2 .text {
+        text-align: left;
+    }
+    .chart-2 .text img {
+        margin-right: auto;
+        margin-left: 0;
+    }
+    .single-card img {
+        margin: auto
+    }
+    .chart-bottom a.boxed-btn {
+
+        margin-bottom: 15px;
+    }
+    .faq {
+        padding-top: 60px;
+    }
+    .faq-links {
+        padding-bottom: 40px;
+    }
+    .cloud-migration .pr {
+        padding-right: 0 !important;
+        padding-bottom: 50px;
+    }
+    .cloud-migration .chart {
+        height: auto;
+        margin: 0;
+        margin-top: 50px;
+    }
+    .cloud-migration .cloud-bg {
+        margin-bottom: 50px;
+    }
+    .cloud-migration .pl {
+        padding-left: 0 !important;
+    }
+    /*
+    .cloud-migration .chart-bottom {
+        padding-top: 100px 0 0;
+    }
+*/
+    .sign-up-box {
+        margin-top: 80px;
+    }
+    .sign {
+        left: 220px;
+    }
+    .usd {
+        right: 210px;
+        bottom: 23px;
+    }
+    .month .sign {
+        left: 196px;
+    }
+    .month .usd {
+        right: 180px;
+    }
+    .sign-up-features {
+        margin-top: 40px;
+    }
+    .plugin-hero {
+        margin-top: 250px;
+    }
+    .plugin-hero-image {
+        position: static;
+    }
+    .application .box a {
+        width: 160px;
+    }
+    .plugin-build .col-lg-4 {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-area {
+        height: 850px;
+    }
+    .links .row {
+        display: block !important;
+    }
+    .single-resource-box {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 575px) {}

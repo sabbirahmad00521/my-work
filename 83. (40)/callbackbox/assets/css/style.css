@@ -1,0 +1,167 @@
+/* Common Styles
+================*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+@font-face {
+    font-family: "font name";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../webfonts/.WOFF") format("woff");
+}
+
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+nav {
+    padding: 10px 0;
+}
+
+nav img {
+    height: 20px;
+}
+
+nav a {
+    padding: 11px 0;
+    display: block;
+}
+
+nav h1 {
+    margin-bottom: 0;
+}
+
+a.bordered-btn {
+    text-transform: uppercase;
+    color: #49B1E4;
+    font-weight: 600;
+    display: inline-block;
+    padding: 8px 40px;
+    border: 1px solid #49B1E4;
+    border-radius: 8px;
+    transition: .7s;
+}
+
+a.bordered-btn:hover {
+    background: #49B1E4;
+    color: #fff;
+}
+
+nav i {
+    font-size: 21px;
+}
+
+.breadcumber p {
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+.form-bg {
+    background-image: url(../img/slide.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+}
+
+.form-header h2 {
+    margin-bottom: 0;
+}
+
+.form-header {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+input {
+    display: block;
+    width: 85%;
+    padding: 8px;
+    border: 1px solid #49B1E4;
+    border-radius: 6px;
+    margin-bottom: 17px;
+}
+
+button.boxed-btn {
+    background: #49B1E4;
+    color: #fff;
+    display: block;
+    width: 85%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .5s;
+    border: 1px solid #49B1E4;
+    cursor: pointer;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+button.boxed-btn:hover {
+    background: #fff;
+    color: #49B1E4;
+}
+
+button.boxed-btn i {
+    margin-left: 7px;
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+
+footer h6 {
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+footer img {
+    margin: auto;
+    height: 20px;
+}

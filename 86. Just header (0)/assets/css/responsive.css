@@ -1,0 +1,29 @@
+@media (max-width: 1199px) {
+    nav ul.inline-list li a {
+        font-size: 10px;
+        padding: 10px 23px;
+    }
+}
+
+@media (max-width: 991px) {
+    nav ul.inline-list li a {
+        font-size: 9px;
+        padding: 10px 13px;
+    }
+
+
+    nav ul.inline-list li a:before {
+        left: -3px;
+        top: 8px;
+        height: 14px;
+        width: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-bottom h1{text-align: center;margin-bottom: 15px;}.nav-bottom input[type="text"]{width: 260px;}
+}
+
+@media (max-width: 575px) {.nav-bottom input[type="text"] {
+    width: 170px;
+    }a.search-btn,.username a{padding: 0 8px;font-size: 11px;}.username a{width: 105px;}}

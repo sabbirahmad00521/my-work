@@ -1,0 +1,193 @@
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {
+   a.responsive-menu {
+      display: block;
+      color: #fff;
+      z-index: 999;
+      font-size: 36px;
+   }
+
+   .top-left-menu {
+      display: none;
+   }
+   .menu {
+      display: none;
+   }
+   .user-btns .button span {
+      display: none;
+   }
+   .user-btns .button img {
+      display: none;
+   }
+   nav {
+      padding-top: 0;
+   }
+   header .row:nth-child(1):after {
+      height: 0;
+   }
+   ul.menu {
+      background-color: #fff;
+      text-align: left;
+      padding: 15px;
+      border-radius: 20px;
+      position: relative;
+      margin-top: -20px;
+   }
+   ul.inline-list li {
+      width: 25%;
+   }
+   ul.menu span {
+      color: #333 !important;
+      font-weight: 700;
+   }
+   ul.menu:after {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 25px 20px 25px;
+      border-color: transparent transparent #ffffff transparent;
+      content: '';
+      top: -20px;
+      position: absolute;
+      left: 18px;
+   }
+   .table-book {
+      display: block;
+      position: absolute;
+      background-color: #4C4C4C;
+      border-radius: 50px;
+      left: 50%;
+   }
+   ul.menu li.table-book span {
+      color: #FFAE00 !important;
+   }
+
+   .button {
+      padding-left: 21px;
+   }
+   .button:nth-child(2) {
+      padding-right: 36px;
+   }
+   .user-btns {
+      background-color: #FFAD00;
+      border-radius: 30px;
+      display: inline-block;
+      float: right;
+   }
+   .item-slider-section h2 {
+      font-size: 28px;
+   }
+}
+
+@media (max-width: 767px) {
+   ul.inline-list li {
+      width: 33%;
+   }
+
+   header .container {
+      max-width: 100%
+   }
+   .modal-dialog {
+      max-width: 550px;
+      margin: 1.75rem auto;
+   }
+   ul.menu {
+      margin-top: 0px;
+   }
+   .item-slider .owl-nav div {
+      left: -11%;
+   }
+   .item-slider .owl-nav .owl-next {
+      left: auto;
+      right: -11%;
+   }
+   .footer-link a {
+      font-size: 11px;
+   }
+   .social-icons img {
+      height: 35px;
+   }
+}
+
+@media (max-width: 575px) {
+   .modal-dialog {
+      max-width: 95%;
+      margin: 1.75rem auto;
+   }
+   ul.inline-list li {
+      width: 50%;
+   }
+   .log-in a {
+      margin-left: 0%;
+      width: 100%;
+      text-align: left;
+      margin-top: 30px;
+   }
+   .log-in label.ph-img {
+      width: 100%;
+   }
+   input[type="checkbox"] + label.cb-label {
+      display: inline-block;
+      margin: 0px;
+      cursor: pointer;
+      padding: 0px;
+      margin-left: 0%;
+      color: #d1d1d1;
+      font-size: 14px;
+   }
+   .modal-body.sign-up {
+      width: 100%;
+   }
+   .button i {
+      height: 30px;
+      width: 30px;
+      top: 9px;
+      line-height: 30px;
+      font-size: 14px;
+   }
+   .button:nth-child(2) {
+      padding-right: 25px;
+   }
+   .button {
+      padding-left: 10px;
+   }
+   ul.menu {
+      padding: 0;
+   }
+   ul.menu span {
+      font-size: 12px;
+   }
+   .newsletter-section a {
+      font-size: 22px;
+      margin: 0 30px;
+   }
+   .footer-link .text-links a {
+      display: block;
+      border-right: 0;
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 7px;
+   }
+   .item-slider-section h2 {
+      font-size: 22px;
+   }
+   footer p {
+      padding-bottom: 50px;
+   }
+}
+
+@media (max-width: 400px) {
+   .item-slider-section .owl-carousel .owl-item img {
+      display: block;
+      width: 75%;
+      margin: auto;
+   }
+   .newsletter label {
+      font-size: 14px;
+      display: block;
+   }
+   .newsletter button {
+      margin-bottom: 30px;
+   }
+}

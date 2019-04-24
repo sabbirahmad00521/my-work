@@ -1,0 +1,58 @@
+@media (min-width: 1200px) {}
+
+.container {
+    max-width: 1000px;
+}
+
+}
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {
+    header a {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    .hero-area h1 {
+        font-size: 50px;
+    }
+    .hero-area .hero-text a.button {
+        width: 60%;
+        font-size: 20px;
+    }
+
+    img.white-border {
+        margin-top: -30px;
+    }
+}
+
+@media (max-width: 767px) {
+    header a {
+        padding: 10px 6px;
+        font-size: 11px;
+    }
+    .location-section iframe {
+        margin-bottom: 200px;
+    }
+}
+
+@media (max-width: 575px) {
+    header a.button {
+        padding: 10px 25px;
+        border: 2px solid #fff;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .hero-area h1 {
+        font-size: 30px;
+    }
+    .hero-area .hero-text a.button {
+        width: 80%;
+        font-size: 18px;
+    }
+    img.white-border {
+        margin-top: -18px;
+    }
+}

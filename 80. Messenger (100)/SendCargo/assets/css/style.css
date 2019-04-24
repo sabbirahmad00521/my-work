@@ -1,0 +1,583 @@
+/* Common Styles
+================*/
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:hover,
+a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+.login-page {
+    background-image: url(../img/abstruct.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 140px;
+    margin-top: 30px
+}
+
+.login-heading img.logo {
+    height: 120px;
+    margin: auto;
+}
+
+.login-heading h4 {
+    font-weight: 900;
+    font-size: 24px;
+    margin-top: -10px;
+}
+
+.login-heading img {
+    height: 6px;
+}
+
+.login-heading h5 {
+    margin-bottom: 0;
+    margin-top: 15px;
+    color: #B9B9B9;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.social-login {
+    margin: 100px 0;
+}
+
+.social-login a {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    line-height: 130px;
+    margin: auto 20px;
+    transition: .5s;
+    text-transform: uppercase;
+}
+
+.social-login a.google {
+    background: rgba(211, 44, 38, .4);
+    box-shadow: 0px 47px 58px -25px rgba(211, 44, 38, .4);
+}
+
+.social-login a.fb {
+    background: rgba(66, 103, 178, .4);
+    box-shadow: 0px 47px 58px -25px rgba(0, 132, 255, .4);
+}
+
+.social-login a.google:hover {
+    background: rgba(211, 44, 38, 1);
+    box-shadow: 0px 47px 58px -25px rgba(211, 44, 38, 1);
+}
+
+.social-login a.fb:hover {
+    background: rgba(66, 103, 178, 1);
+    box-shadow: 0px 47px 58px -25px rgba(0, 132, 255, 1);
+}
+
+.social-login a img {
+    display: inline-block;
+    height: 70px;
+    margin: auto
+}
+
+.social-login a p {
+    line-height: 1.2;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.social-login a p span {
+    font-size: 18px;
+}
+
+ul.inline-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+ul.inline-list li {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+ul.inline-list li a {
+    display: block;
+    transition: 0.6s;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    color: #b9b9b9;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+ul.inline-list li a:hover {
+    color: #000;
+}
+
+
+
+/*===============
+*   MESSENGER   *
+================*/
+
+.messenger {
+    overflow-y: hidden
+}
+
+.messenger-header {
+    box-shadow: 0 0px 20px 6px #eee;
+    padding: 5px 0;
+    height: 10vh;
+}
+
+.messenger-header h1 {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.messenger-header h1 img {
+    height: 50px;
+}
+
+.messenger-header form {
+    position: relative;
+    display: inline;
+    top: -5px;
+    left: 10px;
+}
+
+.messenger-header form input {
+    border: 0;
+}
+
+.messenger-header form input::placeholder {
+    color: #cdcdcd;
+    font-weight: 500;
+}
+
+.messenger-header form button {
+    border: 0;
+    background: none;
+    color: #cdcdcd;
+    cursor: pointer
+}
+
+.messenger-header .links a {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 17px 10px
+}
+
+.messenger-header img {
+    display: inline-block;
+}
+
+.messenger-header .btns button {
+    font-size: 13px;
+    font-weight: 500;
+    color: #aaa;
+    padding: 17px;
+    background: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.messenger-header .btns button img {
+    height: 15px;
+}
+
+
+/**/
+
+/**/
+
+/**/
+
+/*Heading part*/
+
+/*
+.collapse {
+    position: relative;
+    height: 500px;
+}
+*/
+
+.ps--theme_red.ps > .ps__scrollbar-y-rail > .ps__scrollbar-y {
+    background-color: #999;
+}
+
+.accordion-headers {
+    width: 25%;
+    overflow: hidden;
+    float: left;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+a.accordion-heading img {
+    height: 60px;
+    margin-left: 10px;
+}
+
+
+a.accordion-heading .people h6 {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+a.accordion-heading .people span {
+    color: #ccc;
+    font-weight: 500;
+    font-size: 13px;
+    float: right;
+}
+
+a.accordion-heading .people p {
+    font-size: 14px;
+    margin-top: 5px;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0;
+}
+
+a.accordion-heading .people {
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+/* body part*/
+
+#chat-row {
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.single-accordion-row {
+    overflow: hidden;
+}
+
+/*
+.collapse {
+    width: 75%;
+    float: right;
+    overflow: hidden
+}
+*/
+
+.card-body .history h6 span {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+    color: #1DA1F3;
+    letter-spacing: 1px;
+    background: #fff;
+    padding: 0px 20px;
+}
+
+.card-body .history h6 {
+    border-bottom: 1px solid #1da1f3;
+    text-align: center;
+    line-height: 0.2;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+.card-body .chat-text {
+    margin-top: 10px;
+}
+
+.card-body .left-chat .chat-thumbnail img {
+    height: 50px;
+}
+
+.card-body .left-chat .chat-text p {
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-bottom: 7px;
+    display: table;
+    font-size: 15px;
+}
+
+.card-body .left-chat .chat-text span {
+    color: #ccc;
+    font-size: 12px;
+    margin-left: 15px;
+    display: block;
+}
+
+.card-body .left-chat .images {
+    text-align: left;
+    float: left;
+    width: 100%;
+}
+
+.card-body .right-chat .chat-thumbnail img {
+    height: 50px;
+    float: right;
+}
+
+.card-body .chat-text {
+    margin-top: 10px;
+}
+
+.card-body .right-chat .chat-text p {
+    background-color: #1DA1F3;
+    border-radius: 20px;
+    padding: 8px 15px;
+    display: table;
+    margin-bottom: 7px;
+    font-size: 15px;
+    color: #fff;
+    float: right;
+}
+
+.card-body .right-chat .chat-text span {
+    color: #ccc;
+    font-size: 12px;
+    margin-right: 15px;
+    display: block;
+    float: right;
+}
+
+.card-body .image {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.card-body .images {
+    text-align: right;
+    float: right;
+    width: 100%;
+}
+
+.card-body img.downlaod {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.card-body img.main-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+#wave {
+    background-color: #eee;
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-bottom: 7px;
+    color: #fff;
+    display: inline-block;
+}
+
+
+
+#wave .dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0px;
+    background: #1DA1F3;
+    animation: wave 1.3s linear infinite;
+}
+
+#wave .dot:nth-child(2) {
+    animation-delay: -1.1s;
+}
+
+#wave .dot:nth-child(3) {
+    animation-delay: -0.9s;
+}
+
+@keyframes wave {
+    0%,
+    60%,
+    100% {
+        transform: initial;
+    }
+    30% {
+        transform: translateY(-15px);
+    }
+}
+
+
+#accordion .container-fluid {
+    padding: 0;
+}
+
+#accordion .chat-users {
+    height: 90vh;
+    position: relative;
+    box-shadow: 0 10px 20px 6px #eee;
+
+}
+
+.accordion-header {
+    padding: 20px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.chat-box {
+    display: none;
+    position: relative;
+    margin-left: 3px;
+
+}
+
+.chat-box:first-child {
+    display: block;
+}
+
+
+.accordion-header.active {
+    background-color: #333;
+}
+
+.accordion-header.active a {
+    color: #fff;
+}
+
+
+/*SEND SMS*/
+
+.send-sms {
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    width: 75%;
+    box-shadow: 2px 0px 5px 2px #eee;
+}
+
+.send-sms label {
+    display: table;
+    color: #999;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+.send-sms textarea {
+    height: 100%;
+    width: 80%;
+    border: 0;
+    padding: 20px;
+    resize: none;
+
+}
+
+.send-sms input[type="file"] {
+    display: none;
+}
+
+
+.butns {
+    position: absolute;
+    right: 30px;
+    z-index: 999;
+    top: 10px;
+}
+
+
+.butns button:nth-child(2) {
+    border: 0;
+    background: none;
+    color: #999;
+    font-size: 18px;
+    padding: 10px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.butns button:nth-child(3) {
+    border: 0;
+    background: #1DA1F3;
+    color: #fff;
+    height: 37px;
+    width: 37px;
+    text-align: center;
+    height: 37px;
+    border-radius: 50%;
+    box-shadow: 0px 12px 20px -7px rgba(29, 161, 243, 1);
+    /* box-shadow: 0px 47px 58px -25px rgba(29, 161, 243, 1);*/
+    cursor: pointer;
+}
+
+
+.online {
+    position: relative;
+}
+
+.online:after {
+    position: absolute;
+    left: 55px;
+    top: 3px;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color: #68ED49;
+    content: '';
+    border: 2px solid #fff;
+}
