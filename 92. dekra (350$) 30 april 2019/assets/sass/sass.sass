@@ -1,0 +1,726 @@
+//veriables
+$c: #585858
+$uc: #8b8b8b
+$gc: #007D40
+$bdc: #D5D5D5
+$bdl: #e5e5e5
+
+
+// Default Style
+//==============
+body 
+    font-family: sans-serif
+    font-size: 14px
+    background-color: #fff
+    color: $c
+
+h1,h2,h3,h4,h5,h6 
+    margin: 0 0 15px
+    font-weight: 700
+    color: $gc
+
+h1
+    font-size: 40px
+    line-height: 1.4
+h2
+    font-size: 28px
+h3
+    font-size: 20px
+h4
+    font-size: 18px
+h5
+    font-size: 16px
+span
+    font-size: 11px
+    color: $c
+    &.active
+        color: $uc
+
+a,a:hover,a:focus,a:active,a:hover,a:visited 
+    text-decoration: none
+    color: $gc
+
+img
+    max-width: 100%
+    height: auto
+    display: block
+
+input:focus,
+textarea:focus,
+button:focus 
+    outline: 0 solid
+
+.container
+    padding: 0
+
+//Modules
+//=======
+=placeholder($color, $fz) 
+    &.placeholder
+        color: $color
+        font-size: $fz
+    &:-moz-placeholder
+        color: $color
+        font-size: $fz
+    &::-moz-placeholder 
+        color: $color
+        font-size: $fz
+    &:-ms-input-placeholder 
+        color: $color
+        font-size: $fz
+    &::-webkit-input-placeholder 
+        color: $color
+        font-size: $fz
+=fontAwesome($fontsize, $color)
+    font-family: "Font Awesome 5 Free"
+    font-weight: 900
+    color: $color
+    position: absolute
+    font-size: $fontsize
+
+
+//Header
+header
+    padding: 25px 0
+    margin-bottom: 0px
+    position: relative
+    .search-btn
+        a
+            span 
+                color: $uc
+                font-size: 10px
+                letter-spacing: 1px
+            i
+                font-size: 16px
+                color: $uc
+            &:hover
+                color: $gc
+    .search-box
+        position: relative
+        opacity: 0
+        visibility: hidden
+        transition: 1s
+        height: 0
+        &.active 
+            margin-top: 10px
+            margin-bottom: 50px
+            opacity: 1
+            visibility: visible
+        i
+            color: $gc
+            font-size: 25px
+            position: absolute
+            top: 0
+            height: 50px
+            line-height: 50px
+            padding: 0 10px
+            cursor: pointer
+            &.fa-search
+                left: 10px
+            &.fa-times
+                right: 10px
+
+        input
+            width: 100%
+            border: 0
+            padding-left: 65px
+            height: 50px
+            background-color: #F2F2F2
+            border: 1px solid transparent
+            color: $c
+            font-size: 19px
+            +placeholder($c , 19px)
+            transition: 1s
+            &:focus
+                border: 1px solid $gc
+
+nav
+    border-bottom: 3px solid $bdl
+    &.navigation
+        margin-bottom: 55px
+    ul
+        margin: 0
+        padding: 0
+        list-style: none
+        position: relative
+        z-index: 100
+        li
+            display: inline-block
+            transition: all .4s
+            margin: 0px 25px 10px
+            &:first-child
+                margin-left: 0
+            > a
+                color: #585858 !important
+                font-size: 16px
+                font-weight: 700
+                padding-bottom: 10px
+                text-decoration: none
+                text-transform: uppercase
+                position: relative
+                z-index: 9999
+                &:before
+                    position: absolute
+                    left: 0
+                    bottom: -7px
+                    height: 3px
+                    width: 100%
+                    background-color: $gc
+                    content: ''
+                    opacity: 0
+                    transition: .4s
+                &:hover:before
+                    opacity: 1
+
+            &.submenu > a:after
+                right: -30px
+                top: -4px
+                height: 24px
+                width: 24px
+                text-align: center
+                line-height: 24px
+                border: 1px solid $bdc
+                +fontAwesome(16px, $gc)
+                content: "\f107"
+            &.submenu:hover > a
+                color: $gc !important 
+                &:after
+                    content: "\f106"
+            &:hover > .submenu-container
+                opacity: 1
+                visibility: visible  
+            &.exception h5
+                margin-top: 30px !important
+            .submenu-container
+                opacity: 0
+                visibility: hidden
+                padding: 50px 40px
+                position: absolute
+                left: 0
+                top: 100%
+                z-index: 99
+                background-color: #fff
+                height: auto
+                width: 100%
+                transition: .4s
+                border: 2px solid $bdl
+                border-top: 0
+                h5 
+                    margin-bottom: 5px
+                    margin-top: 160px
+                    &:first-child
+                        margin-top: 0
+                    a
+                        color: $gc !important
+                        font-weight: 700 !important
+                a
+                    display: block 
+                    margin-bottom: 0
+                    font-weight: 300
+                    font-size: 14px !important
+                    color: $uc !important
+                    text-transform: capitalize
+                    padding-bottom: 5px
+                    position: relative
+                    transition: .4s
+                    &:before
+                        content: "\f105"
+                        left: -10px
+                        top: -2px
+                        opacity: 0
+                        transition: .4s 
+                        +fontAwesome(16px, $gc) 
+                    &:hover:before
+                        opacity: 1
+                    &:hover 
+                        color: $gc !important 
+
+.home-slider 
+    .single-slider-item
+        position: relative
+        margin-top: 60px
+        img 
+        .text-container
+            position: absolute
+            left: 55px
+            bottom: 0
+            width: 410px
+            background-color: rgba($gc, .7)
+            color: #fff
+            max-width: 409px
+            padding: 17px 20px 20px
+            word-wrap: break-word
+            h3 
+                font-size: 22px
+                color: #fff
+            p
+                font-size: 13px
+            a
+                font-size: 13px
+                color: $gc
+                margin-right: 6px
+                margin-top: 0px
+                background-color: #fff
+                cursor: pointer
+                text-align: left
+                text-transform: uppercase
+                padding: 10px 40px 9px 15px
+                position: relative
+                line-height: 16px
+                transition: .4s
+                border-radius: 0
+                &:before
+                    +fontAwesome(16px, $gc) 
+                    content: "\f105"
+                    right: 15px
+                    top: 10px
+                    opacity: 1
+                    transition: .4s
+                &:hover
+                    text-decoration: underline
+    .owl-nav div 
+        position: absolute
+        top: calc( 50% - 33px)
+        height: 65px
+        width: 40px
+        line-height: 65px
+        color: $uc
+        text-align: center
+        background: rgba(#fff , .9)
+        font-size: 20px
+        left: 0%
+    .owl-nav .owl-next 
+        left: auto
+        right: 0%
+    .owl-dots 
+        position: absolute
+        left: 33%
+        bottom: 0px
+        div
+            z-index: 999
+            display: inline-block
+            height: 4px
+            width: 4px
+            background: #fff
+            margin: 0px 3px 0
+            opacity: 0.7
+        div.active 
+            opacity: 1
+
+.card-container
+    padding-bottom: 40px !important
+    margin-bottom: 50px
+    position: relative
+    &:before
+        content: ''
+        position: absolute 
+        left: 14px
+        bottom: 0 
+        height: 2px
+        width: calc(100% + -28px)
+        background-color: $bdc
+    h1
+        margin:  50px 0
+    p
+        margin-bottom: 70px
+    .single-card
+        margin: 0 14px 28px
+        display: block
+        border: 1px solid $bdc
+        transition: .4s
+        &:hover
+            border-color: $gc
+        .text
+            background-color: #F2F2F2
+            padding: 20px
+            height: 200px
+            position: relative
+            text-align: left
+        span
+            position: absolute
+            color: $gc
+            right: 50px
+            bottom: 45px
+            font-size: 14px
+            &:before
+                +fontAwesome(18px, $gc) 
+                content: "\f105"
+                right: -15px
+                top: -2px
+        p
+            color: $c
+.news-preview
+    padding-bottom: 80px !important
+    margin-bottom: 4px 
+    border-bottom: 1px solid $bdl 
+    display: block
+    h2 
+        border-bottom: 1px solid $bdl
+        padding-bottom: 20px
+    a.single-news-preview
+        display: block
+        span
+            color: $uc
+            margin-bottom: 10px
+            display: block
+        h4
+            margin-bottom: 5px
+            line-height: 1.4
+        p
+            color: $c
+            font-size: 13px 
+            padding-bottom: 15px 
+            border-bottom: 1px solid $bdl
+    a.all-news-link 
+        position: relative
+        margin-left: 18px
+        &:before
+            +fontAwesome(20px, $gc) 
+            left: -18px
+            top: -7px
+            content: "\f105"
+    .upcoming
+        a.single-news-preview
+            &:nth-child(2) 
+                span  
+                    padding-top: 0 
+            span
+                padding-top: 9px
+            h4 
+                padding-bottom: 15px 
+                border-bottom: 1px solid $bdl
+        .all-news-link
+            display: block
+            margin-top: 20px 
+
+footer
+    span
+        display: block
+        color: $uc
+        font-size: 12px
+        margin-bottom: 5px
+    .social-icons
+        a
+            color: #fff
+            height: 32px
+            width: 35px
+            text-align: center
+            line-height: 35px
+            font-size: 26px
+            display: inline-block
+            margin-right: 8px
+            border-radius: 2px
+            background-color: #0065A1 
+            &:nth-child(2)
+                background-color: #3E5294
+            &:nth-child(4)
+                background-color: #1DA1F2
+            &:nth-child(5)
+                background-color: $gc
+    .print
+        font-size: 14px
+        float: right
+        color: $uc
+        cursor: pointer
+        i
+            color: $uc
+            font-size: 16px
+        span
+            display: inline 
+    .footer-menu
+        color: #fff
+        margin-top: 50px
+        ul
+            margin: 0
+            padding: 0
+            list-style: none
+            background-color: $gc
+            li 
+                display: inline-block
+                padding: 12px 17px 
+                a 
+                    color: #fff !important 
+                    transition: .4s
+                    opacity: 1
+                    font-size: 12px
+                    &:hover
+                        opacity: 0.6
+.social-section
+    border-top: 1px solid $bdl 
+    padding-top: 5px
+
+// SIdebar
+.sidebar
+    width: 230px
+    border-top: 1px solid $bdl
+    ul 
+        margin: 0
+        padding: 0
+        list-style: none
+        > li > div a
+            font-weight: 700 
+        .expand-menu
+            float: right
+            border: 1px solid $bdc 
+            font-size: 17px
+            height: 23px
+            width: 23px
+            text-align: center
+            line-height: 23px
+            color: $c
+            font-size: 18px
+            cursor: pointer
+            position: absolute
+            right: 0
+            top: 8px 
+        li 
+            position: relative
+            &.hasChilds 
+                ul
+                    display: none
+            a 
+                color: $c
+                padding: 8px 0
+                border-bottom: 1px solid $bdl
+                display: block
+                padding-right: 30px
+            .second-level
+                a
+                    font-weight: 300
+                ul
+                    background-color: #F2F2F2
+                    padding-left: 15px
+
+// breadcrumb
+.breadcrumb
+    margin: 0
+    padding: 0
+    list-style: none
+    border-bottom: 1px solid $bdc
+    padding-bottom: 5px
+    border-radius: 0
+    background-color: #fff 
+    li 
+        display: inline-block
+        font-size: 11px
+        margin-right: 30px
+        position: relative
+        &:after
+            +fontAwesome(16px, $c)
+            content: '\f105'
+            top: -3px
+            right: -20px 
+        &:last-child
+            color: $uc 
+        &:last-child:after
+            display: none 
+
+// organizational-safety-reliability
+.organizational-safety-reliability
+    // margin-top: 55px
+    // .container > .row
+    //     border-bottom: 1px solid $bdl
+    //     margin-bottom: 5px
+    .text-container
+        width: auto !important
+    .home-slider
+        .single-slider-item
+            margin-top: 40px
+        position: relative
+        .owl-nav div
+            top: 50%
+            transform: translate(0, -20%) 
+        .owl-dots 
+            position: absolute
+            top: 52px
+            left: 10px 
+            div 
+                height: 35px
+                width: 30px
+                opacity: 0.7
+                &.active
+                    background-color: $gc 
+                    position: relative
+                    &:after
+                        +fontAwesome(36px, $gc)
+                        content: '\f0d7'
+                        bottom: -30px
+                        left: 4px
+    .page-content
+        padding-bottom: 20px
+        margin-bottom: 30px
+        border-bottom: 2px solid$bdc
+        h1
+            margin: 60px 0  50px 
+        h2 
+            margin-bottom: 25px 
+    .links
+        margin: 60px 0 
+    .contact-us-btn
+        margin: 90px 0 90px
+
+.single-card
+    margin: 0 14px 28px
+    display: block
+    border: 1px solid $bdc
+    transition: .4s
+    &:hover
+        border-color: $gc
+    .text
+        padding: 20px
+        height: 110px
+        position: relative
+        text-align: left
+    span
+        position: absolute
+        color: $gc
+        right: 50px
+        bottom: 45px
+        font-size: 14px
+        &:before
+            +fontAwesome(18px, $gc) 
+            content: "\f105"
+            right: -15px
+            top: -2px
+
+.links
+    a 
+        display: block
+        padding: 8px 20px
+        border-top: 1px solid $bdl
+        line-height: 2 
+        transition: .4s
+        position: relative
+        &:hover
+            background: #f2f2f2
+        &:last-child
+            border-bottom: 1px solid $bdl
+        i 
+            font-size: 24px
+            position: absolute
+            top: 11px
+            &.fa-external-link-alt
+                font-size: 18px 
+        span
+            font-size: 16px
+            color: $gc 
+            margin-left: 50px
+
+.event-local-7361 
+    margin-bottom: 170px
+    h1 
+        margin-top: 40px 
+        margin-bottom: 40px
+    h5 
+         color: $c
+         font-weight: 300 
+         i 
+             font-size: 24px
+             width: 30px
+    .green-btn
+        margin-bottom: 40px 
+        &:first-child
+           margin-top: 30px 
+    h4
+        color: $c
+        font-size: 17px 
+        margin-bottom: 25px
+    .col-lg-4
+        ul
+            margin: 0
+            padding: 0
+            list-style: none
+            margin-left: 18px 
+            li
+                position: relative
+                margin-bottom: 10px
+                width: 90%
+                &:after 
+                    height: 6px
+                    width: 6px 
+                    content: ''
+                    background-color: $c
+                    display: block
+                    position: absolute
+                    top: 7px
+                    left: -15px
+    .course-details 
+        ul 
+            margin: 0
+            padding: 0
+            list-style: none
+            li:after
+                display: none
+            
+.green-btn
+    display: table 
+    color: #fff  !important
+    background-color: $gc
+    padding: 7px 15px
+    span
+        color: #fff
+        font-size: 14px 
+    i 
+        margin-left: 15px 
+
+.press-local
+    h3
+        margin-top: 40px
+        margin-bottom: 5px
+        font-size: 17px
+        color: $uc 
+    span.date 
+        color: $uc
+        margin-top: 40px
+        margin-bottom: 10px
+        display: block
+    p 
+        margin-bottom: 30px
+    h4 
+        margin-top: 45px 
+    .contact-form
+        border: 1px solid $bdc 
+        padding: 20px
+        p 
+            color: $gc
+            font-weight: 600
+        a 
+            display: block
+            padding: 9px
+            font-size: 13px !important
+            padding-left: 30px
+            position: relative
+            border-top: 1px solid $bdl
+            border-bottom: 1px solid $bdl
+            margin-bottom: 15px
+            width: 230px
+            &:hover 
+                text-decoration: underline
+            &:last-child
+                margin-bottom: 0
+            i 
+                font-size: 22px
+                position: absolute
+                left: 0 
+    a.btn 
+        background-color: #F2F2F2
+        padding: 7px 15px 8px 40px 
+        margin-bottom: 140px
+        position: relative 
+        span
+            color: $gc 
+            font-size: 14px !important 
+        i 
+            position: absolute
+            left: 20px
+            top: 12px 
+        &:hover 
+            text-decoration: underline
+
+    .links
+        margin-top: 50px
+        margin-bottom: 50px 
+        padding-top: 50px
+        border-top: 2px solid $bdc
+        
+        

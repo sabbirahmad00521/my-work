@@ -1,0 +1,21 @@
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 575px) {
+    .caption-container {
+        position: static;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    span.cursor {
+        display: none !important;
+    }
+
+    .mySlides {
+        cursor: auto;
+    }
+}
