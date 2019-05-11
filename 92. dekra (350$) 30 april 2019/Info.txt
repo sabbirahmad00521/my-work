@@ -1,26 +1,25 @@
-https://www.dekra.us/en/home-page/ DONE!
-https://www.dekra.us/en/organizational-safety-reliability/overview/ DONE!
-https://www.dekra.us/en/newsroom/#tab=newsroom COMMENT: easy | 3 hours
-https://www.dekra.us/en/press-local/  COMMENT: very easy | 40 min TODO: 
-https://www.dekra.us/en/event-local-7361/  COMMENT: very easy | 30 min DONE!
-https://www.dekra.us/en/california/california-inspection-stations/ COMMENT: easy | 40 min
-https://www.dekra.us/en/california/fullerton-511-s-euclid-st/ COMMENT: medium | 1 hour 30 min
-https://www.dekra.us/en/business-services/ COMMENT: easy | 1 hour 30 min
-https://www.dekra.us/en/audits/ COMMENT: easy | 40 min
-https://www.dekra.us/en/contact-auditing/ COMMENT: easy | 40 min
-https://www.dekra.us/en/training/mailing-list/ COMMENT: easy | 40 min
-https://www.dekra.us/en/training/cert-replacement/ COMMENT: easy | 40 min
-https://www.dekra.us/en/contact/ COMMENT: easy | 40 min
+https://www.dekra.us/en/connected-car-test-program/overview/ COMMENT: easy | 1 hour 
+https://www.dekra.us/en/annual-report/ COMMENT: easy | 40 min
+https://www.dekra.us/en/search?q=america&header-searchsubmit= COMMENT: easy | 40 min
 https://www.dekra.us/en/training/training-quote/ COMMENT: easy | 1 hour 
 https://www.dekra.us/en/training/reexam/ COMMENT: easy | 1 hour  30 min
 https://www.dekra.us/en/training/overview/ COMMENT: easy | 40 min
 https://www.dekra.us/en/training/as-training/#elementnull00 COMMENT: easy | 1 hour 
 https://www.dekra.us/en/training/laas/ COMMENT: easy | 1 hour 40 min
 https://www.dekra.us/en/system-certification/overview/ COMMENT: easy | 40 min
-https://www.dekra.us/en/training/policies/ COMMENT: easy | 40 min
-https://www.dekra.us/en/connected-car-test-program/overview/ COMMENT: easy | 1 hour 
-https://www.dekra.us/en/annual-report/ COMMENT: easy | 40 min
-https://www.dekra.us/en/search?q=america&header-searchsubmit= COMMENT: easy | 40 min
+https://www.dekra.us/en/california/fullerton-511-s-euclid-st/ COMMENT: medium | 1 hour 30 min
+https://www.dekra.us/en/business-services/ COMMENT: easy | 1 hour 30 min
+https://www.dekra.us/en/newsroom/#tab=newsroom COMMENT: easy | 3 hours
 
-
+https://www.dekra.us/en/home-page/ DONE!
+https://www.dekra.us/en/organizational-safety-reliability/overview/ DONE!
+https://www.dekra.us/en/press-local/  COMMENT: very easy | 40 min DONE!
+https://www.dekra.us/en/event-local-7361/  COMMENT: very easy | 30 min DONE!
+https://www.dekra.us/en/california/california-inspection-stations/ COMMENT: easy | 40 min DONE!
+https://www.dekra.us/en/audits/ COMMENT: easy | 40 min DONE!
+https://www.dekra.us/en/contact-auditing/ COMMENT: easy | 40 min DONE!
+https://www.dekra.us/en/training/mailing-list/ COMMENT: easy | 40 min DONE!
+https://www.dekra.us/en/training/cert-replacement/ COMMENT: easy | 40 min DONE!
+https://www.dekra.us/en/contact/ COMMENT: easy | 40 min DONE!
+https://www.dekra.us/en/training/policies/ COMMENT: easy | 40 min DONE!
 
