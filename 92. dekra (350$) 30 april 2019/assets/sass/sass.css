@@ -1282,4 +1282,171 @@ footer .footer-menu ul li a:hover {
   font-size: 14px;
   margin-bottom: 45px;
 }
+
+.contact h5 {
+  font-size: 14px;
+  color: #585858;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: -10px;
+}
+
+.contact .proctor p {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #D5D5D5;
+}
+
+.system-certification h1 {
+  margin: 45px 0;
+}
+
+.system-certification h5 {
+  color: #585858 !important;
+  margin-bottom: 20px;
+}
+
+.system-certification .card-container {
+  margin-top: 60px;
+}
+
+.system-certification .card-container:before {
+  display: none;
+}
+
+.system-certification .card-container .text {
+  background-color: #fff;
+  height: 340px;
+}
+
+.system-certification .card-container .text h5 {
+  font-size: 18px;
+  color: #007D40 !important;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+
+.system-certification .card-container .text p {
+  font-size: 13px;
+}
+
+.system-certification .card-container .load-more button {
+  background-color: #F2F2F2;
+  color: #007D40;
+  position: relative;
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.system-certification .card-container .load-more button:hover {
+  background-color: #E5E5E5;
+}
+
+.system-certification .card-container .load-more button i {
+  font-size: 20px;
+  position: absolute;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.system-certification .card-container .load-more p {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.training h1 {
+  margin: 45px 0;
+}
+
+.training .half-banner {
+  position: relative;
+}
+
+.training .half-banner p {
+  position: absolute;
+  z-index: 9;
+  bottom: 0;
+  margin-bottom: 0;
+  padding: 9px 12px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.training .half-banner img {
+  height: 100%;
+  width: 100%;
+}
+
+.training .banner-text h5 {
+  color: #585858;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+
+.training .catalogue-download {
+  border: 1px solid #D5D5D5;
+  position: relative;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.training .catalogue-download img {
+  width: 40%;
+}
+
+.training .catalogue-download .text {
+  position: absolute;
+  left: 42%;
+  width: 56%;
+  top: 20px;
+}
+
+.training .catalogue-download .text a {
+  border-top: 1px solid #D5D5D5;
+  border-bottom: 1px solid #D5D5D5;
+  display: block;
+  padding: 11px 0;
+}
+
+.training .catalogue-download .text a:hover {
+  text-decoration: underline;
+}
+
+.training .catalogue-download .text a i {
+  margin-right: 20px;
+}
+
+.training .catalogue-download .text a span {
+  float: right;
+  font-size: 14px;
+  color: #8b8b8b;
+}
+
+.training .card-container:before {
+  display: none;
+}
+
+.training .card-container.first-row .single-card .text {
+  background-color: #fff;
+  height: 150px;
+}
+
+.training .card-container.second-row .single-card .text {
+  background-color: #fff;
+  height: 280px;
+}
+
+.training .card-container.second-row .single-card .text p {
+  font-size: 13px;
+}
+
+.training .card-container.second-row .single-card .text h5 {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
 /*# sourceMappingURL=sass.css.map */

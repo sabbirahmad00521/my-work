@@ -2,6 +2,7 @@
     .container {
         padding: 0;
     }
+
 }
 
 @media (max-width: 575px) {
@@ -10,7 +11,14 @@
     }
 }
 
-@media (max-width: 1199px) {}
+@media (max-width: 1199px) {
+    .system-certification .card-container .text {
+        height: 410px !important;
+    }
+    .training .card-container.first-row .single-card .text{
+        height: 180px;
+    }
+}
 
 @media (max-width: 991px) {
     a.responsive-menu {
@@ -98,6 +106,10 @@
     .event-local-7361 img {
         max-width: 50%;
     }
+
+    .system-certification .card-container .text {
+        height: 280px !important;
+    }
 }
 
 @media (max-width: 767px) {
@@ -148,5 +160,20 @@
 @media (max-width: 575px) {
     footer .footer-menu ul li {
         padding: 10px;
+    }
+
+    .system-certification .card-container .text {
+        height: 320px !important;
+    }
+
+    .training .catalogue-download img {
+        width: 100%;
+    }
+
+    .training .catalogue-download .text {
+        position: static;
+        left: 100%;
+        width: 100%;
+        padding: 20px;
     }
 }
