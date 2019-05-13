@@ -1,10 +1,7 @@
-https://www.dekra.us/en/connected-car-test-program/overview/ COMMENT: easy | 1 hour 
 https://www.dekra.us/en/annual-report/ COMMENT: easy | 40 min
-https://www.dekra.us/en/search?q=america&header-searchsubmit= COMMENT: easy | 40 min
 https://www.dekra.us/en/training/as-training/#elementnull00 COMMENT: easy | 1 hour 
 https://www.dekra.us/en/training/laas/ COMMENT: easy | 1 hour 40 min
 https://www.dekra.us/en/california/fullerton-511-s-euclid-st/ COMMENT: medium | 1 hour 30 min
-https://www.dekra.us/en/business-services/ COMMENT: easy | 1 hour 30 min
 https://www.dekra.us/en/newsroom/#tab=newsroom COMMENT: easy | 3 hours
 
 https://www.dekra.us/en/home-page/ DONE!
@@ -22,3 +19,30 @@ https://www.dekra.us/en/training/training-quote/ COMMENT: easy | 1 hour  DONE!
 https://www.dekra.us/en/training/reexam/ COMMENT: easy | 1 hour  30 min DONE!
 https://www.dekra.us/en/system-certification/overview/ COMMENT: easy | 40 min DONE!
 https://www.dekra.us/en/training/overview/ COMMENT: easy | 40 min DONE!
+https://www.dekra.us/en/business-services/ COMMENT: easy | 1 hour 30 min DONE!
+https://www.dekra.us/en/search?q=america&header-searchsubmit= COMMENT: easy | 40 min DONE!
+https://www.dekra.us/en/connected-car-test-program/overview/ COMMENT: easy | 1 hour DONE!
+
+
+
+               
+               <!-- <div class="row">
+                  <div class="col-12">
+                     <h3>Our testing services in detail </h3>
+                     <div id="accordion">
+                        <div class="single-accordion-row">
+                           <div class="accordion-header">
+                              <a class="accordion-heading btn-text collapsed" href="" data-toggle="collapse"
+                                 data-target="#collapse-3">
+                                 heading
+                              </a>
+                           </div>
+                           <div id="collapse-3" class="collapse" data-parent="#accordion">
+                              <div class="card-body">
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div> -->

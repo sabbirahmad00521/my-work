@@ -91,4 +91,7 @@ jQuery(document).ready(function ($) {
    jQuery("li.opened ").parent().parent().children("div").children("span").children("i").toggleClass('fa-angle-down fa-angle-up');
    jQuery("li.opened ").parent().parent().parent().parent().children("div").children("span").children("i").toggleClass('fa-angle-down fa-angle-up');
 
+   //video popup
+   $(".video-play-btn").modalVideo({channel:'youtube'});
+
 });
