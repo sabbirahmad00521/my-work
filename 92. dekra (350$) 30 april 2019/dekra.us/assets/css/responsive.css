@@ -1,0 +1,236 @@
+@media (min-width: 1200px) {
+    .container {
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .system-certification .card-container .text {
+        height: 410px !important;
+    }
+
+    .training .card-container.first-row .single-card .text {
+        height: 180px;
+    }
+
+    .newsroom .wide-main-post .wide-text {
+        width: 23% !important;
+    }
+
+    .newsroom .wide-post .wide-text {
+        width: 50%;
+    }
+}
+
+@media (max-width: 991px) {
+    a.responsive-menu {
+        display: inline-block;
+        z-index: 999;
+        font-size: 36px;
+        margin-top: 0px;
+        margin-left: 25px;
+    }
+
+    .menu {
+        display: none;
+        float: left;
+        margin-top: 15px;
+    }
+
+    .menu li {
+        display: block;
+        margin: 0 0 10px;
+    }
+
+    /* overwrite style */
+    .search-btn {
+        align-items: center;
+    }
+
+    nav ul {
+        border-bottom: 3px solid #E5E5E5;
+        width: 100%;
+        display: block;
+    }
+
+    nav ul li .submenu-container {
+        opacity: 1;
+        visibility: visible;
+        position: static;
+        border: 0;
+        padding: 5px 0px;
+        display: none;
+    }
+
+    nav ul li .submenu-container h5 {
+        margin: 0;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        /* border-top: 1px solid #E5E5E5; */
+        /* /* border-bottom: 1px solid #E5E5E5; */
+
+    }
+
+    nav ul li .submenu-container .col-md-3 {
+        min-width: 100%;
+        flex: 1
+    }
+
+    nav ul li .submenu-container .col-md-3>a {
+        margin-left: 25px;
+    }
+
+    nav ul li>a:before {
+        display: none;
+    }
+
+    nav ul li.submenu:hover>a:after {
+        content: "\f107";
+    }
+
+    .card-container h1 {
+        margin: 25px 0;
+    }
+
+    a.single-card img {
+        min-width: 100%;
+    }
+
+    .sidebar {
+        display: none !important;
+    }
+
+    .course-details {
+        margin-top: 35px;
+    }
+
+    .event-local-7361 img {
+        max-width: 50%;
+    }
+
+    .system-certification .card-container .text {
+        height: 280px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .home-slider .single-slider-item .text-container {
+        position: static;
+        min-width: 100%;
+        height: 230px;
+    }
+
+    .home-slider .owl-dots {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        bottom: 0px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .card-container .single-card .text {
+        height: 150px;
+    }
+
+    .upcoming {
+        margin-top: 40px;
+    }
+
+    .organizational-safety-reliability .home-slider .owl-dots {
+        left: 45px;
+    }
+
+    .home-slider .owl-nav div {
+        height: 50px;
+        line-height: 50px;
+        top: 25% !important;
+    }
+
+    .organizational-safety-reliability .links .col-md-6:last-child {
+        margin-top: 40px;
+    }
+
+    .california .map-info {
+        width: 100%;
+    }
+
+    .california .map-info {
+        position: static;
+        margin-top: 15px;
+
+    }
+
+    a.single-thumbnail-image img {
+        width: 100%;
+    }
+
+    a.single-thumbnail-image {
+        margin-bottom: 20px;
+    }
+
+    .california .quotes .single-quotes {
+        margin-bottom: 30px;
+    }
+
+    .newsroom .wide-post img {
+        height: auto !important;
+    }
+
+    .newsroom .wide-post .wide-text {
+        width: 98% !important;
+    }
+}
+
+@media (max-width: 575px) {
+    footer .footer-menu ul li {
+        padding: 10px;
+    }
+
+    .system-certification .card-container .text {
+        height: 320px !important;
+    }
+
+    .training .catalogue-download img {
+        width: 100%;
+    }
+
+    .training .catalogue-download .text {
+        position: static;
+        left: 100%;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .as9120-training ul.nav-pills li {
+        margin-right: 3px;
+    }
+
+    .as9120-training ul.nav-pills li a {
+        padding: 5px 3px;
+        font-size: 11px;
+    }
+
+    .as9100-training .dates .single-dates .details {
+        padding-left: 0;
+    }
+
+    .as9100-training .dates .single-dates .location {
+        position: static;
+        margin-bottom: 30px;
+    }
+}

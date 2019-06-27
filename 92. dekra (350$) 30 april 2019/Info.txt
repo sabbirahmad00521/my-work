@@ -1,48 +1,23 @@
-https://www.dekra.us/en/annual-report/ COMMENT: easy | 40 min
-https://www.dekra.us/en/training/as-training/#elementnull00 COMMENT: easy | 1 hour 
-https://www.dekra.us/en/training/laas/ COMMENT: easy | 1 hour 40 min
-https://www.dekra.us/en/california/fullerton-511-s-euclid-st/ COMMENT: medium | 1 hour 30 min
-https://www.dekra.us/en/newsroom/#tab=newsroom COMMENT: easy | 3 hours
-
-https://www.dekra.us/en/home-page/ DONE!
-https://www.dekra.us/en/organizational-safety-reliability/overview/ DONE!
-https://www.dekra.us/en/press-local/  COMMENT: very easy | 40 min DONE!
-https://www.dekra.us/en/event-local-7361/  COMMENT: very easy | 30 min DONE!
-https://www.dekra.us/en/california/california-inspection-stations/ COMMENT: easy | 40 min DONE!
-https://www.dekra.us/en/audits/ COMMENT: easy | 40 min DONE!
-https://www.dekra.us/en/contact-auditing/ COMMENT: easy | 40 min DONE!
-https://www.dekra.us/en/training/mailing-list/ COMMENT: easy | 40 min DONE!
-https://www.dekra.us/en/training/cert-replacement/ COMMENT: easy | 40 min DONE!
-https://www.dekra.us/en/contact/ COMMENT: easy | 40 min DONE!
-https://www.dekra.us/en/training/policies/ COMMENT: easy | 40 min DONE!
-https://www.dekra.us/en/training/training-quote/ COMMENT: easy | 1 hour  DONE!
-https://www.dekra.us/en/training/reexam/ COMMENT: easy | 1 hour  30 min DONE!
-https://www.dekra.us/en/system-certification/overview/ COMMENT: easy | 40 min DONE!
-https://www.dekra.us/en/training/overview/ COMMENT: easy | 40 min DONE!
-https://www.dekra.us/en/business-services/ COMMENT: easy | 1 hour 30 min DONE!
-https://www.dekra.us/en/search?q=america&header-searchsubmit= COMMENT: easy | 40 min DONE!
-https://www.dekra.us/en/connected-car-test-program/overview/ COMMENT: easy | 1 hour DONE!
-
-
-
-               
-               <!-- <div class="row">
-                  <div class="col-12">
-                     <h3>Our testing services in detail </h3>
-                     <div id="accordion">
-                        <div class="single-accordion-row">
-                           <div class="accordion-header">
-                              <a class="accordion-heading btn-text collapsed" href="" data-toggle="collapse"
-                                 data-target="#collapse-3">
-                                 heading
-                              </a>
-                           </div>
-                           <div id="collapse-3" class="collapse" data-parent="#accordion">
-                              <div class="card-body">
-
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div> -->
+https://www.dekra.us/en/training/laas/
+https://www.dekra.us/en/home-page/ 
+https://www.dekra.us/en/organizational-safety-reliability/overview/ 
+https://www.dekra.us/en/press-local/  
+https://www.dekra.us/en/event-local-7361/ 
+https://www.dekra.us/en/california/california-inspection-stations/ 
+https://www.dekra.us/en/audits/ 
+https://www.dekra.us/en/contact-auditing/ 
+https://www.dekra.us/en/training/mailing-list/ 
+https://www.dekra.us/en/training/cert-replacement/ 
+https://www.dekra.us/en/contact/
+https://www.dekra.us/en/training/policies/ 
+https://www.dekra.us/en/training/training-quote/ 
+https://www.dekra.us/en/training/reexam/
+https://www.dekra.us/en/system-certification/overview/ 
+https://www.dekra.us/en/training/overview/
+https://www.dekra.us/en/business-services/ 
+https://www.dekra.us/en/search?q=america&header-searchsubmit=
+https://www.dekra.us/en/connected-car-test-program/overview/
+https://www.dekra.us/en/training/as-training/#elementnull00 
+https://www.dekra.us/en/annual-report/ 
+https://www.dekra.us/en/california/fullerton-511-s-euclid-st/ 
+https://www.dekra.us/en/newsroom/#tab=newsroom
