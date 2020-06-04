@@ -215,3 +215,7 @@ a.responsive-menu {
    border-radius: 50%;
    background: green;
 }
+
+nav ul li .submenu-container{
+   border-top: 2px solid #e5e5e5;
+}

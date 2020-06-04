@@ -1,0 +1,104 @@
+@media (min-width: 1200px) {
+    header .col-xl-8 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: calc(66.666667% - 1px);
+        margin-right: 1px;
+    }
+}
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {
+    nav input[type="submit"] {
+        position: absolute;
+        right: 53px;
+        top: 0px;
+    }
+
+    nav a {
+        color: #fff !important;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    header .col-xl-4 {
+        background: rgba(0, 0, 0, .8);
+        justify-content: center !important;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    header h1 {
+        display: block;
+    }
+
+    header img {
+        margin: auto;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+    }
+
+    a.mobile-menu {
+        display: flex !important;
+        width: 60px;
+    }
+
+    img.tickets {
+        position: absolute;
+        right: 0;
+        top: 160px;
+        z-index: 5;
+        height: 50px;
+    }
+
+    .section-details h1 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    .watch-buttons button {
+        font-size: 18px;
+    }
+
+    .next-prev-button a {
+        font-size: 25px;
+        height: 31px;
+    }
+
+    .section-details span {
+        font-size: 15px;
+    }
+
+    .section-details h5 {
+        font-size: 22px;
+    }.top a {
+        font-size: 14px;
+        padding: 10px;
+        width: 110px;
+        transition: .4s;
+        margin: 0 0px;
+    }.top a i {
+        font-size: 36px;
+        display: block;
+        margin-bottom: 5px;
+    }.footer-menu a{display: block;margin-top: 0;}
+}
+
+@media (max-width: 575px) {
+    .watch-buttons button {
+        display: block;
+    }
+
+    body,html{
+        overflow-x: hidden;
+    }
+}

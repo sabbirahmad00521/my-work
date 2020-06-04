@@ -1,0 +1,185 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1199px) {
+    ul.inline-list li a {
+        padding: 12px;
+    }
+
+    .image-icons li {
+        width: 27px;
+        padding: 10px 1px;
+    }
+}
+
+@media (max-width: 991px) {
+    header {
+        height: auto !important;
+        padding: 5px;
+    }
+
+    header a {
+        height: auto !important;
+    }
+
+    .browse.dropdown-menu {
+        width: 750px !important;
+        left: 20px !important;
+    }
+
+    .popular-quotes {
+        margin-top: 130px;
+    }
+
+    footer {
+        margin-top: 40px;
+    }
+
+    footer h4 {
+        margin-top: 30px;
+    }
+
+    footer .social-icons {
+        margin-bottom: 20px;
+    }
+
+    .image-icons li {
+        width: 40px;
+        padding: 10px 5px;
+    }
+
+
+    h1.logo img {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .sign-in-box {
+        margin: auto;
+    }
+
+    footer .col-5 {
+        position: absolute;
+        right: 0;
+    }
+
+    .app-icon.d-flex {
+        display: block !important;
+    }
+
+    .app-icon.d-flex a {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    header nav a {
+        padding: 12px 8px;
+    }
+
+    header nav li:first-child {
+        display: none;
+    }
+
+    header .genre {
+        display: none;
+    }
+
+    .browse.dropdown-menu {
+        width: auto !important;
+        left: auto !important;
+    }
+
+    .bottom-link {
+        position: static;
+    }
+
+    .genrehide {
+        display: block !important;
+    }
+
+    form.add-quotes textarea {
+        width: 90%;
+    }
+
+    form.add-quotes input {
+        width: 50%;
+    }
+
+    .discover-row .col-lg-4 span {
+        margin-top: 20px;
+    }
+
+    .award-image {
+        display: none;
+    }
+
+    .sign-in {
+        float: none;
+        margin-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .homepage header img {
+        width: 180px;
+    }
+
+    .homepage header {
+        padding-bottom: 0;
+    }
+
+    .sign-in-box {
+        width: 400px;
+    }
+
+    .copyright-text {
+        position: relative;
+
+        z-index: 3;
+        margin-top: 80px !important;
+    }
+
+    .sign-in-login {
+        height: auto;
+        position: static;
+    }
+
+
+
+}
+
+@media (max-width: 575px) {
+
+    header nav a,
+    header nav a:hover,
+    header nav a:focus,
+    header nav a:active,
+    header nav a:visited {
+        padding: 8px 4px;
+        font-size: 13px;
+    }
+
+    header h1 img {
+        max-width: 80% !important;
+    }
+
+    .image-icons>li:nth-child(1),
+    .image-icons>li:nth-child(2),
+    .image-icons>li:nth-child(3),
+    .image-icons>li:nth-child(4) {
+        display: none;
+    }
+
+    .sign-in-box {
+        width: auto;
+    }
+
+    .sign-in-login {
+        position: relative;
+        height: 100vh;
+    }
+}

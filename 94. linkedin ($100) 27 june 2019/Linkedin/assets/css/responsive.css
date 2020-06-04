@@ -1,0 +1,24 @@
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {
+    .profile-picture {
+        transform: translateY(-70%);
+    }
+
+    .profile-info .col-lg-4 a {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .profile-info h5 a {
+        margin: 8px 0 15px;
+        display: block;
+    }
+
+    .profile-picture {
+        transform: translateY(-83%);
+    }
+}
+
+@media (max-width: 575px) {}

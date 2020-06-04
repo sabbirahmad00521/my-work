@@ -1,0 +1,412 @@
+/* Common Styles
+================*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:300,400,600,700,800,900|Roboto:300,400,500,700,900');
+
+@font-face {
+   font-family: "font name";
+   font-style: normal;
+   font-weight: 400;
+   src: url("../webfonts/.WOFF") format("woff");
+}
+
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   background-color: #fff;
+   color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0 0 15px;
+   font-weight: 700;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:hover,
+a:visited {
+   text-decoration: none;
+   color: #333;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+
+
+input:focus,
+textarea:focus,
+button:focus {
+   outline: 0 solid;
+}
+
+ul.inline-list {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+ul.inline-list li {
+   display: inline-block;
+   margin-left: -4px;
+}
+
+ul.inline-list li a {
+   display: block;
+   transition: 0.6s;
+   padding: 10px 20px;
+}
+
+.menu {
+   margin-top: 20px;
+   position: relative;
+   z-index: 9;
+}
+
+.menu h1 {
+   margin: 0 !important;
+}
+
+.menu a {
+   color: #4472C4;
+   font-weight: 600;
+}
+
+.home {
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-left: 15px;
+   margin-right: 30px;
+}
+
+.v-links {
+   position: relative;
+}
+
+.v-links a {
+   display: block;
+   padding-left: 20px;
+
+}
+
+.v-links:before {
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 5%;
+   height: 90%;
+   width: 3px;
+   background-color: #4472C4;
+}
+
+.top-right a:hover {
+   text-decoration: underline;
+}
+
+nav {}
+
+nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+nav ul li {
+   display: inline-block;
+}
+
+nav ul li a {
+   font-size: 30px;
+   text-transform: uppercase;
+   padding: 10px;
+   position: relative;
+   cursor: pointer;
+   color: #4472C4 !important;
+}
+
+nav ul li a:after {
+   content: '';
+   position: absolute;
+   left: 5%;
+   bottom: 5px;
+   height: 3px;
+   width: 0%;
+   background-color: transparent;
+   transition: 0.5s;
+}
+
+nav ul li a:hover:after {
+   width: 90%;
+   background-color: #4472C4;
+}
+
+
+
+nav ul li.active>a:after {
+   content: '';
+   position: absolute;
+   left: 5%;
+   bottom: 5px;
+   height: 3px;
+   width: 90%;
+   background-color: #4472C4;
+   transition: 0.5s;
+}
+
+
+
+.col-lg-6 {
+   position: static;
+}
+
+.megamenu {
+   position: absolute;
+   left: 0;
+   text-align: left;
+   padding: 30px;
+   display: none;
+   width: 100%;
+   background-color: #fff;
+   z-index: 99;
+}
+
+.megamenu a {
+   display: block;
+   font-size: 15px;
+   padding: 0;
+   padding-left: 10px;
+   text-transform: capitalize;
+   margin-bottom: 3px;
+}
+
+.megamenu a:after {
+   left: 0;
+   bottom: 0;
+   height: 1px;
+}
+
+.close-menu {
+   width: 100%;
+   text-align: center;
+}
+
+.close-menu i {
+   display: block;
+   border-bottom: 1px solid rgba(0, 0, 0, .2);
+   cursor: pointer;
+   padding: 5px;
+}
+
+.active_mm {
+   display: block;
+}
+
+.overlay {
+   background: black;
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 0;
+   display: none;
+}
+
+/* ========================== page content style ======================== */
+
+.heroarea {
+   background: url(../img/cover.jpg);
+   background-size: cover;
+   background-position: center center;
+   height: 300px;
+   position: relative;
+   text-align: center;
+   color: #4374C4;
+   font-family: 'Roboto', sans-serif;
+   margin-top: 20px;
+}
+
+.heroarea:after {
+   position: absolute;
+   content: '';
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 100%;
+   z-index: -0;
+   background: #fff;
+   opacity: 0.7;
+}
+
+.heroarea .col {
+   z-index: 9;
+   margin-top: 80px;
+}
+
+.heroarea h2 {
+   font-weight: 400;
+   margin-bottom: 0;
+   font-size: 26px;
+}
+
+.heroarea h4 {
+   font-weight: 400;
+   font-size: 18px;
+   margin-bottom: 0;
+}
+
+.heroarea p {
+   font-size: 14px;
+   margin-bottom: 0;
+}
+
+/* ================ */
+.syllabus.container {
+   margin-top: -55px;
+}
+
+.single-column {
+   text-align: center;
+   border: 1px solid #4273C4;
+   margin-bottom: 30px;
+}
+
+.single-column .syllabus_header {
+   background-color: #4273C4;
+   color: #fff;
+   fwg300
+}
+
+.single-column a h4 {
+   position: relative;
+}
+
+.single-column a h4:after {
+   content: '';
+   position: absolute;
+   left: 36%;
+   bottom: 0px;
+   height: 2px;
+   width: 0%;
+   background-color: transparent;
+   transition: 0.5s;
+   z-index: 999;
+}
+
+.single-column a:hover h4:after {
+   width: 27%;
+   background-color: #4472C4;
+}
+
+.single-column h6 {
+   font-weight: 400;
+   padding-bottom: 10px;
+   margin-bottom: 0;
+}
+
+.single-column .syllabus_footer {
+   background-color: #4273C4;
+   color: #fff;
+}
+
+.single-column h5 {
+   font-weight: 400;
+   border: 1px solid #fff;
+   display: inline-block;
+   height: 28px;
+   width: 28px;
+   line-height: 25px;
+   border-radius: 50%;
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
+
+.single-column h4 {
+   font-weight: 600;
+   margin-bottom: 0;
+   margin-top: 10px;
+   font-size: 20px;
+}
+
+.single-column p {
+   margin-bottom: 0;
+   font-size: 15px;
+   position: relative;
+   font-weight: 500;
+}
+
+.single-column p:after {
+   position: absolute;
+   content: '';
+   left: 10%;
+   width: 80%;
+   background-color: #4273C4;
+   height: 1px;
+   width: 80%;
+   bottom: 0;
+}
+
+.last_row p:after {
+   display: none;
+   overflow: hidden;
+}
+
+.syllabus_footer {
+   height: 40px;
+}
+
+.syllabus_footer h6 {
+   padding-top: 10px;
+   display: block;
+}
+
+.light-blue-col .syllabus_header,
+.light-blue-col .syllabus_footer,
+.light-blue-col p:after,
+.light-blue-col a:hover h4:after {
+   background-color: #4DB4FA;
+}
+
+.single-column.light-blue-col {
+   border-color: #4DB4FA;
+}
+
+
+.light-green-col .syllabus_header,
+.light-green-col .syllabus_footer,
+.light-green-col p:after,
+.light-green-col a:hover h4:after {
+   background-color: #14B98A;
+}
+
+.single-column.light-green-col {
+   border-color: #14B98A;
+}
+
+.light-orange-col .syllabus_header,
+.light-orange-col .syllabus_footer,
+.light-orange-col p:after,
+.light-orange-col a:hover h4:after {
+   background-color: #F3B284;
+}
+
+.single-column.light-orange-col {
+   border-color: #F3B284;
+}

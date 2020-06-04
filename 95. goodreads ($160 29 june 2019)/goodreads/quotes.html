@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="author" content="Author name">
+   <meta name="keywords" content="Site keyword">
+   <meta name="description" content="Description about site">
+
+   <!-- Site Title-->
+   <title>Popular Quotes</title>
+
+   <!-- Favicon -->
+   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+   <link rel="stylesheet" href="assets/sass/sass.css">
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="assets/css/responsive.css">
+
+   <!-- jQuery -->
+   <script src="assets/js/jquery-2.2.4.min.js"></script>
+
+
+</head>
+
+<body>
+
+   <!-- static header -->
+   <header>
+      <div class="container">
+         <div class="row no-gutters">
+            <!-- <div class="col-lg-2 d-flex align-items-center">
+               <h1><a href=""><img src="assets/img/goodreads_logo.svg" alt=""></a></h1>
+            </div> -->
+            <div class="col-xl-6 col-lg-8 d-flex align-items-center">
+               <h1><a href=""><img src="assets/img/goodreads_logo.svg" alt=""></a></h1>
+               <nav>
+                  <ul>
+                     <li><a href="">Home</a></li>
+                     <li><a href="">My Books</a></li>
+                     <li class="dropdown">
+                        <!-- <a href="">Browse <i class="fas fa-caret-down"></i></a> -->
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Browse </a>
+                        <div class="dropdown-menu browse">
+                           <div class="row no-gutters">
+                              <div class="col-md-3">
+                                 <div class="top-link">
+                                    <a href="">Recommendations</a>
+                                    <a href="">Choice Awards</a>
+                                    <a class="genrehide d-none" href="">Genre</a>
+                                    <a href="">Giveaways</a>
+                                    <a href="">New Releases</a>
+                                    <a href="">Lists</a>
+                                    <a href="">Explore</a>
+                                    <a href="">News & Interviews</a>
+                                 </div>
+                                 <div class="bottom-link">
+                                    <a href="">Listen with Audible</a>
+                                    <span> <i class="fas  fa-external-link-square-alt"></i> Sponsored</span>
+                                 </div>
+                              </div>
+                              <div class="col-md-2 genre">
+                                 <span> <b>GENRES</b> </span>
+                                 <a href="">Art</a>
+                                 <a href="">Biography</a>
+                                 <a href="">Business</a>
+                                 <a href="">Children's</a>
+                                 <a href="">Christian</a>
+                                 <a href="">Classics</a>
+                                 <a href="">Comics</a>
+                                 <a href="">Cookbooks</a>
+                                 <a href="">Ebooks</a>
+                                 <a href="">Fantasy</a>
+                              </div>
+                              <div class="col-md-3 genre">
+                                 <span> </span>
+                                 <a href="">Fiction</a>
+                                 <a href="">Graphic Novels</a>
+                                 <a href="">Historical Fiction</a>
+                                 <a href="">History</a>
+                                 <a href="">Horror</a>
+                                 <a href="">Memoir</a>
+                                 <a href="">Music</a>
+                                 <a href="">Mystery</a>
+                                 <a href="">Nonfiction</a>
+                                 <a href="">Poetry</a>
+                              </div>
+                              <div class="col-md-3 genre">
+                                 <span> </span>
+                                 <a href="">Psychology</a>
+                                 <a href="">Romance</a>
+                                 <a href="">Science</a>
+                                 <a href="">Science Fiction</a>
+                                 <a href="">Self Help</a>
+                                 <a href="">Sports</a>
+                                 <a href="">Thriller</a>
+                                 <a href="">Travel</a>
+                                 <a href="">Young Adult</a>
+                                 <a href="">More Genres</a>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li class="dropdown ">
+                        <!-- <a href="">Browse <i class="fas fa-caret-down"></i></a> -->
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Community </a>
+                        <div class="dropdown-menu community">
+                           <a href="">Groups</a>
+                           <a href="">Discussions</a>
+                           <a href="">Quotes</a>
+                           <a href="">Ask the Author</a>
+                        </div>
+                     </li>
+                     <!-- <li><a href="">Community <i class="fas fa-caret-down"></i></a></li> -->
+                  </ul>
+               </nav>
+            </div>
+            <div class="col-xl-4 col-lg-2 col-md-6  col-6">
+               <div class="search-box">
+                  <form action="">
+                     <input type="text" placeholder="Search books">
+                     <button><i class="fas fa-search"></i></button>
+                  </form>
+               </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-6  col-6">
+               <ul class="inline-list">
+                  <li><a href="">Sign In</a></li>
+                  <li><a href="">Join</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <!-- popular quotes section -->
+
+   <div class="popular-quotes">
+      <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-lg-10">
+               <div class="row">
+                  <div class="col-12">
+                     <h1>Popular Quotes </h1>
+                  </div>
+                  <div class="col-lg-8">
+                     <div class="find-quotes">
+                        <input type="text" placeholder="Find quotes by keyword, author">
+                        <button>Search</button>
+                     </div>
+                     <div class="quotes-filter">
+                        <ul>
+                           <li class="active"><a href="">Popular</a></li>
+                           <li><a href="">Recent</a></li>
+                           <li><a href="">New</a></li>
+                           <li><a href="">Friends</a></li>
+                           <li><a href="">My Authors</a></li>
+                        </ul>
+                        <p>Quotes popular among Goodreads members </p>
+                     </div>
+                     <div class="single-quote">
+                        <div class="row no-gutters">
+                           <div class="col-lg-10">
+                              <img src="assets/img/quote-1.jpg" alt="">
+                              <blockquote><i class="fas fa-quote-left"></i>
+                                 Don't cry because it's over, smile because it happened.
+                                 <i class="fas fa-quote-right"></i>
+                                 <div class="owner">
+                                    ― <b>Dr. Seuss</b>
+                                 </div>
+                              </blockquote>
+
+                              <div class="tags">
+                                 <span>tags:</span>
+                                 <a href="">attributed-no-source</a>
+                                 <a href="">cry</a>
+                                 <a href="">crying</a>
+                                 <a href="">experience</a>
+                                 <a href="">happiness</a>
+                                 <a href="">joy</a>
+                                 <a href="">life</a>
+                                 <a href="">misattributed-dr-seuss</a>
+                                 <a href="">optimism</a>
+                                 <a href="">sadness</a>
+                                 <a href="">smile</a>
+                                 <a href="">smiling</a>
+                              </div>
+                              <div class="likes">
+                                 <a href="">192224 likes</a>
+                              </div>
+                           </div>
+                           <div class="col-lg-2">
+                              <button>Like</button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="single-quote">
+                        <div class="row no-gutters">
+                           <div class="col-lg-10">
+                              <img src="assets/img/quote-2.jpg" alt="">
+                              <blockquote><i class="fas fa-quote-left"></i>
+                                 I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and
+                                 at times hard to handle. But if you can't handle me at my worst, then you sure as hell
+                                 don't deserve me at my best.
+                                 <i class="fas fa-quote-right"></i>
+                                 <div class="owner">
+                                    ― <b>Marilyn Monroe</b>
+                                 </div>
+                              </blockquote>
+                              <div class="tags">
+                                 <span>tags:</span>
+                                 <a href="">attributed-no-source</a>
+                                 <a href="">best</a>
+                                 <a href="">crying</a>
+                                 <a href="">love</a>
+                                 <a href="">mistakes</a>
+                                 <a href="">out-of-control</a>
+                                 <a href="">truth</a>
+                                 <a href="">worst</a>
+                              </div>
+                              <div class="likes">
+                                 <a href="">147716 likes</a>
+                              </div>
+                           </div>
+                           <div class="col-lg-2">
+                              <button>Like</button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="single-quote">
+                        <div class="row no-gutters">
+                           <div class="col-lg-10">
+                              <img src="assets/img/quote-3.jpg" alt="">
+                              <blockquote><i class="fas fa-quote-left"></i>
+                                 Be yourself; everyone else is already taken.
+                                 <i class="fas fa-quote-right"></i>
+                                 <div class="owner">
+                                    ― <b>Oscar Wilde</b>
+                                 </div>
+                                 <div class="tags">
+                                    <span>tags:</span>
+                                    <a href="">attributed-no-source</a>
+                                    <a href=""> be-yourself</a>
+                                    <a href="">honesty</a>
+                                    <a href="">inspirational</a>
+                                    <a href="">misattributed-oscar-wilde</a>
+                                 </div>
+                              </blockquote>
+                              <div class="likes">
+                                 <a href="">192224 likes</a>
+                              </div>
+                           </div>
+                           <div class="col-lg-2">
+                              <button>Like</button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="single-quote">
+                        <div class="row no-gutters">
+                           <div class="col-lg-10">
+                              <img src="assets/img/quote-1.jpg" alt="">
+                              <blockquote><i class="fas fa-quote-left"></i>
+                                 Don't cry because it's over, smile because it happened.
+                                 <i class="fas fa-quote-right"></i>
+                                 <div class="owner">
+                                    ― <b>Dr. Seuss</b>
+                                 </div>
+                              </blockquote>
+
+                              <div class="tags">
+                                 <span>tags:</span>
+                                 <a href="">attributed-no-source</a>
+                                 <a href="">cry</a>
+                                 <a href="">crying</a>
+                                 <a href="">experience</a>
+                                 <a href="">happiness</a>
+                                 <a href="">joy</a>
+                                 <a href="">life</a>
+                                 <a href="">misattributed-dr-seuss</a>
+                                 <a href="">optimism</a>
+                                 <a href="">sadness</a>
+                                 <a href="">smile</a>
+                                 <a href="">smiling</a>
+                              </div>
+                              <div class="likes">
+                                 <a href="">192224 likes</a>
+                              </div>
+                           </div>
+                           <div class="col-lg-2">
+                              <button>Like</button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="single-quote">
+                        <div class="row no-gutters">
+                           <div class="col-lg-10">
+                              <img src="assets/img/quote-2.jpg" alt="">
+                              <blockquote><i class="fas fa-quote-left"></i>
+                                 I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and
+                                 at times hard to handle. But if you can't handle me at my worst, then you sure as hell
+                                 don't deserve me at my best.
+                                 <i class="fas fa-quote-right"></i>
+                                 <div class="owner">
+                                    ― <b>Marilyn Monroe</b>
+                                 </div>
+                              </blockquote>
+                              <div class="tags">
+                                 <span>tags:</span>
+                                 <a href="">attributed-no-source</a>
+                                 <a href="">best</a>
+                                 <a href="">crying</a>
+                                 <a href="">love</a>
+                                 <a href="">mistakes</a>
+                                 <a href="">out-of-control</a>
+                                 <a href="">truth</a>
+                                 <a href="">worst</a>
+                              </div>
+                              <div class="likes">
+                                 <a href="">147716 likes</a>
+                              </div>
+                           </div>
+                           <div class="col-lg-2">
+                              <button>Like</button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="single-quote">
+                        <div class="row no-gutters">
+                           <div class="col-lg-10">
+                              <img src="assets/img/quote-3.jpg" alt="">
+                              <blockquote><i class="fas fa-quote-left"></i>
+                                 Be yourself; everyone else is already taken.
+                                 <i class="fas fa-quote-right"></i>
+                                 <div class="owner">
+                                    ― <b>Oscar Wilde</b>
+                                 </div>
+                                 <div class="tags">
+                                    <span>tags:</span>
+                                    <a href="">attributed-no-source</a>
+                                    <a href=""> be-yourself</a>
+                                    <a href="">honesty</a>
+                                    <a href="">inspirational</a>
+                                    <a href="">misattributed-oscar-wilde</a>
+                                 </div>
+                              </blockquote>
+                              <div class="likes">
+                                 <a href="">192224 likes</a>
+                              </div>
+                           </div>
+                           <div class="col-lg-2">
+                              <button>Like</button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="single-quote">
+                        <div class="row no-gutters">
+                           <div class="col-lg-10">
+                              <img src="assets/img/quote-1.jpg" alt="">
+                              <blockquote><i class="fas fa-quote-left"></i>
+                                 Don't cry because it's over, smile because it happened.
+                                 <i class="fas fa-quote-right"></i>
+                                 <div class="owner">
+                                    ― <b>Dr. Seuss</b>
+                                 </div>
+                              </blockquote>
+
+                              <div class="tags">
+                                 <span>tags:</span>
+                                 <a href="">attributed-no-source</a>
+                                 <a href="">cry</a>
+                                 <a href="">crying</a>
+                                 <a href="">experience</a>
+                                 <a href="">happiness</a>
+                                 <a href="">joy</a>
+                                 <a href="">life</a>
+                                 <a href="">misattributed-dr-seuss</a>
+                                 <a href="">optimism</a>
+                                 <a href="">sadness</a>
+                                 <a href="">smile</a>
+                                 <a href="">smiling</a>
+                              </div>
+                              <div class="likes">
+                                 <a href="">192224 likes</a>
+                              </div>
+                           </div>
+                           <div class="col-lg-2">
+                              <button>Like</button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="single-quote">
+                        <div class="row no-gutters">
+                           <div class="col-lg-10">
+                              <img src="assets/img/quote-2.jpg" alt="">
+                              <blockquote><i class="fas fa-quote-left"></i>
+                                 I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and
+                                 at times hard to handle. But if you can't handle me at my worst, then you sure as hell
+                                 don't deserve me at my best.
+                                 <i class="fas fa-quote-right"></i>
+                                 <div class="owner">
+                                    ― <b>Marilyn Monroe</b>
+                                 </div>
+                              </blockquote>
+                              <div class="tags">
+                                 <span>tags:</span>
+                                 <a href="">attributed-no-source</a>
+                                 <a href="">best</a>
+                                 <a href="">crying</a>
+                                 <a href="">love</a>
+                                 <a href="">mistakes</a>
+                                 <a href="">out-of-control</a>
+                                 <a href="">truth</a>
+                                 <a href="">worst</a>
+                              </div>
+                              <div class="likes">
+                                 <a href="">147716 likes</a>
+                              </div>
+                           </div>
+                           <div class="col-lg-2">
+                              <button>Like</button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="single-quote">
+                        <div class="row no-gutters">
+                           <div class="col-lg-10">
+                              <img src="assets/img/quote-3.jpg" alt="">
+                              <blockquote><i class="fas fa-quote-left"></i>
+                                 Be yourself; everyone else is already taken.
+                                 <i class="fas fa-quote-right"></i>
+                                 <div class="owner">
+                                    ― <b>Oscar Wilde</b>
+                                 </div>
+                                 <div class="tags">
+                                    <span>tags:</span>
+                                    <a href="">attributed-no-source</a>
+                                    <a href=""> be-yourself</a>
+                                    <a href="">honesty</a>
+                                    <a href="">inspirational</a>
+                                    <a href="">misattributed-oscar-wilde</a>
+                                 </div>
+                              </blockquote>
+                              <div class="likes">
+                                 <a href="">192224 likes</a>
+                              </div>
+                           </div>
+                           <div class="col-lg-2">
+                              <button>Like</button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="page-number text-right mb-4">
+                        <span>« previous </span>
+                        <span>1</span>
+                        <a href="">2</a>
+                        <a href="">3</a>
+                        <a href="">4</a>
+                        <a href="">5</a>
+                        <a href="">6</a>
+                        <a href="">7</a>
+                        <a href="">8</a>
+                        <a href="">9</a>
+                        <span>...</span>
+                        <a href="">99</a>
+                        <a href="">100</a>
+                        <a href="">next »</a>
+                     </div>
+                  </div>
+                  <div class="col-lg-4">
+                     <div class="my-quote">
+                        <a href="">My Quotes</a>
+                        <span>|</span>
+                        <a href="">Add A Quote </a>
+                     </div>
+                     <h5>BROWSE BY TAG </h5>
+                     <div class="search-tag">
+                        <input type="text" placeholder="Search for a tag">
+                        <button>Search</button>
+                     </div>
+                     <div class="row no-gutters">
+                        <div class="col-lg-6">
+                           <div class="single-tag">
+                              <a href="">Love Quotes</a> <span>72.5k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Life Quotes</a> <span>56.5k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Inspirational Quotes </a> <span>54k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Humor Quotes </a> <span>35.5k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Philosophy Quotes </a> <span>22k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">God Quotes </a> <span>19k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Inspirational Quotes Quotes </a> <span>18k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Truth Quotes </a> <span>18k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Wisdom Quotes </a> <span>16k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Romance Quotes </a> <span>15.5k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Poetry Quotes </a> <span>14.5k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Death Quotes </a> <span>14.5k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Happiness Quotes </a> <span>14k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Hope Quotes </a> <span>13.5k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Faith Quotes </a> <span>12.5k</span>
+                           </div>
+                        </div>
+                        <div class="col-lg-6">
+                           <div class="single-tag">
+                              <a href="">Inspiration Quotes </a> <span>12k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Writing Quotes </a> <span>12k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Quotes Quotes </a> <span>11.5k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Religion Quotes </a> <span>10.5k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Success Quotes </a> <span>10k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Relationships Quotes </a> <span>10k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Life Lessons Quotes </a> <span>9.5k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Motivational Quotes </a> <span>9.5k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Knowledge Quotes </a> <span>9k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Time Quotes </a> <span>9k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Love Quotes Quotes </a> <span>8.5k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Spirituality Quotes </a> <span>8k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Education Quotes </a> <span>8k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Science Quotes </a> <span>8k</span>
+                           </div>
+                           <div class="single-tag">
+                              <a href="">Books Quotes </a> <span>8k</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+   <footer>
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-2">
+               <h4>COMPANY</h4>
+               <a href="">About us</a>
+               <a href="">Careers</a>
+               <a href="">Terms</a>
+               <a href="">Privacy</a>
+               <a href="">Help</a>
+            </div>
+            <div class="col-lg-2">
+               <h4>WORK WITH US </h4>
+               <a href="">Authors</a>
+               <a href="">Advertise</a>
+               <a href="">Authors & ads blog</a>
+               <a href="">API</a>
+            </div>
+            <div class="col-lg-3">
+               <h4>CONNECT </h4>
+               <ul class="social-icons">
+                  <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                  <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                  <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+               </ul>
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-3">
+               <div class="copyright">
+                  <div class="app-icon d-flex">
+                     <a href=""><img src="assets/img/apple.svg" alt=""></a>
+                     <a href=""><img src="assets/img/play-store.png" alt=""></a>
+                  </div>
+
+                  <p>© 2019 Goodreads, Inc.</p>
+                  <p>Mobile version</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+
+
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="assets/js/popper.min.js"></script>
+   <script src="assets/js/bootstrap.min.js"></script>
+   <script src="assets/js/owl.carousel.min.js"></script>
+   <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>

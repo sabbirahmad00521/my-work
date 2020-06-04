@@ -1,0 +1,332 @@
+/* Common Styles
+================*/
+
+
+
+/* Owl Carowsel
+===============*/
+
+/*
+.owl-carousel-class-name .owl-nav div {
+   position: absolute;
+   bottom: -40px;
+   height: 35px;
+   width: 30px;
+   line-height: 35px;
+   background: #1083D8;
+   text-align: center;
+   color: #fff;
+   font-size: 20px;
+   left: 42%;
+}
+
+.owl-carousel-class-name .owl-nav .owl-next {
+   left: auto;
+   right: 42%;
+}
+
+.owl-dots div {
+   display: inline-block;
+   height: 15px;
+   width: 15px;
+   background: #FACD38;
+   margin: -38px 5px;
+   border-radius: 50%;
+}
+
+.owl-dots div.active {
+   background-color: #1083D8;
+}
+
+.owl-dots {
+   text-align: center;
+}
+
+*/
+/* responsive icon styke */
+a.responsive-menu {
+   display: none;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+   width: 25px;
+   height: 3px;
+   background-color: #8b8b8b;
+   margin: 6px 0;
+   transition: 0.4s;
+}
+
+.change .bar1 {
+   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+   transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.change .bar2 {
+   opacity: 0;
+}
+
+.change .bar3 {
+   -webkit-transform: rotate(45deg) translate(-8px, -8px);
+   transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+
+
+/* checkbox 
+=============*/
+
+.checkbox-container {
+   display: block;
+   position: relative;
+   padding-left: 35px;
+   margin-bottom: 20px;
+   margin-top: 30px;
+   cursor: pointer;
+   font-size: 16px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+   height: 0;
+   width: 0;
+}
+
+/* Create a custom checkbox */
+.checkbox-container .checkmark {
+   position: absolute;
+   top: -4px;
+   left: 0;
+   height: 30px;
+   width: 30px;
+   background-color: transparent !important;
+   border: 1px solid #D5D5D5;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input~.checkmark {
+   background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked~.checkmark {
+   background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkbox-container .checkmark:after {
+   content: "";
+   position: absolute;
+   display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked~.checkmark:after {
+   display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+   left: 11px;
+   top: 6px;
+   width: 7px;
+   height: 13px;
+   border: solid #007D40;
+   border-width: 0 2px 2px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+}
+
+
+/* Radio button
+=============*/
+
+.radio-container {
+   display: inline-block;
+   position: relative;
+   padding-left: 35px;
+   margin-bottom: 12px;
+   cursor: pointer;
+   font-size: 16px;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+   margin-right: 20px;
+}
+
+/* Hide the browser's default radio button */
+.radio-container input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+}
+
+/* Create a custom radio button */
+.radio-container .checkmark {
+   position: absolute;
+   top: -4px;
+   left: 0;
+   height: 30px;
+   width: 30px;
+   /* background-color: #eee; */
+   border-radius: 50%;
+   border: 1px solid #D5D5D5;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-container:hover input~.checkmark {
+   background-color: #fff;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-container input:checked~.checkmark {
+   background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radio-container .checkmark:after {
+   content: "";
+   position: absolute;
+   display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-container input:checked~.checkmark:after {
+   display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-container .checkmark:after {
+   top: 6px;
+   left: 6px;
+   width: 16px;
+   height: 16px;
+   border-radius: 50%;
+   background: green;
+}
+
+
+/* new updates */
+nav ul li .submenu-container {
+   border-top: 2px solid #e5e5e5;
+}
+
+.cookies {
+   background: #007D40;
+   color: #fff;
+   padding: 25px 0;
+}
+
+.cookies p {
+   margin: 0;
+}
+
+.cookies a {
+   color: #FFF;
+   text-decoration: underline;
+}
+
+.cookies a.btn {
+   font-size: 13px;
+   color: #007D40;
+   margin-right: 6px;
+   margin-top: 0px;
+   background-color: #fff;
+   cursor: pointer;
+   text-align: left;
+   text-transform: uppercase;
+   padding: 10px 40px 9px 15px;
+   position: relative;
+   line-height: 16px;
+   -webkit-transition: .4s;
+   transition: .4s;
+   border-radius: 0;
+   display: block;
+   text-decoration: none;
+}
+
+.cookies a.btn:before {
+   font-family: "Font Awesome 5 Free";
+   font-weight: 900;
+   color: #007D40;
+   position: absolute;
+   font-size: 16px;
+   content: "\f105";
+   right: 15px;
+   top: 10px;
+   opacity: 1;
+   -webkit-transition: .4s;
+   transition: .4s;
+}
+
+.cookies a.btn:hover {
+   text-decoration: underline;
+}
+
+header .search-btn a span {
+   position: relative;
+   top: -2px;
+}
+
+a.search-icon {
+   margin-right: 15px;
+}a.search-icon.dekra-usa span {
+   color: #007D40 !important;
+   font-weight: 700;
+   font-style: italic;
+}
+
+
+.gray-section {
+   background: #F2F2F2;
+   padding: 50px 0;
+   padding-bottom: 60px;
+   border-top: 2px solid #E5E5E5;
+   margin-bottom: 40px;
+}
+
+.gray-section .card-container {
+   padding: 0 !important;
+   margin-bottom: 0;
+}
+
+.gray-section .col-xl-3 {
+   background: #fff;
+}
+
+.gray-section h4 {padding-top: 15px;}
+.gray-section  .card-container:before {
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: -95px;
+   height: 1px;
+   width: calc(100% );
+   background-color: #D5D5D5;
+}
+
+.gray-section h3 {
+   position: absolute;
+   width: 92%;
+   background: rgba(255,255,255,.9);
+   bottom: 10px;
+   font-size: 18px;
+   padding: 11px 15px;
+   left: 23px;margin-bottom: 0;
+}
+
+.gray-section .card-container .single-card{margin-bottom: 0;}
+.news-preview{border-bottom: 0;}
+nav ul li{cursor:pointer}
+.card-container .single-card{border: 0;}
