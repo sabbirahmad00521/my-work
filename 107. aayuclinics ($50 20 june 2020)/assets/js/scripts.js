@@ -1,40 +1,44 @@
 jQuery(document).ready(function ($) {
 
-   // Owl Carousel
-   /*
-   $('.owl-carousel-class-name').owlCarousel({
-      items: 4,
-      loop: true,
-      autoplay: true,
-      autoplayTimeout: 2000,
-      dots: true,
-      margin: 15,
-      nav: true,
-      navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-      smartSpeed: 1,
-      dragEndSpeed: 1,
-      fluidSpeed: 1,
-      autoplaySpeed: 10,
-      responsiveClass: true,
-      responsive: {
-         0: {
-            items: 1,
-            nav: true
-         },
-         600: {
-            items: 3,
-            nav: false
-         },
-         1000: {
-            items: 5,
-            nav: true,
-            loop: false
-         }
+   $('nav li').hover(function () {
+      $('nav li a').attr("style", "opacity: 0.4;")
+      $(this).toggleClass("active")
+
+      $('nav li ul').removeClass("submenuactive")
+      $('nav li.active ul').addClass("submenuactive")
+
+   })
+   $('nav').mouseleave(function () {
+      $('nav li a').attr("style", "opacity: 1;")
+   })
+
+   $('.social-icons li').hover(function () {
+      $('.social-icons li a').attr("style", "opacity: 0.4;")
+      $(this).toggleClass("active")
+   })
+   $('.social-icons li').mouseleave(function () {
+      $('.social-icons li a').attr("style", "opacity: 1;")
+   })
+
+
+   // responsive menu
+   jQuery("a.responsive-menu").click(function () {
+      jQuery("ul.menu").fadeToggle();
+      return false;
+   });
+
+   jQuery(window).resize(function () {
+      var windowWidth = jQuery(window).width();
+      if (windowWidth > 748) {
+         jQuery("ul.menu").css({
+            "display": "block"
+         });
+         $('.responsive-menu').removeClass('change');
+      } else {
+         jQuery("ul.menu").css({
+            "display": "none"
+         });
+
       }
    });
-   */
-   
-   // Other Scripts
-
-
 });
