@@ -1,20 +1,16 @@
 jQuery(document).ready(function ($) {
 
    // Owl Carousel
-   /*
-   $('.owl-carousel-class-name').owlCarousel({
-      items: 4,
+   $('.testimonial-slider').owlCarousel({
+      items: 3,
       loop: true,
       autoplay: true,
+      stagePadding: 120,
+      autoWidth: true,
       autoplayTimeout: 2000,
-      dots: true,
-      margin: 15,
-      nav: true,
-      navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-      smartSpeed: 1,
-      dragEndSpeed: 1,
-      fluidSpeed: 1,
-      autoplaySpeed: 10,
+      margin: 50,
+      nav: false,
+      navText: false,
       responsiveClass: true,
       responsive: {
          0: {
@@ -22,19 +18,17 @@ jQuery(document).ready(function ($) {
             nav: true
          },
          600: {
-            items: 3,
+            items: 2,
             nav: false
          },
          1000: {
-            items: 5,
-            nav: true,
-            loop: false
+            items: 2,
          }
       }
    });
-   */
-   
-   // Other Scripts
 
-
+   // video Scripts
+   $(".work-video").modalVideo({
+      channel: 'youtube'
+   });
 });
