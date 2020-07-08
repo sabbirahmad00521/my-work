@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,7 +13,7 @@
       content="westchester milk, glass bottled milk, home delivery, westchester, fairfield, putnam, milkman, farm to table, farm delivery, farm fresh, a2 milk, a2 protein, organic, farmers market, a2 milk, a2 protein">
 
    <!-- Site Title-->
-   <title>Bacon</title>
+   <title>Beef</title>
    <!-- Favicon -->
    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
@@ -67,7 +67,7 @@
          <div class="container">
             <div class="row d-flex align-items-center">
                <div class="col-lg-2 col-md-2 col-sm-6  col-4">
-                  <h1><a href=""><img src="assets/img/hudson-milk-logo.svg" alt=""></a></h1>
+                  <h1><a href="/"><img src="assets/img/hudson-milk-logo.svg" alt=""></a></h1>
                </div>
                <div class="col-lg-7 col-md-7 col-sm-3  col-4 d-flex align-items-center">
                   <a href="#" class="responsive-menu" onclick="myFunction(this)">
@@ -108,14 +108,14 @@
             <li><a href="">New Products</a></li>
             <li><a href="">Milk</a></li>
             <li><a href="">Produce</a></li>
-            <li><a href="">Meats & Poultry <i class="fas fa-angle-down"></i></a>
+            <li class="active"><a href="">Meats & Poultry <i class="fas fa-angle-down"></i></a>
                <ul>
                   <li><a href="">Beef</a></li>
                   <li><a href="">Pork</a></li>
                   <li><a href="">Poultry</a></li>
                </ul>
             </li>
-            <li class="active"><a href="">Bacon</a></li>
+            <li><a href="">Bacon</a></li>
             <li><a href="">Butter</a></li>
             <li><a href="">Cheese</a></li>
             <li><a href="">Dairy</a></li>
@@ -141,14 +141,24 @@
             <div class="col d-flex justify-content-between">
                <ol class="breadcrumb" style="padding-bottom: 0; margin-bottom: 10px;">
                   <li class="breadcrumb-item"><a href="#">Shop</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Becon</li>
+                  <li class="breadcrumb-item"><a href="#">Meats & Poultry</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Beef</li>
                </ol>
-               <div class="sort-product">
+               <div class="sort-product d-flex align-items-center">
                   <select name="" id="">
                      <option value="">Sort Default</option>
                      <option value="">Sort by Title</option>
                      <option value="">Sort by Price</option>
                   </select>
+                  <select class="ml-2" name="" id="">
+                     <option value="">View ALL</option>
+                     <option selected value="">View 12</option>
+                  </select>
+                  <ul class="page-number ml-2">
+                     <li class="active-page"><a href="">1</a></li>
+                     <li><a href="">2</a></li>
+                     <li><a href=""><i class="fas fa-angle-right"></i></a></li>
+                  </ul>
                </div>
             </div>
          </div>
@@ -156,86 +166,67 @@
    </div>
 
 
-
-   <div class="product-showcase becon">
+   <style>
+      /*
+ .row .col-xl-3{ display : flex; flex-wrap :wrap; }
+.single-product{width: 100%;position: relative;padding-bottom: 70px;} 
+.single-product button{position: absolute;bottom: 0;} 
+   .product-price a{
+      width: 50%;
+   }
+   .beef .product-price i{text-decoration: line-through;font-style: normal;}
+   .beef .product-price b{font-weight: 500;color: #fff;background-color: #FF3304;border-radius: 15px;    padding: 3px 8px;}
+   .beef .product-price  span{font-size: 16px;}
+   .order-details{position: absolute;bottom: 40px;} 
+   
+*/
+   </style>
+   <div class="product-showcase bacon beef">
       <div class="container-fluid">
          <div class="row">
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-               <div class="single-product">
-                  <a href="" class="product-image" style="background-image: url(assets/img/HM_WebImage_Bacon2.jpg);"></a>
-                  <div class="product-content">
-                     <div class="product-price d-flex justify-content-between">
-                        <span>TAS</span>
-                        <span>$8.99</span>
-                     </div>
-                     <a href="" class="product-title">Hickory Smoked Bacon</a>
-                     <div class="order-details d-flex justify-content-between">
-                        <div class="quantity">
-                           <p>Quantity</p>
-                           <select name="" id="">
-                           </select>
-                        </div>
-                        <div class="frequency">
-                           <p>Frequency</p>
-                           <select name="" id="">
-                              <option value="">This Week</option>
-                              <option value="">Next Week</option>
-                              <option value="">Every Week</option>
-                              <option value="">Every Other Week</option>
-                              <option value="">Once per month</option>
-                              <option value="">Every 4 weeks</option>
-                              <option value="">Specific date(s)</option>
-                           </select>
-                        </div>
-                     </div>
-                  </div>
-                  <button><i class="fas fa-plus"></i>add to delivery</button>
-               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-               <div class="single-product">
-                  <a href="" class="product-image" style="background-image: url(assets/img/pepperbacon.jpg);"></a>
-                  <div class="product-content">
-                     <div class="product-price d-flex justify-content-between">
-                        <span>NODINE</span>
-                        <span>$11.99</span>
-                     </div>
-                     <a href="" class="product-title">Nodine's Black Pepper Bacon 1Lb.</a>
-                     <div class="order-details d-flex justify-content-between">
-                        <div class="quantity">
-                           <p>Quantity</p>
-                           <select name="" id="">
-                           </select>
-                        </div>
-                        <div class="frequency">
-                           <p>Frequency</p>
-                           <select name="" id="">
-                              <option value="">This Week</option>
-                              <option value="">Next Week</option>
-                              <option value="">Every Week</option>
-                              <option value="">Every Other Week</option>
-                              <option value="">Once per month</option>
-                              <option value="">Every 4 weeks</option>
-                              <option value="">Specific date(s)</option>
-                           </select>
-                        </div>
-                     </div>
-                  </div>
-                  <button><i class="fas fa-plus"></i>add to delivery</button>
-               </div>
-            </div>
-
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                <div class="single-product">
                   <a href="" class="product-image"
-                     style="background-image: url(assets/img/HM_WebImage_Bacon1.jpg);"></a>
+                     style="background-image: url(assets/img/biltong-lemon.jpg);"></a>
                   <div class="product-content">
                      <div class="product-price d-flex justify-content-between">
-                        <span>NODINE</span>
-                        <span>$9.99</span>
+                        <a href="" class="product-title">BLOK Biltong Lemon Pepper 2 Oz.</a>
+                        <span><i>$7.99</i> <b>$6.99</b></span>
                      </div>
-                     <a href="" class="product-title">Nodine's Uncured no Nitrate/Nitrite Bacon 1Lb.</a>
+
+                     <div class="order-details d-flex justify-content-between">
+                        <div class="quantity">
+                           <p>Quantity</p>
+                           <select name="" id="">
+                           </select>
+                        </div>
+                        <div class="frequency">
+                           <p>Frequency</p>
+                           <select name="" id="">
+                              <option value="">This Week</option>
+                              <option value="">Next Week</option>
+                              <option value="">Every Week</option>
+                              <option value="">Every Other Week</option>
+                              <option value="">Once per month</option>
+                              <option value="">Every 4 weeks</option>
+                              <option value="">Specific date(s)</option>
+                           </select>
+                        </div>
+                     </div>
+                  </div>
+                  <button><i class="fas fa-plus"></i>add to delivery</button>
+               </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+               <div class="single-product">
+                  <a href="" class="product-image"
+                     style="background-image: url(assets/img/blok-spicy-1.jpg);"></a>
+                  <div class="product-content">
+                     <div class="product-price d-flex justify-content-between">
+                        <a href="" class="product-title">BLOK Biltong Spicy 2 Oz.</a>
+                        <span><i>$7.99</i> <b>$6.99</b></span>
+                     </div>
+
                      <div class="order-details d-flex justify-content-between">
                         <div class="quantity">
                            <p>Quantity</p>
@@ -260,17 +251,19 @@
                </div>
             </div>
 
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+            
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                <div class="single-product out-of-stock">
-                  <a href="" class="product-image" style="background-image: url(assets/img/gfbeefbacon.jpg);">
+                  <a href="" class="product-image" style="background-image: url(assets/img/patties-w150-h150.jpg);">
                      <h6>OUT OF STOCK</h6>
                   </a>
                   <div class="product-content">
                      <div class="product-price d-flex justify-content-between">
-                        <span>NODINE</span>
+                        <span>WALBRIDGE FARMS</span>
                         <span>OUT OF STOCK</span>
                      </div>
-                     <a href="" class="product-title">Nodine's Uncured no Nitrate/Nitrite Bacon from GRASS FED BEEF</a>
+                     <a href="" class="product-title">All Natural Black Angus Burger Patties - 6 Oz. patties 3pack</a>
+                     <p class="total-quantity"><span>A total of 18oz</span></p>
                      <div class="order-details d-flex justify-content-between">
                         <div class="frequency">
                            <p>Frequency</p>
@@ -292,16 +285,54 @@
                </div>
             </div>
 
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+
+
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+               <div class="single-product out-of-stock">
+                  <a href="" class="product-image" style="background-image: url(assets/img/tbone-w350-h240.jpg);">
+                     <h6>OUT OF STOCK</h6>
+                  </a>
+                  <div class="product-content">
+                     <div class="product-price d-flex justify-content-between">
+                        <span> WALBRIDGE FARMS
+                           <a href="" class="product-title">All Natural Black Angus T Bone Steak</a>
+                        </span>
+
+                        <span><i>$14.99</i> <b>$12.99 <div class="unit">per lbs</div> </b></span>
+                     </div>
+
+                     <div class="order-details d-flex justify-content-between">
+                        <div class="frequency">
+                           <p>Frequency</p>
+                           <fieldset disabled>
+                              <select name="" id="" id="disabledSelect">
+                                 <option value="">This Week</option>
+                                 <option value="">Next Week</option>
+                                 <option value="">Every Week</option>
+                                 <option value="">Every Other Week</option>
+                                 <option value="">Once per month</option>
+                                 <option value="">Every 4 weeks</option>
+                                 <option value="">Specific date(s)</option>
+                              </select>
+                           </fieldset>
+                        </div>
+                     </div>
+                  </div>
+                  <button>out of stock</button>
+               </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                <div class="single-product">
                   <a href="" class="product-image"
                      style="background-image: url(assets/img/HM_WebImage_CanadianBacon.jpg);"></a>
                   <div class="product-content">
                      <div class="product-price d-flex justify-content-between">
                         <span>NODINE</span>
-                        <span>$10.00</span>
+                        <span>$22.50 per lb</span>
                      </div>
-                     <a href="" class="product-title">Nodine's Canadian Bacon 1/2 lb. package</a>
+                     <a href="" class="product-title">USDA Prime Black Angus Boneless NY Strip Steak</a>
                      <div class="order-details d-flex justify-content-between">
                         <div class="quantity">
                            <p>Quantity</p>
@@ -325,8 +356,6 @@
                   <button><i class="fas fa-plus"></i>add to delivery</button>
                </div>
             </div>
-
-
          </div>
       </div>
    </div>
@@ -336,12 +365,21 @@
    <div class="sort-product-bottom">
       <div class="container-fluid">
          <div class="row">
-            <div class="sort-product ">
+            <div class="sort-product d-flex align-items-center justify-content-end">
                <select name="" id="">
                   <option value="">Sort Default</option>
                   <option value="">Sort by Title</option>
                   <option value="">Sort by Price</option>
                </select>
+               <select class="ml-2" name="" id="">
+                  <option value="">View ALL</option>
+                  <option selected value="">View 12</option>
+               </select>
+               <ul class="page-number ml-2">
+                  <li class="active-page"><a href="">1</a></li>
+                  <li><a href="">2</a></li>
+                  <li><a href=""><i class="fas fa-angle-right"></i></a></li>
+               </ul>
             </div>
          </div>
       </div>
@@ -353,7 +391,7 @@
       <div class="container">
          <div class="row">
             <div class="col-lg-2 col-md-4  col-sm-6  col-6">
-               <h1><a href=""><img src="assets/img/hudson-milk-logo.svg" alt=""></a></h1>
+               <h1><a href="/"><img src="assets/img/hudson-milk-logo.svg" alt=""></a></h1>
             </div>
             <div class="col-lg-4 col-md-4  col-sm-6  col-6">
                <a href="info@hudsonmilk.com" class="mail">info@hudsonmilk.com</a>

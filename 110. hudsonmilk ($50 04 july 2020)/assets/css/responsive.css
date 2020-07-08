@@ -1,3 +1,21 @@
+@media (max-width: 1350px) {
+    header nav ul li {
+        padding: 5px 17px;
+    }
+
+    .who-we-are .content {
+        margin-left: 40px;
+    }
+
+    .what-we-do .content {
+        margin-right: 50px;
+    }
+
+    .our-team img {
+        margin-right: 65px;
+    }
+}
+
 @media (max-width: 1300px) {
     header nav ul {
         margin-left: 0;
@@ -42,6 +60,34 @@
     .partners-card .single-partner-card h2 {
         height: 65px;
     }
+
+    .about-us {
+        background-size: cover;
+    }
+
+    .about-us img {
+        display: block;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .about-us .content {
+        width: 100%;
+        margin: 0;
+        padding: 10px 40px;
+    }
+
+    .about-us .d-flex {
+        display: block !important;
+    }
+
+    .what-we-do .responsive {
+        display: block;
+    }
+
+    .what-we-do .desktop {
+        display: none;
+    }
 }
 
 @media (max-width: 991px) {
@@ -73,9 +119,52 @@
     .partners-card .single-partner-card h2 {
         height: 45px;
     }
+
+
+    .show-on-mobile {
+        display: block
+    }
+
+    .hide-on-mobile {
+        display: none !important;
+    }
+
+    .how-it-works-block .block-content,
+    .how-it-works-block .block-image {
+        width: 100%;
+        height: 100% !important;
+    }
+
+    .block-left,
+    .block-right {
+        float: none !important;
+        transform: none;
+    }
+
+    .how-it-works-block .max-width {
+        display: block !important;
+    }
+
+    .how-it-works-block .block-image .add-white-border {
+        position: static;
+        transform: translate(0);
+    }
+
+    .control-item .text {
+        font-size: 16px;
+    }
+
+    .service-control {
+        padding: 10px;
+    }
 }
 
 @media (max-width: 767px) {
+
+    .control-item .text {
+        display: none;
+    }
+
     header {
         padding: 0;
     }
@@ -243,10 +332,30 @@
     .partner-hero {
         height: 180px;
     }
+
+    .product-showcase .product-image {
+        height: 400px;
+    }
+
+    .page-path .col {
+        display: block !important;
+    }
+
+    .breadcrumb {
+        margin-bottom: 10px !important;
+    }
 }
 
 @media (max-width: 575px) {
     .searchbox button.search-submit {
         height: 47px;
+    }
+
+    .product-showcase .product-image {
+        height: 300px;
+    }
+
+    .about-us .content {
+        padding: 10px;
     }
 }
