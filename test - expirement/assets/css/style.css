@@ -1,0 +1,217 @@
+/* Common Styles
+================*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:300,400,600,700,800,900|Roboto:300,400,500,700,900');
+
+@font-face {
+   font-family: "font name";
+   font-style: normal;
+   font-weight: 400;
+   src: url("../webfonts/.WOFF") format("woff");
+}
+
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+   font-family: 'Raleway', sans-serif;
+   font-size: 16px;
+   background-color: #fff;
+   color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0 0 15px;
+   font-weight: 700;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:hover,
+a:visited {
+   text-decoration: none;
+   color: #333;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+
+
+input:focus,
+textarea:focus,
+button:focus {
+   outline: 0 solid;
+}
+
+ul.inline-list {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+ul.inline-list li {
+   display: inline-block;
+   margin-left: -4px;
+}
+
+ul.inline-list li a {
+   display: block;
+   transition: 0.6s;
+   padding: 10px 20px;
+}
+
+
+/* Owl Carowsel
+===============*/
+
+.product-showcase .single-product {
+   background-color: #fff;
+   margin-bottom: 30px;
+   transition: all 0.4s ease;
+}
+
+.product-showcase .single-product:hover {
+   transform: translate(0, -5px);
+   -webkit-transform: translate(0, -5px);
+   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+   -webkit-box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+   -khtml-box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+   -moz-box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+   -ms-box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+   -o-box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+
+.product-showcase .product-image {
+   height: 300px;
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+   display: block;
+}
+
+.product-showcase .product-content {
+   padding: 15px;
+}
+
+.product-showcase span {
+   display: inline-block;
+   color: #898989;
+   font-size: 12px;
+   font-weight: 500;
+   text-align: right;
+}
+
+.product-showcase span:nth-child(2) {
+   font-size: 15px;
+   font-weight: 700;
+}
+
+.product-showcase span:nth-child(1) {
+   text-align: left;
+}
+
+.product-content a.product-title {
+   font-size: 14px;
+   font-weight: 700;
+   display: block;
+   position: relative;
+}
+
+.product-content a::before {
+   content: '';
+   display: block;
+   clear: both;
+}
+
+.product-content a:hover {
+   color: #E31B23;
+   text-decoration: none;
+}
+
+.product-showcase .order-details {
+   margin-bottom: 10px;
+}
+
+.product-showcase .order-details p {
+   margin-bottom: 0;
+   font-size: 14px;
+}
+
+.product-showcase .quantity {
+   width: 32%;
+   margin-right: 8%;
+}
+
+.product-showcase .frequency {
+   width: 60%;
+}
+
+.product-showcase .order-details select,
+.product-showcase .order-details select option,
+.product-details select,
+.product-details select option {
+   height: 34px;
+   line-height: 1.428571429;
+   padding: 6px 24px 6px 12px;
+   background-color: #fff;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   color: #555;
+   font-size: 14px;
+   width: 100%;
+   outline: 0;
+   cursor: pointer;
+}
+
+.product-showcase .order-details select:focus,
+.product-showcase .order-details select option:focus,
+.product-details select:focus,
+.product-details select option:focus {
+   border-color: #E31B23;
+   box-shadow: inset 0 1px 1px #E31B23, 0 0 8px #E31B23;
+
+}
+
+.product-showcase .order-details select option {
+   padding: 20px;
+   height: 300px;
+}
+
+.product-showcase button,
+.delivery-btn {
+   display: block;
+   font-size: 13px;
+   font-weight: 700;
+   background: #E31B23;
+   border: 0;
+   color: #fff;
+   text-transform: uppercase;
+   width: 100%;
+   padding: 12px;
+   cursor: pointer;
+}
+
+.product-showcase button i,
+.delivery-btn i {
+   margin-right: 5px;
+}
+
+.product-showcase button:hover,
+.delivery-btn:hover {
+   background-color: #1A1A1B;
+   color: #fff;
+}
